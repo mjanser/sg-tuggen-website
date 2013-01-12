@@ -1,0 +1,517 @@
+static:
+    home:
+        name: ""
+        label: "Startseite"
+        title: "Willkommen bei der Schützengesellschaft Tuggen"
+        content: |
+            <p>
+                <img src="/bundles/sgtuggenmain/images/verein.jpg" alt="Verein" />
+            </p>
+
+    board:
+        name: "vorstand"
+        title: "Vorstand"
+        content: |
+            <div class="person">
+                <img class="person" src="/bundles/sgtuggenmain/images/persons/emil.janser.png" alt="" />
+                <span class="name">Janser Emil</span>
+                <span class="type">Präsident</span>
+            </div>
+            <div class="person">
+                <img class="person" src="/bundles/sgtuggenmain/images/persons/fanz.schuler.png" alt="" />
+                <span class="name">Schuler Franz</span>
+                <span class="type">Vize-Präsident</span>
+            </div>
+            <div class="person">
+                <img class="person" src="/bundles/sgtuggenmain/images/persons/fanz.schuler.png" alt="" />
+                <span class="name">Schuler Franz</span>
+                <span class="type">Aktuar</span>
+            </div>
+            <div class="person">
+                <img class="person" src="/bundles/sgtuggenmain/images/persons/yvonne.baumgartner.png" alt="" />
+                <span class="name">Baumgartner Yvonne</span>
+                <span class="type">Kassierin</span>
+            </div>
+            <div class="person">
+                <img class="person" src="/bundles/sgtuggenmain/images/persons/monika.kaelin.png" alt="" />
+                <span class="name">Kälin Monika</span>
+                <span class="type">Sekretärin</span>
+            </div>
+            <div class="person">
+                <img class="person" src="/bundles/sgtuggenmain/images/persons/karl.schnyder.png" alt="" />
+                <span class="name">Schnyder Karl</span>
+                <span class="type">Beisitzer</span>
+            </div>
+            <div class="person">
+                <img class="person" src="/bundles/sgtuggenmain/images/persons/hanspeter.krieg.png" alt="" />
+                <span class="name">Krieg Hanspeter</span>
+                <span class="type">Munitionsverwalter</span>
+            </div>
+            <div class="person">
+                <img class="person" src="/bundles/sgtuggenmain/images/persons/edy.kaeslin.png" alt="" />
+                <span class="name">Käslin Edy</span>
+                <span class="type">Schützenmeister</span>
+            </div>
+            <div class="person">
+                <img class="person" src="/bundles/sgtuggenmain/images/persons/erhard.ziltener.png" alt="" />
+                <span class="name">Ziltener Erhard</span>
+                <span class="type">Schützenmeister</span>
+            </div>
+            <div class="person">
+                <div class="img_person">&nbsp;</div>
+                <span class="name">Düggelin Marcel</span>
+                <span class="type">Jungschützenleiter</span>
+            </div>
+
+    plan:
+        name: "schiessplan"
+        label: "Schiessplan"
+        title: "Schiessplan 2012"
+        content: |
+            <div id="obli">
+                <h2>Obligatorische Übungen</h2>
+                <div class="description">Standblattausgabe bis 30 Minuten vor Schiessende.<br />
+                Dienst- und Schiessbüchlein oder Leistungsausweis mitbringen.</div>
+                <table id="t_obli" summary="Obligatorische Übungen">
+                <tr class="datetime">
+                    <td class="date">Ostermontag, 09. April 2012</td>
+                    <td class="time">09:30 Uhr bis 11:00 Uhr</td>
+                </tr>
+                <tr class="datetime">
+                    <td class="date">Freitag, 06. Juli 2012</td>
+                    <td class="time">18:00 Uhr bis 19:30 Uhr</td>
+                </tr>
+                <tr class="datetime">
+                    <td class="date">Freitag, 17. August 2012</td>
+                    <td class="time">18:00 Uhr bis 19:30 Uhr</td>
+                </tr>
+                </table>
+            </div>
+            <div id="feld">
+                <h2>Feldschiessen</h2>
+                <div class="description">Auf dem Schiessplatz Schübelbach mit Plauschgruppenwettkampf!<br /></div>
+                <table id="t_feld" summary="Feldschiessen">
+                <!--<tr class="datetime">
+                    <td class="date">Montag, 23. Mai 2012</td>
+                    <td class="time">18:00 Uhr bis 20:00 Uhr</td>
+                    <td class="comment">Vorschiessen</td>
+                </tr>-->
+                <tr class="datetime">
+                    <td class="date">Freitag, 01. Juni 2012</td>
+                    <td class="time">17:30 Uhr bis 20:00 Uhr</td>
+                    <!--<td class="comment">&nbsp;</td>-->
+                </tr>
+                <tr>
+                    <td class="date">Samstag, 02. Juni 2012</td>
+                    <td class="time">14:00 Uhr bis 17:30 Uhr</td>
+                    <!--<td class="comment">&nbsp;</td>-->
+                </tr>
+                <tr class="datetime">
+                    <td class="date">Sonntag, 03. Juni 2012</td>
+                    <td class="time">09:00 Uhr bis 11:00 Uhr</td>
+                    <!--<td class="comment">&nbsp;</td>-->
+                </tr>
+                </table>
+            </div>
+            <div id="ueb">
+                <h2>Trainingsschiessen</h2>
+                <table id="t_ueb" summary="Übungsschiessen">
+                <tr class="datetime">
+                    <td class="date">Samstag, 03./10./17. März 2012</td>
+                    <td class="time">13:30 Uhr bis 15:30 Uhr</td>
+                    <td></td>
+                </tr>
+                <tr class="datetime">
+                    <td class="date">Samstag, 24. und 31. März 2012</td>
+                    <td class="time">15:00 Uhr bis 17:00 Uhr</td>
+                    <td></td>
+                </tr>
+                <tr class="datetime">
+                    <td class="date">Mittwoch, 04. April bis 04. Juli 2012</td>
+                    <td class="time">18:30 Uhr bis 20:00 Uhr</td>
+                    <td class="position">Liegend</td>
+                </tr>
+                <tr class="datetime">
+                    <td class="date">Donnerstag, 05. April bis 05. Juli 2012</td>
+                    <td class="time">18:30 Uhr bis 20:00 Uhr</td>
+                    <td class="position">Liegend und Kniend</td>
+                </tr>
+                <tr class="datetime">
+                    <td class="date">Mittwoch, 08. bis 29. August 2012</td>
+                    <td class="time">18:30 Uhr bis 20:00 Uhr</td>
+                    <td class="position">Liegend</td>
+                </tr>
+                <tr class="datetime">
+                    <td class="date">Mittwoch, 05. bis 21. September 2012</td>
+                    <td class="time">18:00 Uhr bis 19:30 Uhr</td>
+                    <td class="position">Liegend</td>
+                </tr>
+                </table>
+            </div>
+            <div id="meist">
+                <h2>Vereinsmeisterschaft</h2>
+                <table id="t_meist" summary="Vereinsmeisterschaft">
+                <tr class="datetime">
+                    <td class="cup"></td>
+                    <td class="location">Tuggen</td>
+                    <td class="shooting">Kantonalstich</td>
+                    <td class="date">Beste Passe der ersten zwei Passen</td>
+                </tr>
+                <tr class="datetime">
+                    <td class="cup"></td>
+                    <td class="location">Tuggen</td>
+                    <td class="shooting">Sektionsmeisterschaft</td>
+                    <td class="date">1. Heimrunde</td>
+                </tr>
+                <tr class="datetime">
+                    <td class="cup">1. Cup</td>
+                    <td class="location">Freienbach-Pfäffikon</td>
+                    <td class="shooting">Schlossturmschiessen</td>
+                    <td class="date">14./15./21. April 2012</td>
+                </tr>
+                <tr class="datetime">
+                    <td class="cup"></td>
+                    <td class="location">Leuggelbach</td>
+                    <td class="shooting">Jubiläumsschiessen</td>
+                    <td class="date">13./14./20./21. April 2012</td>
+                </tr>
+                <tr class="datetime">
+                    <td class="cup">2. Cup</td>
+                    <td class="location">Maseltrangen</td>
+                    <td class="shooting">Frühlingsschiessen</td>
+                    <td class="date">27./28. April und 05./06. Mai 2012</td>
+                </tr>
+                <tr class="datetime">
+                    <td class="cup"></td>
+                    <td class="location">Schnindellegi</td>
+                    <td class="shooting">Verbandsschiessen</td>
+                    <td class="date">11./12. Mai 2012</td>
+                </tr>
+                <tr class="datetime">
+                    <td class="cup">3. Cup</td>
+                    <td class="location">Seewen</td>
+                    <td class="shooting">Jubiläumsschiessen</td>
+                    <td class="date">18./19./20/25./26. Mai 2012</td>
+                </tr>
+                <tr class="datetime">
+                    <td class="cup"></td>
+                    <td class="location">Willerzell</td>
+                    <td class="shooting">Etzelbund Schiessen</td>
+                    <td class="date">09./15./16. Juni 2012</td>
+                </tr>
+                <tr class="datetime">
+                    <td class="cup">4. Cup</td>
+                    <td class="location">Tuggen/Schmerikon</td>
+                    <td class="shooting">Freundschaftsschiessen</td>
+                    <td class="date">20./28. Juni 2012</td>
+                </tr>
+                <tr class="datetime">
+                    <td class="cup"></td>
+                    <td class="location">Gommiswald</td>
+                    <td class="shooting">Regulasteinschiessen</td>
+                    <td class="date">10./11./18. August 2012</td>
+                </tr>
+                <tr class="datetime">
+                    <td class="cup"></td>
+                    <td class="location">Weesen</td>
+                    <td class="shooting">Herbstschiessen</td>
+                    <td class="date">07./08./15. September 2012</td>
+                </tr>
+                <tr class="datetime">
+                    <td class="cup">5. Cup</td>
+                    <td class="location">Niederurnen</td>
+                    <td class="shooting">Linth Escher Schiessen</td>
+                    <td class="date">07./08./15. 2012</td>
+                </tr>
+                <tr class="datetime">
+                    <td class="cup">6. Cup</td>
+                    <td class="location">Schübelbach</td>
+                    <td class="shooting">Herbstschiessen March</td>
+                    <td class="date">14./15. September 2012</td>
+                </tr>
+                <tr class="datetime">
+                    <td class="cup">7. Cup</td>
+                    <td class="location">Tuggen</td>
+                    <td class="shooting">Endschiessen</td>
+                    <td class="date">29. September und 06. Oktober 2012</td>
+                </tr>
+                </table>
+            </div>
+            <div id="endschiessen">
+                <h2>Endschiessen</h2>
+                <table id="t_endschiessen" summary="Endschiessen">
+                <tr class="datetime">
+                    <td class="shooting">Absenden</td>
+                    <td class="location">Tuggen</td>
+                    <td class="date">20. Oktober 2012</td>
+                </tr>
+                </table>
+            </div>
+
+    group:
+        name: "gruppenschiessen"
+        label: "Gruppenschiessen"
+        title: "Gruppenschiessen 2012"
+        content: |
+            <table id="t_obli" summary="Gruppenschiessen">
+            <tr class="datetime">
+                <td class="shooting">Feldstich</td>
+                <td class="date">Vor dem Feldschiessen 2012</td>
+            </tr>
+            <tr class="datetime">
+                <td class="shooting">Mannschaftsmeisterschaft Tuggen</td>
+                <td class="date">4 Runden April - September 2012</td>
+            </tr>
+            <tr class="datetime">
+                <td class="shooting">Fahrtschiessen Mollis</td>
+                <td class="date">21./22. April 2012</td>
+            </tr>
+            <tr class="datetime">
+                <td class="shooting">Einzelwettschiessen in Altendorf (Sportwaffen)</td>
+                <td class="date">04/05. Mai 2012</td>
+            </tr>
+            <tr class="datetime">
+                <td class="shooting">Einzelwettschiessen in Altendorf (Armeewaffen)</td>
+                <td class="date">04./05. Mai 2012</td>
+            </tr>
+            <tr class="datetime">
+                <td class="shooting">Gedenkschiessen Rothenthurm</td>
+                <td class="date">29. April 2012</td>
+            </tr>
+            <tr class="datetime">
+                <td class="shooting">Feldmeisterschaft 2012 in Einsiedeln</td>
+                <td class="date">08./15./16. Juni 2012</td>
+            </tr>
+            <tr class="datetime">
+                <td class="shooting">Schindellegi 1. Augustschiessen</td>
+                <td class="date">27./29. Juli und 01./04. August 2012</td>
+            </tr>
+            <tr class="datetime">
+                <td class="shooting">Rossbergschiessen</td>
+                <td class="date">04./05. August 2012</td>
+            </tr>
+            <tr class="datetime">
+                <td class="shooting">Pragelschiessen</td>
+                <td class="date">11./12. August 2012</td>
+            </tr>
+            <tr class="datetime">
+                <td class="shooting">Chilbischiessen Oberhelfenschwil</td>
+                <td class="date">17./18./25./26. August 2012</td>
+            </tr>
+            <tr class="datetime">
+                <td class="shooting">Wyber Schiessen Oberiberg</td>
+                <td class="date">September 2012</td>
+            </tr>
+            <tr class="datetime">
+                <td class="shooting">Kreuzmarktschiessen Netstal</td>
+                <td class="date">07./08./15. September 2012</td>
+            </tr>
+            <tr class="datetime">
+                <td class="shooting">Herbstschiessen Stäfa</td>
+                <td class="date">21./22./29. September 2012</td>
+            </tr>
+            <tr class="datetime">
+                <td class="shooting">Wertmüller Schiessen Wädenswil</td>
+                <td class="date">28./29. September und 06. Oktober 2012</td>
+            </tr>
+            <tr class="datetime">
+                <td class="shooting">Nachtschiessen Weisstannenthal</td>
+                <td class="date">21./28./29. September und 05. Oktober 2012</td>
+            </tr>
+            <tr class="datetime">
+                <td class="shooting">Landschiessen Lichtensteig</td>
+                <td class="date">29. September und 01./06./07./08. Oktober 2012</td>
+            </tr>
+            <tr class="datetime">
+                <td class="shooting">Vorstandsschiessen March in Innerthal</td>
+                <td class="date">&nbsp;</td>
+            </tr>
+            <tr class="datetime">
+                <td class="shooting">Feldschiessen Schiessplatz Schübelbach</td>
+                <td class="date">01./02./03. Juni 2012</td>
+            </tr>
+            <tr class="datetime">
+                <td class="shooting">Zürcher Kantonal</td>
+                <td class="date">02./07. Juli 2012</td>
+            </tr>
+            <tr class="datetime">
+                <td class="shooting">Aargauer Kantonal</td>
+                <td class="date">01. Juli 2012</td>
+            </tr>
+            </table>
+
+    feldschiessen:
+        name: "feldschiessen"
+        label: "Feldschiessen"
+        title: "Feldschiessen 2012"
+        content: |
+            <table id="dates" summary="Daten für das eidgenössische Feldschiessen">
+            <!--<tr class="datetime">
+                <td class="date">Montag, 23. Mai 2012</td>
+                <td class="time">18:00 Uhr bis 20:00 Uhr</td>
+                <td class="comment">Vorschiessen</td>
+            </tr>--><tr class="datetime">
+                <td class="date">Freitag, 01. Juni 2012</td>
+                <td class="time">17:30 Uhr bis 20:00 Uhr</td>
+                <!--<td class="comment">&nbsp;</td>-->
+            </tr><tr class="datetime">
+                <td class="date">Samstag, 02. Juni 2012</td>
+                <td class="time">14:00 Uhr bis 17:30 Uhr</td>
+                <!--<td class="comment">&nbsp;</td>-->
+            </tr><tr class="datetime">
+                <td class="date">Sonntag, 03. Juni 2012</td>
+                <td class="time">09:00 Uhr bis 11:00 Uhr</td>
+                <!--<td class="comment">&nbsp;</td>-->
+            </tr>
+            </table>
+            <div class="text">Wir laden Dich freundlich zum grössten Schützenfest der Welt ein, zum Eidgenössischen Feldschiessen! Damit dieser Anlass wieder zu einem Volksfest wird, hoffen wir auf die Teilnahme aller...
+            <ul>
+                <li>Ehrenmitglieder, Veteranen, Aktivschützen, Jungschützen</li>
+                <li>Mussschützen, Plauschschützen und Gönner</li>
+                <li>Behördenvertreter und Mitglieder aller Dorfvereine</li>
+                <li>Gelegenheitsschützen, Neulinge, Damen und Herren</li>
+            </ul>
+            ... weil hier noch eindeutig das Motto gilt:
+            </div>
+            <div class="highlight">Beteiligung kommt vor dem Rang!</div>
+            <div class="text">Wieder mit Plausch-Gruppenwettkampf für Familien, Firmen, Vereine, Politische Parteien, Behörden und Plauschformationen. Vier Mann / Frau bilden eine Gruppe, drei werden gewertet. Bitte verlange das Reglement und die Anmeldeunterlagen bei deinem Vereinspräsidenten.
+            <!--<div id="links">
+                <a href="./docs/GruppenReglement.doc">Reglement</a><br />
+                <a href="./docs/GruppenAnmeldung.doc">Anmeldeformular</a>
+            </div>-->
+            </div>
+            <div class="text">Also, an die Gewehre! Die Teilnahme ist völlig kostenlos! Waffen und Betreuer stehen im Bedarfsfall zur Verfügung! Praktisch keine Wartezeiten dank der modernen Anlage! Herzlichen Dank, gut Schuss und vergnügliche Stunden!</div>
+
+    youth:
+        name: "jungschuetzenkurs"
+        label: "Jungschützenkurs"
+        title: "Jungschützenkurs 2012"
+        content: |
+            <div class="text">Geschätzte Damen und Herren vom Jahrgang 1992 / 1993 / 1994 / 1995.
+            Geschätzte Mädchen und Burschen vom Jahrgang 1996 / 1997 / 1998 / 1999 / 2000.<br />
+            Die Jahrgänge 1992 - 1995 sind Jungschützen und 1996 - 2000 sind Jugendschützen.
+            Alle dieser Jahrgänge können am Jungschützenkurs teilnehmen.</div>
+            <div class="text"><ul>
+                <li>Hast du Interesse am sportlichen 300 Meter Schiessen mit dem Sportgerät Sturmgewehr 90?</li>
+                <li>Möchtest du den Umgang und die Handhabung mit dem Sportgerät Sturmgewehr 90 lernen?</li>
+                <li>Liebst du kameradschaftliche Atmosphäre in deiner Freizeit?</li>
+                <li>Hast du Interesse an einem Konzentrationssport?</li>
+            </ul>
+            Wir möchten Dir gerne das sportliche Schiessen und der Umgang mit der Waffe beibringen.</div>
+            <div class="text"><b>Der Jungschützenkurs ist gratis</b> und alle JS-Kurs Teilnehmer sind versichert.</div>
+            <div class="text"><b>Diese Einladung geht an alle die im Jahr 2011 den JS-Kurs besucht haben.</b><br />
+            <b>Ich hoffe dass Du dieses Jahr wieder am JS-Kurs teilnimmst.</b></div>
+            <div class="text"><u>Bitte mache Werbung bei deinen Kameradinnen, Kameraden, Schulkollegen, Nachbarn usw.</u></div>
+            <div class="text">Sollte es Dir an diesem Datum nicht möglich sein, dann kannst Du Dich auch per E-Mail oder telefonisch bei mir melden.</div>
+            <div class="highlight">Anmeldung: Donnerstag, den 08. März 2012, um 18:30 Uhr im Schützenhaus Chlausen in Tuggen.</div>
+            <div class="text">Die Anmeldung und Orientierung dauert ca. eine Stunde.</div>
+            <div class="text">Auch die Eltern sind herzlich eingeladen um sich über den Jungschützenkurs zu informieren.</div>
+            <div class="text">Ein erfahrenes Leiterteam möchte Dir das sportliche Schiessen gerne beibringen.</div>
+            <div class="text">Wenn Du noch weitere Fragen hast bin ich gerne bereit, diese zu beantworten.</div>
+            <div class="text">Der Jungschützenleiter, Emil Janser, und sein Team.</div>
+
+            <h2>Kursdaten 2012</h2>
+            <table id="youth-dates" summary="Kursdaten 2012">
+            <tr class="datetime">
+                <td class="day">1.</td>
+                <td class="courseday">Kurstag</td>
+                <td class="weekday">Donnerstag</td>
+                <td class="date">08. März</td>
+                <td class="time">18:30 Uhr bis 20:00 Uhr</td>
+                <td class="todo">Anmeldung und Theorie</td>
+            </tr>
+            <tr class="datetime">
+                <td class="day">2.</td>
+                <td class="courseday">Kurstag</td>
+                <td class="weekday">Donnerstag</td>
+                <td class="date">22. März</td>
+                <td class="time">18:00 Uhr bis 19:30 Uhr</td>
+                <td class="todo">Theorie</td>
+            </tr>
+            <tr class="datetime">
+                <td class="day">3.</td>
+                <td class="courseday">Kurstag</td>
+                <td class="weekday">Donnerstag</td>
+                <td class="date">29. März</td>
+                <td class="time">18:15 Uhr bis 20:00 Uhr</td>
+                <td class="todo">Theorie + Schiessen</td>
+            </tr>
+            <tr class="datetime">
+                <td class="day">4.</td>
+                <td class="courseday">Kurstag</td>
+                <td class="weekday">Donnerstag</td>
+                <td class="date">05. April</td>
+                <td class="time">18:15 Uhr bis 20:00 Uhr</td>
+                <td class="todo">Schiessen</td>
+            </tr>
+            <tr class="datetime">
+                <td class="day">5.</td>
+                <td class="courseday">Kurstag</td>
+                <td class="weekday">Donnerstag</td>
+                <td class="date">12. April</td>
+                <td class="time">18:15 Uhr bis 20:00 Uhr</td>
+                <td class="todo">Schiessen</td>
+            </tr>
+            <tr class="datetime">
+                <td class="day">6.</td>
+                <td class="courseday">Kurstag</td>
+                <td class="weekday">Donnerstag</td>
+                <td class="date">19. April</td>
+                <td class="time">18:15 Uhr bis 20:00 Uhr</td>
+                <td class="todo">Schiessen</td>
+            </tr>
+            <tr class="datetime">
+                <td class="day">7.</td>
+                <td class="courseday">Kurstag</td>
+                <td class="weekday">Donnerstag</td>
+                <td class="date">26. April</td>
+                <td class="time">18:15 Uhr bis 20:00 Uhr</td>
+                <td class="todo">Schiessen</td>
+            </tr>
+            <tr class="datetime">
+                <td class="day">8.</td>
+                <td class="courseday">Kurstag</td>
+                <td class="weekday">Donnerstag</td>
+                <td class="date">03. Mai</td>
+                <td class="time">18:15 Uhr bis 20:00 Uhr</td>
+                <td class="todo">Schiessen</td>
+            </tr>
+            <tr class="datetime">
+                <td class="day">9.</td>
+                <td class="courseday">Kurstag</td>
+                <td class="weekday">Donnerstag</td>
+                <td class="date">10. Mai</td>
+                <td class="time">18:15 Uhr bis 20:00 Uhr</td>
+                <td class="todo">Schiessen</td>
+            </tr>
+            <tr class="datetime">
+                <td class="day">10.</td>
+                <td class="courseday">Kurstag</td>
+                <td class="weekday">Samstag</td>
+                <td class="date">12. Mai</td>
+                <td class="time">13:15 Uhr bis 15:00 Uhr</td>
+                <td class="todo">Schiessen</td>
+            </tr>
+            </table>
+            <div class="text"><ul>
+                <li>07. und 08. Juni 2012: Jungschützenwettschiessen March - Höfe in Altendorf</li>
+                <li>August 2012: Kantonaler Gruppen- und Einzelfinal in Rothenthurm</li>
+                <li>September 2012: Kantonales Jugendschiessen in Rothenthurm</li>
+            </ul></div>
+
+    links:
+        name: "links"
+        title: "Links"
+        content: |
+            <div class="link">
+                <a href="http://www.fst-ssv.ch/"><img src="/bundles/sgtuggenmain/images/ssv.gif" alt="SSV" title="Schweizerisches Schützenverband" /></a>
+            </div>
+            <div class="link">
+                <a href="http://www.sksg.ch/"><img src="/bundles/sgtuggenmain/images/sksg.gif" alt="SKSG" title="Schwyzer Kantonal-Schützengesellschaft" style="height:168px;width:119px;" /></a>
+            </div>
+
+    contact:
+        name: "kontakt"
+        title: "Kontakt"
+        content:
+        controller: SgTuggenContactBundle:Default:form

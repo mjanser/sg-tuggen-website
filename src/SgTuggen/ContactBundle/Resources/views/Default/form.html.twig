@@ -1,0 +1,17 @@
+{% extends "SgTuggenMainBundle::layout.html.twig" %}
+
+{% block content %}
+
+    <h1>Kontakt</h1>
+
+    <form action="{{ path('/cms/simple/kontakt') }}" method="post" {{ form_enctype(form) }}>
+        <div class="form">
+            {{ form_widget(form) }}
+        </div>
+
+        <div class="form_buttons">
+            <input type="submit" value="Abschicken" />
+        </div>
+    </form>
+
+{% endblock %}
