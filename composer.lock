@@ -1,5 +1,5 @@
 {
-    "hash": "0e6b66f61578ba01fce6a20dcbed0953",
+    "hash": "833f8c38506fc33230dfa26347b676bc",
     "packages": [
         {
             "name": "doctrine/common",
@@ -374,12 +374,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/phpcr-odm",
-                "reference": "ed602d7924859e0d294877eb9c70d3c9abd71663"
+                "reference": "257d55dbd91bf3f110ca694c47c4cdb1b61aeb13"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/doctrine/phpcr-odm/archive/ed602d7924859e0d294877eb9c70d3c9abd71663.zip",
-                "reference": "ed602d7924859e0d294877eb9c70d3c9abd71663",
+                "url": "https://github.com/doctrine/phpcr-odm/archive/257d55dbd91bf3f110ca694c47c4cdb1b61aeb13.zip",
+                "reference": "257d55dbd91bf3f110ca694c47c4cdb1b61aeb13",
                 "shasum": ""
             },
             "require": {
@@ -397,7 +397,7 @@
                 "midgard/phpcr": ">=1.3",
                 "symfony/yaml": ">=2.0.0,<2.3.0-dev"
             },
-            "time": "2013-01-11 15:01:17",
+            "time": "2013-01-12 18:05:11",
             "bin": [
                 "bin/phpcr",
                 "bin/phpcr.php"
@@ -493,128 +493,6 @@
             "homepage": "http://friendsofsymfony.github.com",
             "keywords": [
                 "Js Routing"
-            ]
-        },
-        {
-            "name": "friendsofsymfony/rest",
-            "version": "dev-master",
-            "target-dir": "FOS/Rest",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/FriendsOfSymfony/FOSRest",
-                "reference": "b48857315c39715245303fb5bbc1bab98026209e"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://github.com/FriendsOfSymfony/FOSRest/zipball/b48857315c39715245303fb5bbc1bab98026209e",
-                "reference": "b48857315c39715245303fb5bbc1bab98026209e",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.2",
-                "symfony/http-foundation": ">=2.0,<2.3-dev"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "0.8.x-dev"
-                }
-            },
-            "autoload": {
-                "psr-0": {
-                    "FOS\\Rest": ""
-                }
-            },
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Lukas Kahwe Smith",
-                    "email": "smith@pooteeweet.org"
-                },
-                {
-                    "name": "FriendsOfSymfony Community",
-                    "homepage": "https://github.com/FriendsOfSymfony/FOSRest/contributors"
-                }
-            ],
-            "description": "This library provides various tools to develop RESTful API's",
-            "homepage": "http://friendsofsymfony.github.com",
-            "keywords": [
-                "rest"
-            ],
-            "time": "2012-09-08 20:12:46"
-        },
-        {
-            "name": "friendsofsymfony/rest-bundle",
-            "version": "dev-master",
-            "target-dir": "FOS/RestBundle",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/FriendsOfSymfony/FOSRestBundle",
-                "reference": "7e77748ba88f748dcd628a86fdeaf116542d44a5"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://github.com/FriendsOfSymfony/FOSRestBundle/archive/7e77748ba88f748dcd628a86fdeaf116542d44a5.zip",
-                "reference": "7e77748ba88f748dcd628a86fdeaf116542d44a5",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.2",
-                "symfony/framework-bundle": ">=2.0,<2.3-dev",
-                "friendsofsymfony/rest": ">=0.7.0,<0.9.0-dev"
-            },
-            "conflict": {
-                "jms/serializer-bundle": "<1.0-dev"
-            },
-            "require-dev": {
-                "sensio/framework-extra-bundle": ">=2.1,<2.3-dev",
-                "symfony/form": ">=2.1,<2.3-dev",
-                "symfony/yaml": ">=2.1,<2.3-dev",
-                "symfony/security": ">=2.1,<2.3-dev",
-                "jms/serializer-bundle": "1.0.*"
-            },
-            "suggest": {
-                "symfony/serializer": "Add support for basic serialization capabilities, requires >=2.0,<2.3-dev",
-                "sensio/framework-extra-bundle": "Add support for route annotations and the view response listener",
-                "jms/serializer-bundle": "Add support for advanced serialization capabilities, recommended, requires 1.0.*"
-            },
-            "time": "2013-01-11 07:17:39",
-            "type": "symfony-bundle",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "0.11.x-dev"
-                }
-            },
-            "autoload": {
-                "psr-0": {
-                    "FOS\\RestBundle": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Lukas Kahwe Smith",
-                    "email": "smith@pooteeweet.org"
-                },
-                {
-                    "name": "FriendsOfSymfony Community",
-                    "homepage": "https://github.com/friendsofsymfony/FOSRestBundle/contributors"
-                },
-                {
-                    "name": "Konstantin Kudryashov",
-                    "email": "ever.zet@gmail.com",
-                    "homepage": "http://everzet.com"
-                }
-            ],
-            "description": "This Bundle provides various tools to rapidly develop RESTful API's with Symfony2",
-            "homepage": "http://friendsofsymfony.github.com",
-            "keywords": [
-                "rest"
             ]
         },
         {
@@ -725,393 +603,6 @@
             "keywords": [
                 "transport implementation",
                 "doctrine-dbal"
-            ]
-        },
-        {
-            "name": "jms/aop-bundle",
-            "version": "dev-master",
-            "target-dir": "JMS/AopBundle",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/schmittjoh/JMSAopBundle",
-                "reference": "7018357f5bedf204979a88867a9da05973744422"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://github.com/schmittjoh/JMSAopBundle/archive/7018357f5bedf204979a88867a9da05973744422.zip",
-                "reference": "7018357f5bedf204979a88867a9da05973744422",
-                "shasum": ""
-            },
-            "require": {
-                "symfony/framework-bundle": "2.*",
-                "jms/cg": "1.*"
-            },
-            "time": "2013-01-09 08:03:40",
-            "type": "symfony-bundle",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.1.x-dev"
-                }
-            },
-            "autoload": {
-                "psr-0": {
-                    "JMS\\AopBundle": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "Apache"
-            ],
-            "authors": [
-                {
-                    "name": "Johannes M. Schmitt",
-                    "email": "schmittjoh@gmail.com",
-                    "homepage": "http://jmsyst.com",
-                    "role": "Developer of wrapped JMSSerializerBundle"
-                }
-            ],
-            "description": "Adds AOP capabilities to Symfony2",
-            "keywords": [
-                "annotations",
-                "aop"
-            ]
-        },
-        {
-            "name": "jms/cg",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "git://github.com/schmittjoh/cg-library.git",
-                "reference": "8f3441497215434c95512200fa56f168d1972e47"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://github.com/schmittjoh/cg-library/archive/8f3441497215434c95512200fa56f168d1972e47.zip",
-                "reference": "8f3441497215434c95512200fa56f168d1972e47",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.0"
-            },
-            "time": "2012-11-21 10:50:41",
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.1-dev"
-                }
-            },
-            "autoload": {
-                "psr-0": {
-                    "CG\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "Apache2"
-            ],
-            "authors": [
-                {
-                    "name": "Johannes M. Schmitt",
-                    "email": "schmittjoh@gmail.com",
-                    "homepage": "https://github.com/schmittjoh",
-                    "role": "Developer of wrapped JMSSerializerBundle"
-                }
-            ],
-            "description": "Toolset for generating PHP code",
-            "keywords": [
-                "code generation"
-            ]
-        },
-        {
-            "name": "jms/di-extra-bundle",
-            "version": "dev-master",
-            "target-dir": "JMS/DiExtraBundle",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/schmittjoh/JMSDiExtraBundle",
-                "reference": "1d17b6cabd914b84a7a386458ff82f6f8a5e7142"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://github.com/schmittjoh/JMSDiExtraBundle/archive/1d17b6cabd914b84a7a386458ff82f6f8a5e7142.zip",
-                "reference": "1d17b6cabd914b84a7a386458ff82f6f8a5e7142",
-                "shasum": ""
-            },
-            "require": {
-                "symfony/framework-bundle": ">=2.1.0,<2.3-dev",
-                "symfony/process": ">=2.1.0,<2.3-dev",
-                "symfony/finder": ">=2.1.0,<2.3-dev",
-                "jms/aop-bundle": ">=1.0.0,<1.2-dev",
-                "jms/metadata": "1.*"
-            },
-            "require-dev": {
-                "jms/security-extra-bundle": "1.*",
-                "symfony/validator": "*",
-                "symfony/form": "*",
-                "symfony/class-loader": "*",
-                "symfony/yaml": "*",
-                "symfony/browser-kit": "*",
-                "symfony/security-bundle": "*",
-                "symfony/twig-bundle": "*",
-                "sensio/framework-extra-bundle": "*",
-                "doctrine/doctrine-bundle": "*",
-                "doctrine/orm": "*",
-                "phpcollection/phpcollection": ">=0.1,<0.3-dev"
-            },
-            "time": "2013-01-06 00:20:23",
-            "type": "symfony-bundle",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.3-dev"
-                }
-            },
-            "autoload": {
-                "psr-0": {
-                    "JMS\\DiExtraBundle": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "Apache"
-            ],
-            "authors": [
-                {
-                    "name": "Johannes M. Schmitt",
-                    "email": "schmittjoh@gmail.com",
-                    "homepage": "https://github.com/schmittjoh",
-                    "role": "Developer of wrapped JMSSerializerBundle"
-                }
-            ],
-            "description": "Allows to configure dependency injection using annotations",
-            "homepage": "http://jmsyst.com/bundles/JMSDiExtraBundle",
-            "keywords": [
-                "dependency injection",
-                "annotations"
-            ]
-        },
-        {
-            "name": "jms/metadata",
-            "version": "1.2.0-RC",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/schmittjoh/metadata",
-                "reference": "1.2.0-RC"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://github.com/schmittjoh/metadata/zipball/1.2.0-RC",
-                "reference": "1.2.0-RC",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.0"
-            },
-            "require-dev": {
-                "doctrine/common": ">=2.0,<2.4-dev"
-            },
-            "time": "2012-08-21 05:40:10",
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.2.x-dev"
-                }
-            },
-            "autoload": {
-                "psr-0": {
-                    "Metadata\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "Apache"
-            ],
-            "authors": [
-                {
-                    "name": "Johannes M. Schmitt",
-                    "email": "schmittjoh@gmail.com",
-                    "homepage": "https://github.com/schmittjoh",
-                    "role": "Developer of wrapped JMSSerializerBundle"
-                }
-            ],
-            "description": "Class/method/property metadata management in PHP",
-            "keywords": [
-                "annotations",
-                "yaml",
-                "xml",
-                "metadata"
-            ]
-        },
-        {
-            "name": "jms/parser-lib",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "git://github.com/schmittjoh/parser-lib",
-                "reference": "4d469a70c6dd03f921cbdeadafbcb261bb23e8b0"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://github.com/schmittjoh/parser-lib/archive/4d469a70c6dd03f921cbdeadafbcb261bb23e8b0.zip",
-                "reference": "4d469a70c6dd03f921cbdeadafbcb261bb23e8b0",
-                "shasum": ""
-            },
-            "require": {
-                "phpoption/phpoption": ">=0.9,<2.0-dev"
-            },
-            "time": "2012-11-30 08:11:04",
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.1-dev"
-                }
-            },
-            "autoload": {
-                "psr-0": {
-                    "JMS\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "Apache2"
-            ],
-            "description": "A library for easily creating recursive-descent parsers."
-        },
-        {
-            "name": "jms/serializer",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "git://github.com/schmittjoh/serializer",
-                "reference": "a9f31006191f3152884320b559e62b20438cdb76"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://github.com/schmittjoh/serializer/archive/a9f31006191f3152884320b559e62b20438cdb76.zip",
-                "reference": "a9f31006191f3152884320b559e62b20438cdb76",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.2",
-                "jms/metadata": ">=1.1.0,<1.3-dev",
-                "jms/parser-lib": "1.*",
-                "doctrine/common": "2.*",
-                "phpcollection/phpcollection": ">=0.1,<0.3-dev"
-            },
-            "require-dev": {
-                "twig/twig": ">=1.8,<2.0-dev",
-                "doctrine/orm": ">=2.1,<2.4-dev",
-                "symfony/yaml": "2.*",
-                "symfony/translation": ">=2.0,<2.2-dev",
-                "symfony/validator": ">=2.0,<2.2-dev",
-                "symfony/form": ">=2.0,<2.2-dev",
-                "symfony/filesystem": "2.*"
-            },
-            "suggest": {
-                "symfony/yaml": "Required if you'd like to serialize data to YAML format."
-            },
-            "time": "2013-01-12 12:15:40",
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.0-dev"
-                }
-            },
-            "autoload": {
-                "psr-0": {
-                    "JMS\\Serializer": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "Apache2"
-            ],
-            "authors": [
-                {
-                    "name": "Johannes M. Schmitt",
-                    "email": "schmittjoh@gmail.com",
-                    "homepage": "https://github.com/schmittjoh",
-                    "role": "Developer of wrapped JMSSerializerBundle"
-                }
-            ],
-            "description": "Library for (de-)serializing data of any complexity; supports XML, JSON, and YAML.",
-            "homepage": "http://jmsyst.com/libs/serializer",
-            "keywords": [
-                "json",
-                "xml",
-                "serialization",
-                "deserialization",
-                "jaxb"
-            ]
-        },
-        {
-            "name": "jms/serializer-bundle",
-            "version": "dev-master",
-            "target-dir": "JMS/SerializerBundle",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/schmittjoh/JMSSerializerBundle.git",
-                "reference": "672f7086223dc3cfb03461bfa3964a62e5fa7c73"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://github.com/schmittjoh/JMSSerializerBundle/archive/672f7086223dc3cfb03461bfa3964a62e5fa7c73.zip",
-                "reference": "672f7086223dc3cfb03461bfa3964a62e5fa7c73",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.2",
-                "jms/serializer": "1.0.*",
-                "jms/di-extra-bundle": ">=1.3",
-                "symfony/framework-bundle": ">=2.1,<3.0-dev"
-            },
-            "require-dev": {
-                "symfony/yaml": "*",
-                "symfony/browser-kit": "*",
-                "symfony/class-loader": "*",
-                "symfony/finder": "*",
-                "symfony/css-selector": "*",
-                "symfony/process": "*",
-                "doctrine/doctrine-bundle": "*",
-                "symfony/twig-bundle": "*",
-                "doctrine/orm": "*",
-                "symfony/form": "*",
-                "symfony/validator": "*"
-            },
-            "suggest": {
-                "symfony/yaml": "Required if you'd like to serialize content to YAML format."
-            },
-            "time": "2013-01-12 12:57:46",
-            "type": "symfony-bundle",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.0-dev"
-                }
-            },
-            "autoload": {
-                "psr-0": {
-                    "JMS\\SerializerBundle": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "Apache2"
-            ],
-            "authors": [
-                {
-                    "name": "Johannes M. Schmitt",
-                    "email": "schmittjoh@gmail.com",
-                    "homepage": "https://github.com/schmittjoh",
-                    "role": "Developer of wrapped JMSSerializerBundle"
-                }
-            ],
-            "description": "Allows you to easily serialize, and deserialize data of any complexity",
-            "homepage": "http://jmsyst.com/bundles/JMSSerializerBundle",
-            "keywords": [
-                "json",
-                "xml",
-                "serialization",
-                "deserialization",
-                "jaxb"
             ]
         },
         {
@@ -1401,46 +892,6 @@
             ]
         },
         {
-            "name": "midgard/createphp",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "git://github.com/flack/createphp.git",
-                "reference": "521a05b57f070836094eebb702e2904c7fc4c88a"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://github.com/flack/createphp/archive/521a05b57f070836094eebb702e2904c7fc4c88a.zip",
-                "reference": "521a05b57f070836094eebb702e2904c7fc4c88a",
-                "shasum": ""
-            },
-            "require-dev": {
-                "twig/twig": ">=1.8,<2.0-dev"
-            },
-            "time": "2013-01-09 15:52:01",
-            "type": "library",
-            "autoload": {
-                "psr-0": {
-                    "Midgard\\CreatePHP": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "LGPL"
-            ],
-            "authors": [
-                {
-                    "name": "Andreas Flack",
-                    "email": "flack@contentcontrol-berlin.de",
-                    "homepage": "http://www.contentcontrol-berlin.de/"
-                }
-            ],
-            "description": "PHP adapter for Create.js",
-            "keywords": [
-                "rdfa"
-            ]
-        },
-        {
             "name": "monolog/monolog",
             "version": "1.2.1",
             "source": {
@@ -1494,56 +945,6 @@
             "keywords": [
                 "log",
                 "logging"
-            ]
-        },
-        {
-            "name": "phpcollection/phpcollection",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "git://github.com/schmittjoh/php-collection",
-                "reference": "3d298a49601381d5155b88a9dc4e8561a1654ab0"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://github.com/schmittjoh/php-collection/archive/3d298a49601381d5155b88a9dc4e8561a1654ab0.zip",
-                "reference": "3d298a49601381d5155b88a9dc4e8561a1654ab0",
-                "shasum": ""
-            },
-            "require": {
-                "phpoption/phpoption": "1.*"
-            },
-            "time": "2013-01-09 23:18:43",
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "0.2-dev"
-                }
-            },
-            "autoload": {
-                "psr-0": {
-                    "PhpCollection": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "Apache2"
-            ],
-            "authors": [
-                {
-                    "name": "Johannes M. Schmitt",
-                    "email": "schmittjoh@gmail.com",
-                    "homepage": "https://github.com/schmittjoh",
-                    "role": "Developer of wrapped JMSSerializerBundle"
-                }
-            ],
-            "description": "General-Purpose Collection Library for PHP",
-            "keywords": [
-                "map",
-                "set",
-                "list",
-                "sequence",
-                "collection"
             ]
         },
         {
@@ -1660,55 +1061,6 @@
                 "phpcr",
                 "contentrepository",
                 "cli"
-            ]
-        },
-        {
-            "name": "phpoption/phpoption",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "git://github.com/schmittjoh/php-option",
-                "reference": "7c3d959ac1ab7677cca6463dbb7d443ef9eea8ed"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://github.com/schmittjoh/php-option/archive/7c3d959ac1ab7677cca6463dbb7d443ef9eea8ed.zip",
-                "reference": "7c3d959ac1ab7677cca6463dbb7d443ef9eea8ed",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.0"
-            },
-            "time": "2012-12-07 09:34:13",
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.1-dev"
-                }
-            },
-            "autoload": {
-                "psr-0": {
-                    "PhpOption\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "Apache2"
-            ],
-            "authors": [
-                {
-                    "name": "Johannes M. Schmitt",
-                    "email": "schmittjoh@gmail.com",
-                    "homepage": "https://github.com/schmittjoh",
-                    "role": "Developer of wrapped JMSSerializerBundle"
-                }
-            ],
-            "description": "Option Type for PHP",
-            "keywords": [
-                "php",
-                "language",
-                "type",
-                "option"
             ]
         },
         {
@@ -1974,16 +1326,15 @@
             "source": {
                 "type": "git",
                 "url": "git://github.com/symfony-cmf/CoreBundle.git",
-                "reference": "08a153b3245f653881d81eb0d2a439314828cd98"
+                "reference": "e8392a7553b10945b8e22e76cc7b77079edd6e05"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/symfony-cmf/CoreBundle/archive/08a153b3245f653881d81eb0d2a439314828cd98.zip",
-                "reference": "08a153b3245f653881d81eb0d2a439314828cd98",
+                "url": "https://github.com/symfony-cmf/CoreBundle/archive/e8392a7553b10945b8e22e76cc7b77079edd6e05.zip",
+                "reference": "e8392a7553b10945b8e22e76cc7b77079edd6e05",
                 "shasum": ""
             },
             "require": {
-                "phpcr/phpcr": "dev-master",
                 "php": ">=5.3.3",
                 "symfony/framework-bundle": ">=2.1,<2.3-dev"
             },
@@ -1993,7 +1344,7 @@
             "suggest": {
                 "symfony/twig-bundle": ">=2.1,<2.3-dev"
             },
-            "time": "2012-12-18 22:05:34",
+            "time": "2013-01-12 18:30:49",
             "type": "symfony-bundle",
             "extra": {
                 "branch-alias": {
@@ -2020,60 +1371,6 @@
             "keywords": [
                 "Symfony CMF"
             ]
-        },
-        {
-            "name": "symfony-cmf/create-bundle",
-            "version": "dev-master",
-            "target-dir": "Symfony/Cmf/Bundle/CreateBundle",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony-cmf/CreateBundle.git",
-                "reference": "051590791f750cf52fe2970d8f1ecab8d2748d61"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://github.com/symfony-cmf/CreateBundle/archive/051590791f750cf52fe2970d8f1ecab8d2748d61.zip",
-                "reference": "051590791f750cf52fe2970d8f1ecab8d2748d61",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.2",
-                "midgard/createphp": "dev-master",
-                "symfony/framework-bundle": ">=2.1,<2.3-dev",
-                "symfony/assetic-bundle": ">=2.1,<2.3-dev",
-                "friendsofsymfony/rest-bundle": "dev-master",
-                "jms/serializer-bundle": "1.0.*"
-            },
-            "suggest": {
-                "dms/dms-filter": "if you want to filter content on your fields"
-            },
-            "time": "2012-12-24 13:22:47",
-            "type": "symfony-bundle",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.0-dev"
-                }
-            },
-            "autoload": {
-                "psr-0": {
-                    "Symfony\\Cmf\\Bundle\\CreateBundle": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Liip AG",
-                    "homepage": "http://www.liip.ch/"
-                },
-                {
-                    "name": "Symfony CMF Community",
-                    "homepage": "https://github.com/symfony-cmf/CreateBundle/contributors"
-                }
-            ],
-            "description": "Symfony Bundle for createphp and create.js. The easiest way to make any site editable and have semantic annotations with RDFa."
         },
         {
             "name": "symfony-cmf/menu-bundle",
@@ -2832,7 +2129,456 @@
             ]
         }
     ],
-    "packages-dev": null,
+    "packages-dev": [
+        {
+            "name": "liip/functional-test-bundle",
+            "version": "dev-master",
+            "target-dir": "Liip/FunctionalTestBundle",
+            "source": {
+                "type": "git",
+                "url": "git://github.com/liip/LiipFunctionalTestBundle.git",
+                "reference": "7c9062bf3a5fb69c2c892fe61f517a596ea24d5d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/liip/LiipFunctionalTestBundle/archive/7c9062bf3a5fb69c2c892fe61f517a596ea24d5d.zip",
+                "reference": "7c9062bf3a5fb69c2c892fe61f517a596ea24d5d",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.2",
+                "symfony/framework-bundle": ">=2.0,<2.3-dev",
+                "doctrine/common": "2.*"
+            },
+            "suggest": {
+                "doctrine/doctrine-fixtures-bundle": "Required when using the fixture loading functionality",
+                "doctrine/orm": "Required when using the fixture loading functionality with an ORM and SQLite",
+                "doctrine/dbal": "Required when using the fixture loading functionality with an ORM and SQLite"
+            },
+            "time": "2013-01-11 08:42:52",
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Liip\\FunctionalTestBundle": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Liip AG",
+                    "homepage": "http://www.liip.ch/"
+                },
+                {
+                    "name": "Community contributions",
+                    "homepage": "https://github.com/liip/LiipFunctionalTestBundle/contributors"
+                }
+            ],
+            "description": "This bundles provides additional functional test-cases for Symfony2 applications",
+            "keywords": [
+                "Symfony2"
+            ]
+        },
+        {
+            "name": "phpunit/php-code-coverage",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git://github.com/sebastianbergmann/php-code-coverage.git",
+                "reference": "d5949c4a80e7aace9927a83b4fa88bbc915e5e4d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/sebastianbergmann/php-code-coverage/archive/d5949c4a80e7aace9927a83b4fa88bbc915e5e4d.zip",
+                "reference": "d5949c4a80e7aace9927a83b4fa88bbc915e5e4d",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.7",
+                "phpunit/php-file-iterator": ">=1.3.0",
+                "phpunit/php-token-stream": ">=1.1.3",
+                "phpunit/php-text-template": ">=1.1.1",
+                "sebastian/version": ">=1.0.0"
+            },
+            "suggest": {
+                "ext-dom": "*",
+                "ext-xdebug": ">=2.2.1"
+            },
+            "time": "2013-01-07 10:45:57",
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.3.x-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "PHP/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "include-path": [
+                ""
+            ],
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian Bergmann",
+                    "email": "sb@sebastian-bergmann.de",
+                    "role": "lead"
+                }
+            ],
+            "description": "Library that provides collection, processing, and rendering functionality for PHP code coverage information.",
+            "homepage": "https://github.com/sebastianbergmann/php-code-coverage",
+            "keywords": [
+                "testing",
+                "coverage",
+                "xunit"
+            ]
+        },
+        {
+            "name": "phpunit/php-file-iterator",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git://github.com/sebastianbergmann/php-file-iterator.git",
+                "reference": "2deb24c65ea78e126daa8d45b2089ddc29ec1d26"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/sebastianbergmann/php-file-iterator/archive/2deb24c65ea78e126daa8d45b2089ddc29ec1d26.zip",
+                "reference": "2deb24c65ea78e126daa8d45b2089ddc29ec1d26",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "time": "2013-01-07 10:47:05",
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "File/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "include-path": [
+                ""
+            ],
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian Bergmann",
+                    "email": "sb@sebastian-bergmann.de",
+                    "role": "lead"
+                }
+            ],
+            "description": "FilterIterator implementation that filters files based on a list of suffixes.",
+            "homepage": "https://github.com/sebastianbergmann/php-file-iterator/",
+            "keywords": [
+                "filesystem",
+                "iterator"
+            ]
+        },
+        {
+            "name": "phpunit/php-text-template",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git://github.com/sebastianbergmann/php-text-template.git",
+                "reference": "1eeef106193d2f8c539728e566bb4793071a9e18"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/sebastianbergmann/php-text-template/archive/1eeef106193d2f8c539728e566bb4793071a9e18.zip",
+                "reference": "1eeef106193d2f8c539728e566bb4793071a9e18",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "time": "2013-01-07 10:56:17",
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "Text/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "include-path": [
+                ""
+            ],
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian Bergmann",
+                    "email": "sb@sebastian-bergmann.de",
+                    "role": "lead"
+                }
+            ],
+            "description": "Simple template engine.",
+            "homepage": "https://github.com/sebastianbergmann/php-text-template/",
+            "keywords": [
+                "template"
+            ]
+        },
+        {
+            "name": "phpunit/php-timer",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git://github.com/sebastianbergmann/php-timer.git",
+                "reference": "6d28a5483f2b824a5bcc39c3761eb2cb9a0dd0a0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/sebastianbergmann/php-timer/archive/6d28a5483f2b824a5bcc39c3761eb2cb9a0dd0a0.zip",
+                "reference": "6d28a5483f2b824a5bcc39c3761eb2cb9a0dd0a0",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "time": "2013-01-07 10:52:28",
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "PHP/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "include-path": [
+                ""
+            ],
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian Bergmann",
+                    "email": "sb@sebastian-bergmann.de",
+                    "role": "lead"
+                }
+            ],
+            "description": "Utility class for timing",
+            "homepage": "https://github.com/sebastianbergmann/php-timer/",
+            "keywords": [
+                "timer"
+            ]
+        },
+        {
+            "name": "phpunit/php-token-stream",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git://github.com/sebastianbergmann/php-token-stream.git",
+                "reference": "c25dd88e1592e66dee2553c99ef244203d5a1b98"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/sebastianbergmann/php-token-stream/archive/c25dd88e1592e66dee2553c99ef244203d5a1b98.zip",
+                "reference": "c25dd88e1592e66dee2553c99ef244203d5a1b98",
+                "shasum": ""
+            },
+            "require": {
+                "ext-tokenizer": "*",
+                "php": ">=5.3.3"
+            },
+            "time": "2013-01-07 10:56:35",
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "PHP/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "include-path": [
+                ""
+            ],
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian Bergmann",
+                    "email": "sb@sebastian-bergmann.de",
+                    "role": "lead"
+                }
+            ],
+            "description": "Wrapper around PHP's tokenizer extension.",
+            "homepage": "https://github.com/sebastianbergmann/php-token-stream/",
+            "keywords": [
+                "tokenizer"
+            ]
+        },
+        {
+            "name": "phpunit/phpunit",
+            "version": "3.7.x-dev",
+            "source": {
+                "type": "git",
+                "url": "git://github.com/sebastianbergmann/phpunit.git",
+                "reference": "5f0dc354207573f4ab456e7d6a9b516c04291ea0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/sebastianbergmann/phpunit/archive/5f0dc354207573f4ab456e7d6a9b516c04291ea0.zip",
+                "reference": "5f0dc354207573f4ab456e7d6a9b516c04291ea0",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3",
+                "ext-dom": "*",
+                "ext-pcre": "*",
+                "ext-reflection": "*",
+                "ext-spl": "*",
+                "phpunit/php-file-iterator": ">=1.3.1",
+                "phpunit/php-text-template": ">=1.1.1",
+                "phpunit/php-code-coverage": ">=1.2.1",
+                "phpunit/php-timer": ">=1.0.2",
+                "phpunit/phpunit-mock-objects": ">=1.2.0,<1.3.0",
+                "symfony/yaml": ">=2.1.0,<2.2.0"
+            },
+            "suggest": {
+                "ext-json": "*",
+                "ext-simplexml": "*",
+                "ext-tokenizer": "*",
+                "phpunit/php-invoker": ">=1.1.0"
+            },
+            "time": "2013-01-12 17:39:20",
+            "bin": [
+                "composer/bin/phpunit"
+            ],
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.7.x-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "PHPUnit/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "include-path": [
+                "",
+                "../../symfony/yaml/"
+            ],
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian Bergmann",
+                    "email": "sebastian@phpunit.de",
+                    "role": "lead"
+                }
+            ],
+            "description": "The PHP Unit Testing framework.",
+            "homepage": "http://www.phpunit.de/",
+            "keywords": [
+                "testing",
+                "phpunit",
+                "xunit"
+            ]
+        },
+        {
+            "name": "phpunit/phpunit-mock-objects",
+            "version": "1.2.x-dev",
+            "source": {
+                "type": "git",
+                "url": "git://github.com/sebastianbergmann/phpunit-mock-objects.git",
+                "reference": "59a9df36cd1d10a23e7da8ad2d4f8e820ad4d689"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/sebastianbergmann/phpunit-mock-objects/archive/59a9df36cd1d10a23e7da8ad2d4f8e820ad4d689.zip",
+                "reference": "59a9df36cd1d10a23e7da8ad2d4f8e820ad4d689",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3",
+                "phpunit/php-text-template": ">=1.1.1@stable"
+            },
+            "suggest": {
+                "ext-soap": "*"
+            },
+            "time": "2013-01-12 09:08:05",
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "PHPUnit/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "include-path": [
+                ""
+            ],
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian Bergmann",
+                    "email": "sb@sebastian-bergmann.de",
+                    "role": "lead"
+                }
+            ],
+            "description": "Mock Object library for PHPUnit",
+            "homepage": "https://github.com/sebastianbergmann/phpunit-mock-objects/",
+            "keywords": [
+                "mock",
+                "xunit"
+            ]
+        },
+        {
+            "name": "sebastian/version",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git://github.com/sebastianbergmann/version.git",
+                "reference": "1.0.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/sebastianbergmann/version/archive/1.0.0.zip",
+                "reference": "1.0.0",
+                "shasum": ""
+            },
+            "time": "2013-01-05 14:27:32",
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian Bergmann",
+                    "email": "sebastian@phpunit.de",
+                    "role": "lead"
+                }
+            ],
+            "description": "Library that helps with managing the version number of Git-hosted PHP projects",
+            "homepage": "https://github.com/sebastianbergmann/version"
+        }
+    ],
     "aliases": [
 
     ],

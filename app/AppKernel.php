@@ -20,8 +20,8 @@ class AppKernel extends Kernel
             new Liip\DoctrineCacheBundle\LiipDoctrineCacheBundle(),
             new Knp\Bundle\MenuBundle\KnpMenuBundle(),
             //new Lunetics\LocaleBundle\LuneticsLocaleBundle(),
-            new FOS\RestBundle\FOSRestBundle(),
-            new JMS\SerializerBundle\JMSSerializerBundle($this),
+            //new FOS\RestBundle\FOSRestBundle(),
+            //new JMS\SerializerBundle\JMSSerializerBundle($this),
 
             // enable cmf bundles
             new Symfony\Cmf\Bundle\RoutingExtraBundle\SymfonyCmfRoutingExtraBundle(),
@@ -29,7 +29,7 @@ class AppKernel extends Kernel
             new Symfony\Cmf\Bundle\MenuBundle\SymfonyCmfMenuBundle(),
             new Symfony\Cmf\Bundle\ContentBundle\SymfonyCmfContentBundle(),
             new Symfony\Cmf\Bundle\SimpleCmsBundle\SymfonyCmfSimpleCmsBundle(),
-            new Symfony\Cmf\Bundle\CreateBundle\SymfonyCmfCreateBundle(),
+            //new Symfony\Cmf\Bundle\CreateBundle\SymfonyCmfCreateBundle(),
 
             new SgTuggen\MainBundle\SgTuggenMainBundle(),
             new SgTuggen\ContactBundle\SgTuggenContactBundle()
@@ -38,6 +38,10 @@ class AppKernel extends Kernel
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {
             $bundles[] = new Symfony\Bundle\WebProfilerBundle\WebProfilerBundle();
             $bundles[] = new Sensio\Bundle\DistributionBundle\SensioDistributionBundle();
+        }
+
+        if (in_array($this->getEnvironment(), array('dev', 'test'))) {
+            $bundles[] = new Liip\FunctionalTestBundle\LiipFunctionalTestBundle();
         }
 
         return $bundles;

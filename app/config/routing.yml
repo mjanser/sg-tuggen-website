@@ -10,8 +10,8 @@
 #        route: /cms/simple
 #        permanent: true # this for 301
 
-cmf_create_rest:
-    resource: "@SymfonyCmfCreateBundle/Resources/config/routing/rest.xml"
+#cmf_create_rest:
+#    resource: "@SymfonyCmfCreateBundle/Resources/config/routing/rest.xml"
 
-cmf_create_image:
-    resource: "@SymfonyCmfCreateBundle/Resources/config/routing/image.xml"
+#cmf_create_image:
+#    resource: "@SymfonyCmfCreateBundle/Resources/config/routing/image.xml"
