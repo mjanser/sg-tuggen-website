@@ -35,31 +35,29 @@ class DefaultController extends Controller
             return $this->render('SgTuggenContactBundle:Default:success.html.twig');
         }
 
-        $message = new Message();
-        $form = $this->createForm(new ContactType(), $message);
+        $formHandler = $this->get('sgtuggen.contact.form_handler');
 
         if ($request->isMethod('POST')) {
-            $form->bind($request);
-
-            if ($form->isValid()) {
-                $email = Swift_Message::newInstance()
-                    ->setSubject(sprintf('SG Tuggen Kontaktanfrage: %s', $message->getSubject()))
-                    ->setFrom($message->getEmail(), $message->getName())
-                    ->setTo('sgtuggen@gogan.ch', 'SG Tuggen')
-                    ->setBody(
-                        $this->renderView(
-                            'SgTuggenContactBundle:Default:email.txt.twig',
-                            array('message' => $message)
-                        )
-                    );
-                $this->get('mailer')->send($email);
-
-                return $this->redirect($this->generateUrl('/cms/simple/kontakt', array('sent' => 1)));
+            try {
+                $formHandler->update($request);
+            } catch (HandlerValidatorException $e) {
+                return $this->render('SgTuggenContactBundle:Default:form.html.twig', array(
+                    'form' => $formHandler->getForm()->createView()
+                ));
             }
+
+            $message     = $formHandler->getMessage();
+            $mailHandler = $this->get('sgtuggen.contact.mail_handler');
+            $mailHandler->send($message, $this->renderView(
+                'SgTuggenContactBundle:Default:email.txt.twig',
+                array('message' => $message)
+            ));
+
+            return $this->redirect($this->generateUrl('/cms/simple/kontakt', array('sent' => 1)));
         }
 
         return $this->render('SgTuggenContactBundle:Default:form.html.twig', array(
-            'form' => $form->createView()
+            'form' => $formHandler->getForm()->createView()
         ));
     }
 }

@@ -28,3 +28,5 @@ parameters:
     mailer_password:   ~
     mailer_disable_delivery: true
     mailer_delivery_address: ~
+
+    sgtuggen_contact_recipients: ~

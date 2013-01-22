@@ -96,3 +96,8 @@ symfony_cmf_menu:
 
 #symfony_cmf_create:
 #    phpcr_odm: true
+
+sg_tuggen_contact:
+    email:
+        subject: "SG Tuggen Kontaktanfrage: %s"
+        recipients: %sgtuggen_contact_recipients%

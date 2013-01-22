@@ -27,21 +27,24 @@ class MessageTest extends \PHPUnit_Framework_TestCase
 
     public function testSetName()
     {
-        $this->message->setName('John Doe');
+        $returnValue = $this->message->setName('John Doe');
         $this->assertAttributeEquals('John Doe', 'name', $this->message);
+        $this->assertSame($this->message, $returnValue);
     }
 
     public function testSetEmail()
     {
-        $this->message->setEmail('john@example.com');
+        $returnValue = $this->message->setEmail('john@example.com');
         $this->assertAttributeEquals('john@example.com', 'email', $this->message);
+        $this->assertSame($this->message, $returnValue);
     }
 
     public function testSetSender()
     {
-        $this->message->setSender('John Doe', 'john@example.com');
+        $returnValue = $this->message->setSender('John Doe', 'john@example.com');
         $this->assertAttributeEquals('John Doe', 'name', $this->message);
         $this->assertAttributeEquals('john@example.com', 'email', $this->message);
+        $this->assertSame($this->message, $returnValue);
     }
 
     /**
@@ -64,8 +67,9 @@ class MessageTest extends \PHPUnit_Framework_TestCase
 
     public function testSetSubject()
     {
-        $this->message->setSubject('My subject');
+        $returnValue = $this->message->setSubject('My subject');
         $this->assertAttributeEquals('My subject', 'subject', $this->message);
+        $this->assertSame($this->message, $returnValue);
     }
 
     /**
@@ -79,8 +83,9 @@ class MessageTest extends \PHPUnit_Framework_TestCase
 
     public function testSetBody()
     {
-        $this->message->setBody('My body');
+        $returnValue = $this->message->setBody('My body');
         $this->assertAttributeEquals('My body', 'body', $this->message);
+        $this->assertSame($this->message, $returnValue);
     }
 
     /**
