@@ -35,7 +35,11 @@ class SgTuggenContactExtension extends Extension
 
         $loader->load('services.xml');
 
-        $container->setParameter('sgtuggen_contact.email.subject', $config['email']['subject']);
-        $container->setParameter('sgtuggen_contact.email.recipients', $config['email']['recipients']);
+        if (isset($config['email']['subject'])) {
+            $container->setParameter('sgtuggen_contact.email.subject', $config['email']['subject']);
+        }
+        if (isset($config['email']['recipients'])) {
+            $container->setParameter('sgtuggen_contact.email.recipients', $config['email']['recipients']);
+        }
     }
 }
