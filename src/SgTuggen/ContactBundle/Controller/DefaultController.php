@@ -13,6 +13,7 @@ namespace SgTuggen\ContactBundle\Controller;
 
 use SgTuggen\ContactBundle\Model\Message;
 use SgTuggen\ContactBundle\Form\Type\ContactType;
+use SgTuggen\ContactBundle\Exception\HandlerValidationException;
 
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\HttpFoundation\Request;
@@ -40,10 +41,13 @@ class DefaultController extends Controller
         if ($request->isMethod('POST')) {
             try {
                 $formHandler->update($request);
-            } catch (HandlerValidatorException $e) {
-                return $this->render('SgTuggenContactBundle:Default:form.html.twig', array(
+            } catch (HandlerValidationException $e) {
+                $response = $this->render('SgTuggenContactBundle:Default:form.html.twig', array(
                     'form' => $formHandler->getForm()->createView()
                 ));
+                $response->setStatusCode(400);
+
+                return $response;
             }
 
             $message     = $formHandler->getMessage();

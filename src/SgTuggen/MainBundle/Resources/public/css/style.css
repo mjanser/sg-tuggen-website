@@ -5,7 +5,7 @@ body
     margin:0;
     padding:0;
 }
-body, label, span.label, td
+body, span.label, td
 {
     font-size:0.86em;
 }
@@ -461,6 +461,7 @@ div.required_fields
 span.field_req
 {
     color:#FF0000;
+    margin-left:5px;
 }
 
 /* Message */
@@ -473,13 +474,17 @@ div.message
 }
 
 /* Error messages */
-div.error_messages
+div.field.error input, div.field.error textarea
 {
-    width:75%;
-    border-bottom:1px solid #FF0000;
-    margin-bottom:5px;
 }
-div.error_message
+ul.errors
+{
+    margin:5px 0 0 13px;
+    padding:0;
+    float:left;
+    list-style:none;
+}
+ul.errors li
 {
     font-size:0.86em;
     color:#FF0000;
@@ -564,7 +569,7 @@ div.field
     padding:1px;
     clear:both;
 }
-label, span.label
+span.label
 {
     width:110px;
     padding-right:30px;
@@ -647,7 +652,7 @@ div.field
     padding:1px;
     clear:both;
 }
-label, span.label
+span.label
 {
     width:125px;
     padding-right:30px;
