@@ -1,5 +1,9 @@
 {% extends "SgTuggenMainBundle::layout.html.twig" %}
 
+{% if cmfMainContent.name != 'simple' %}
+    {% set title = cmfMainContent.title %}
+{% endif %}
+
 {% block content %}
 
     <h1>{{ cmfMainContent.title }}</h1>

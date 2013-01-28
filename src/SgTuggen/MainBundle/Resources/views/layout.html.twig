@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title>{% block title %}{{ title|default('SG Tuggen')|striptags }}{% endblock %}</title>
+    <title>{% block title %}{{ title|default('')|striptags }}{% endblock %}{% if block('title') %} - {% endif %}SG Tuggen</title>
 
     {% block includes %}
         {% stylesheets 'bundles/sgtuggenmain/css/*' filter='cssrewrite' %}

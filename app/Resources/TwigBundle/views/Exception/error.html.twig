@@ -1,0 +1,12 @@
+{% extends "SgTuggenMainBundle::layout.html.twig" %}
+
+{% set title = 'Fehler: ' ~ {{ status_text }} %}
+
+{% block content %}
+    <h1>Es ist ein Fehler aufgetreten</h1>
+
+    <div>
+        Auf der Seite trat ein Fehler auf. Wir werden diesen so schnell
+        wie möglich beheben. Danke für Ihr Verständnis.
+    </div>
+{% endblock %}
