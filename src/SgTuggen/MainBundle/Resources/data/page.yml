@@ -3,7 +3,7 @@ static:
         name: ""
         label: "Startseite"
         title: "Willkommen bei der Schützengesellschaft Tuggen"
-        content: |
+        body: |
             <p>
                 <img src="/bundles/sgtuggenmain/images/verein.jpg" alt="Verein" />
             </p>
@@ -11,7 +11,7 @@ static:
     board:
         name: "vorstand"
         title: "Vorstand"
-        content: |
+        body: |
             <div class="person">
                 <img class="person" src="/bundles/sgtuggenmain/images/persons/emil.janser.png" alt="" />
                 <span class="name">Janser Emil</span>
@@ -67,7 +67,7 @@ static:
         name: "schiessplan"
         label: "Schiessplan"
         title: "Schiessplan 2012"
-        content: |
+        body: |
             <div id="obli">
                 <h2>Obligatorische Übungen</h2>
                 <div class="description">Standblattausgabe bis 30 Minuten vor Schiessende.<br />
@@ -252,7 +252,7 @@ static:
         name: "gruppenschiessen"
         label: "Gruppenschiessen"
         title: "Gruppenschiessen 2012"
-        content: |
+        body: |
             <table id="t_obli" summary="Gruppenschiessen">
             <tr class="datetime">
                 <td class="shooting">Feldstich</td>
@@ -344,7 +344,7 @@ static:
         name: "feldschiessen"
         label: "Feldschiessen"
         title: "Feldschiessen 2012"
-        content: |
+        body: |
             <table id="dates" summary="Daten für das eidgenössische Feldschiessen">
             <!--<tr class="datetime">
                 <td class="date">Montag, 23. Mai 2012</td>
@@ -386,7 +386,7 @@ static:
         name: "jungschuetzenkurs"
         label: "Jungschützenkurs"
         title: "Jungschützenkurs 2012"
-        content: |
+        body: |
             <div class="text">Geschätzte Damen und Herren vom Jahrgang 1992 / 1993 / 1994 / 1995.
             Geschätzte Mädchen und Burschen vom Jahrgang 1996 / 1997 / 1998 / 1999 / 2000.<br />
             Die Jahrgänge 1992 - 1995 sind Jungschützen und 1996 - 2000 sind Jugendschützen.
@@ -502,7 +502,7 @@ static:
     links:
         name: "links"
         title: "Links"
-        content: |
+        body: |
             <div class="link">
                 <a href="http://www.fst-ssv.ch/"><img src="/bundles/sgtuggenmain/images/ssv.gif" alt="SSV" title="Schweizerisches Schützenverband" /></a>
             </div>
@@ -513,5 +513,5 @@ static:
     contact:
         name: "kontakt"
         title: "Kontakt"
-        content:
+        body: ~
         controller: SgTuggenContactBundle:Default:form
