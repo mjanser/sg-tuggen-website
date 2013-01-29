@@ -56,4 +56,13 @@ class StaticPageTest extends WebTestCase
             array('/links', 'Links'),
         );
     }
+
+    public function testError404()
+    {
+        $client = $this->createClient();
+
+        $crawler = $client->request('GET', '/invalid');
+
+        $this->assertEquals(404, $client->getResponse()->getStatusCode());
+    }
 }
