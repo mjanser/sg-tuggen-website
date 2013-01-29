@@ -1,4 +1,4 @@
-# Website for SG Tuggen using Symfony CMF
+# Website for SG Tuggen using Symfony CMF [![Build Status](https://travis-ci.org/mjanser/sg-tuggen-website.png)](https://travis-ci.org/mjanser/sg-tuggen-website)
 
 ### You will need:
   * Git 1.6+
