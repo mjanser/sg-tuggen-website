@@ -1,5 +1,5 @@
 {
-    "hash": "f7dd40fbef0f714375802acc00260c4f",
+    "hash": "c597ecfa4cb56486b1bf7de41ecadcd2",
     "packages": [
         {
             "name": "doctrine/common",
@@ -2143,36 +2143,30 @@
         },
         {
             "name": "phpunit/php-code-coverage",
-            "version": "dev-master",
+            "version": "1.2.x-dev",
             "source": {
                 "type": "git",
                 "url": "git://github.com/sebastianbergmann/php-code-coverage.git",
-                "reference": "1f7f73cd9c9b440727eb3c995c56a6a0868c4568"
+                "reference": "ec7f6f388ca315b6520f61be670ff82fa6ce68fb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/1f7f73cd9c9b440727eb3c995c56a6a0868c4568",
-                "reference": "1f7f73cd9c9b440727eb3c995c56a6a0868c4568",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/ec7f6f388ca315b6520f61be670ff82fa6ce68fb",
+                "reference": "ec7f6f388ca315b6520f61be670ff82fa6ce68fb",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.4.7",
-                "phpunit/php-file-iterator": ">=1.3.0",
-                "phpunit/php-text-template": ">=1.1.1",
-                "phpunit/php-token-stream": ">=1.1.3",
-                "sebastian/version": ">=1.0.0"
+                "php": ">=5.3.3",
+                "phpunit/php-file-iterator": ">=1.3.0@stable",
+                "phpunit/php-text-template": ">=1.1.1@stable",
+                "phpunit/php-token-stream": ">=1.1.3@stable"
             },
             "suggest": {
                 "ext-dom": "*",
-                "ext-xdebug": ">=2.2.1"
+                "ext-xdebug": ">=2.0.5"
             },
-            "time": "2013-02-02 10:49:47",
+            "time": "2013-01-07 10:45:42",
             "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.3.x-dev"
-                }
-            },
             "autoload": {
                 "classmap": [
                     "PHP/"
@@ -2497,41 +2491,6 @@
                 "mock",
                 "xunit"
             ]
-        },
-        {
-            "name": "sebastian/version",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "git://github.com/sebastianbergmann/version.git",
-                "reference": "1.0.0"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://github.com/sebastianbergmann/version/archive/1.0.0.zip",
-                "reference": "1.0.0",
-                "shasum": ""
-            },
-            "time": "2013-01-05 14:27:32",
-            "type": "library",
-            "autoload": {
-                "classmap": [
-                    "src/"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3-Clause"
-            ],
-            "authors": [
-                {
-                    "name": "Sebastian Bergmann",
-                    "email": "sebastian@phpunit.de",
-                    "role": "lead"
-                }
-            ],
-            "description": "Library that helps with managing the version number of Git-hosted PHP projects",
-            "homepage": "https://github.com/sebastianbergmann/version"
         }
     ],
     "aliases": [
