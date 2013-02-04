@@ -12,4 +12,4 @@ before_script:
   - php app/console doctrine:phpcr:workspace:create standard_test -e=test
   - php app/console doctrine:phpcr:fixtures:load -e=test
 
-script: phpunit -c app
+script: ./bin/phpunit -c app
