@@ -9,6 +9,7 @@ env:
     - secure: "dA+XBc38aTPk6ZNqG+NOTXPvEh14WkztNJXYku6qOn3zxUauobe3QRe6GXu9\nHKTTFdMqvW5RWYvkdaoKTKQSCyDxte2Kwpc9KFtRGrYkBS1B0VODSQI80ycP\nb/P6Gegf8GHnn3BHJG5QfmFR+iwgmEGMz1dh+gSTPpsGh9TaVrQ="
 
 before_script:
+  - cp app/config/parameters.yml.dist app/config/parameters.yml
   - composer install
   - php app/console doctrine:database:create -e=test
   - php app/console doctrine:phpcr:init:dbal -e=test
