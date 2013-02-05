@@ -4,6 +4,10 @@ php:
   - 5.3
   - 5.4
 
+env:
+  global:
+    - secure: "dA+XBc38aTPk6ZNqG+NOTXPvEh14WkztNJXYku6qOn3zxUauobe3QRe6GXu9\nHKTTFdMqvW5RWYvkdaoKTKQSCyDxte2Kwpc9KFtRGrYkBS1B0VODSQI80ycP\nb/P6Gegf8GHnn3BHJG5QfmFR+iwgmEGMz1dh+gSTPpsGh9TaVrQ="
+
 before_script:
   - composer install
   - php app/console doctrine:database:create -e=test
@@ -12,4 +16,7 @@ before_script:
   - php app/console doctrine:phpcr:workspace:create standard_test -e=test
   - php app/console doctrine:phpcr:fixtures:load -e=test
 
-script: phpunit -c app
+script: phpunit -c app --coverage-html build/coverage-report --coverage-txt build/coverage.txt
+
+after_script:
+  - ./bin/woodhouse publish mjanser/sg-tuggen-website build/coverage-report:coverage-report --message "Publishing coverage reports from build ${TRAVIS_BUILD_NUMBER} (php $(php -r 'echo phpversion();'))." --coverage-image coverage-report/coverage.png --coverage-phpunit test/report/coverage.txt --no-interaction --auth-token-env GITHUB_TOKEN

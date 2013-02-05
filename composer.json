@@ -22,7 +22,8 @@
     },
     "require-dev": {
         "phpunit/phpunit": "3.7.*",
-        "phpunit/php-code-coverage": "1.2.*"
+        "phpunit/php-code-coverage": "1.2.*",
+        "icecave/woodhouse": "0.3.*"
     },
     "scripts": {
         "post-install-cmd": [

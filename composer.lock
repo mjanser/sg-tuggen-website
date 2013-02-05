@@ -1,5 +1,5 @@
 {
-    "hash": "07145cfafbb19aea80428882df72b2b8",
+    "hash": "3e102c0f956041df6cdceaa01e2c882d",
     "packages": [
         {
             "name": "doctrine/common",
@@ -2080,6 +2080,265 @@
         }
     ],
     "packages-dev": [
+        {
+            "name": "eloquent/asplode",
+            "version": "1.0.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/eloquent/asplode.git",
+                "reference": "1.0.4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/eloquent/asplode/zipball/1.0.4",
+                "reference": "1.0.4",
+                "shasum": ""
+            },
+            "require": {
+                "icecave/isolator": "2.*",
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "phake/phake": "1.*"
+            },
+            "time": "2012-08-05 18:24:33",
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Eloquent\\Asplode": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Erin Millard",
+                    "email": "ezzatron@gmail.com",
+                    "homepage": "http://ezzatron.com/"
+                }
+            ],
+            "description": "Drop-in exception-based error handling for PHP.",
+            "homepage": "https://github.com/eloquent/asplode",
+            "keywords": [
+                "error",
+                "errorexception",
+                "exception",
+                "failure",
+                "fault",
+                "handler",
+                "handling"
+            ]
+        },
+        {
+            "name": "eloquent/enumeration",
+            "version": "3.0.1",
+            "source": {
+                "type": "git",
+                "url": "git://github.com/eloquent/enumeration.git",
+                "reference": "3.0.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/eloquent/enumeration/zipball/3.0.1",
+                "reference": "3.0.1",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "phake/phake": "1.*"
+            },
+            "time": "2012-08-21 01:21:14",
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Eloquent\\Enumeration": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Erin Millard",
+                    "email": "ezzatron@gmail.com",
+                    "homepage": "http://ezzatron.com/"
+                }
+            ],
+            "description": "An enumeration implementation for PHP.",
+            "homepage": "https://github.com/eloquent/enumeration",
+            "keywords": [
+                "class",
+                "enum",
+                "enumeration",
+                "set"
+            ]
+        },
+        {
+            "name": "ezzatron/ci-status-images",
+            "version": "3.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ezzatron/ci-status-images.git",
+                "reference": "3.0.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ezzatron/ci-status-images/zipball/3.0.1",
+                "reference": "3.0.1",
+                "shasum": ""
+            },
+            "time": "2013-02-01 01:04:18",
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Erin Millard",
+                    "email": "ezzatron@gmail.com",
+                    "homepage": "http://ezzatron.com/"
+                },
+                {
+                    "name": "James Harris",
+                    "email": "james.harris@icecave.com.au"
+                }
+            ],
+            "description": "Test coverage percentage and other useful status images for continuous integration systems.",
+            "homepage": "https://github.com/ezzatron/ci-status-images",
+            "keywords": [
+                "button",
+                "ci",
+                "continuous",
+                "github",
+                "icon",
+                "image",
+                "integration",
+                "label",
+                "status",
+                "travis"
+            ]
+        },
+        {
+            "name": "icecave/isolator",
+            "version": "2.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/IcecaveStudios/isolator.git",
+                "reference": "2.1.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/IcecaveStudios/isolator/archive/2.1.1.zip",
+                "reference": "2.1.1",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "icecave/testing": "1.*"
+            },
+            "time": "2013-01-14 04:17:36",
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Icecave\\Isolator": "lib"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "James Harris",
+                    "email": "james.harris@icecave.com.au"
+                }
+            ],
+            "description": "Mock out calls to built-in PHP functions.",
+            "homepage": "https://github.com/IcecaveStudios/isolator",
+            "keywords": [
+                "fake",
+                "mock",
+                "phake",
+                "phpunit",
+                "test",
+                "unit"
+            ]
+        },
+        {
+            "name": "icecave/woodhouse",
+            "version": "0.3.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/IcecaveStudios/woodhouse.git",
+                "reference": "0.3.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/IcecaveStudios/woodhouse/zipball/0.3.1",
+                "reference": "0.3.1",
+                "shasum": ""
+            },
+            "require": {
+                "eloquent/asplode": "1.*",
+                "eloquent/enumeration": ">=3.0,<4.0",
+                "ezzatron/ci-status-images": ">=3.0,<4.0",
+                "icecave/isolator": "2.*",
+                "php": ">=5.3.3",
+                "symfony/console": "2.*"
+            },
+            "require-dev": {
+                "eloquent/liberator": "1.*",
+                "eloquent/typhoon": "0.8.*",
+                "icecave/testing": "1.*"
+            },
+            "time": "2013-02-01 06:52:40",
+            "bin": [
+                "bin/woodhouse"
+            ],
+            "type": "library",
+            "extra": {
+                "typhoon": {
+                    "output-path": "lib-typhoon",
+                    "validator-namespace": "Icecave\\Woodhouse\\TypeCheck",
+                    "use-native-callable": false
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Icecave\\Woodhouse": "lib",
+                    "Icecave\\Woodhouse\\TypeCheck": "lib-typhoon"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "James Harris",
+                    "email": "james.harris@icecave.com.au"
+                }
+            ],
+            "description": "Publish build artifacts and status images to your GitHub pages.",
+            "homepage": "https://github.com/IcecaveStudios/collections",
+            "keywords": [
+                "Xdebug",
+                "code",
+                "coverage",
+                "github",
+                "pages",
+                "phpunit",
+                "publish"
+            ]
+        },
         {
             "name": "phpunit/php-code-coverage",
             "version": "1.2.x-dev",
