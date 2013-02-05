@@ -1,5 +1,5 @@
 {
-    "hash": "c597ecfa4cb56486b1bf7de41ecadcd2",
+    "hash": "ed34883135bcb70d697c7e7b189cc455",
     "packages": [
         {
             "name": "doctrine/common",
@@ -314,12 +314,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/DoctrinePHPCRBundle",
-                "reference": "feb64ef6259603436015bee777665cd913d8b24b"
+                "reference": "b6f97009377e07d116520c54979574af9e68be3c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/DoctrinePHPCRBundle/zipball/feb64ef6259603436015bee777665cd913d8b24b",
-                "reference": "feb64ef6259603436015bee777665cd913d8b24b",
+                "url": "https://api.github.com/repos/doctrine/DoctrinePHPCRBundle/zipball/b6f97009377e07d116520c54979574af9e68be3c",
+                "reference": "b6f97009377e07d116520c54979574af9e68be3c",
                 "shasum": ""
             },
             "require": {
@@ -334,7 +334,7 @@
                 "doctrine/doctrine-bundle": "when using jackalope-doctrine-dbal",
                 "doctrine/phpcr-odm": "if you want to use the odm as well. require version 1.0.*"
             },
-            "time": "2013-02-04 16:12:34",
+            "time": "2013-02-05 13:00:22",
             "type": "symfony-bundle",
             "extra": {
                 "branch-alias": {
@@ -375,12 +375,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/phpcr-odm",
-                "reference": "25814900f2176d743df4eaf5da106754125072a7"
+                "reference": "76765d19aad85d761cfa8f778f95deb58c1f02eb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/phpcr-odm/zipball/25814900f2176d743df4eaf5da106754125072a7",
-                "reference": "25814900f2176d743df4eaf5da106754125072a7",
+                "url": "https://api.github.com/repos/doctrine/phpcr-odm/zipball/76765d19aad85d761cfa8f778f95deb58c1f02eb",
+                "reference": "76765d19aad85d761cfa8f778f95deb58c1f02eb",
                 "shasum": ""
             },
             "require": {
@@ -398,7 +398,7 @@
                 "midgard/phpcr": ">=1.3",
                 "symfony/yaml": ">=2.0.0,<2.3.0-dev"
             },
-            "time": "2013-02-03 02:57:03",
+            "time": "2013-02-05 13:29:40",
             "bin": [
                 "bin/phpcrodm",
                 "bin/phpcrodm.php"
@@ -829,67 +829,6 @@
             "keywords": [
                 "Symfony2",
                 "cache"
-            ]
-        },
-        {
-            "name": "lunetics/locale-bundle",
-            "version": "dev-master",
-            "target-dir": "Lunetics/LocaleBundle",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/lunetics/LocaleBundle",
-                "reference": "e22d8d1f0c41d8f911ee8839134d5eb9402b563a"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/lunetics/LocaleBundle/zipball/e22d8d1f0c41d8f911ee8839134d5eb9402b563a",
-                "reference": "e22d8d1f0c41d8f911ee8839134d5eb9402b563a",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.2",
-                "symfony/framework-bundle": ">=2.1,<2.3-dev",
-                "symfony/locale": ">=2.1,<2.3-dev",
-                "symfony/validator": ">=2.1,<2.3-dev",
-                "symfony/yaml": ">=2.1,<2.3-dev"
-            },
-            "require-dev": {
-                "ext-intl": "*",
-                "twig/twig": "1.*"
-            },
-            "suggest": {
-                "ext-intl": "Needed for displaying the countryname in the locale language"
-            },
-            "time": "2013-02-02 23:17:26",
-            "type": "symfony-bundle",
-            "autoload": {
-                "psr-0": {
-                    "Lunetics\\LocaleBundle": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Lunetics",
-                    "homepage": "http://www.lunetics.com"
-                },
-                {
-                    "name": "Christophe Willesmen",
-                    "homepage": "http://christophewillemsen.com"
-                }
-            ],
-            "description": "A Bundle for switching Languages",
-            "keywords": [
-                "browser",
-                "bundle",
-                "cookie",
-                "language",
-                "locale",
-                "multilanguage",
-                "router"
             ]
         },
         {
@@ -1729,12 +1668,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/AsseticBundle",
-                "reference": "e2984f645ad9b5fb3b6d398d0c65e59c745a110c"
+                "reference": "v2.1.1-beta1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/AsseticBundle/zipball/e2984f645ad9b5fb3b6d398d0c65e59c745a110c",
-                "reference": "e2984f645ad9b5fb3b6d398d0c65e59c745a110c",
+                "url": "https://api.github.com/repos/symfony/AsseticBundle/zipball/v2.1.1-beta1",
+                "reference": "v2.1.1-beta1",
                 "shasum": ""
             },
             "require": {
@@ -2378,12 +2317,12 @@
             "source": {
                 "type": "git",
                 "url": "git://github.com/sebastianbergmann/phpunit.git",
-                "reference": "feaf1d0fd2d820688fd3e6c68cf5658ae8109450"
+                "reference": "0b50d0a762494d72a83c956a7c90dbf72a432d33"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/feaf1d0fd2d820688fd3e6c68cf5658ae8109450",
-                "reference": "feaf1d0fd2d820688fd3e6c68cf5658ae8109450",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/0b50d0a762494d72a83c956a7c90dbf72a432d33",
+                "reference": "0b50d0a762494d72a83c956a7c90dbf72a432d33",
                 "shasum": ""
             },
             "require": {
@@ -2405,7 +2344,7 @@
                 "ext-tokenizer": "*",
                 "phpunit/php-invoker": ">=1.1.0,<1.2.0"
             },
-            "time": "2013-02-04 10:47:22",
+            "time": "2013-02-05 09:09:12",
             "bin": [
                 "composer/bin/phpunit"
             ],
@@ -2449,12 +2388,12 @@
             "source": {
                 "type": "git",
                 "url": "git://github.com/sebastianbergmann/phpunit-mock-objects.git",
-                "reference": "1.2.3"
+                "reference": "d49b5683200b5db9b1c64cb06f52f50d147891c4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/sebastianbergmann/phpunit-mock-objects/archive/1.2.3.zip",
-                "reference": "1.2.3",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit-mock-objects/zipball/d49b5683200b5db9b1c64cb06f52f50d147891c4",
+                "reference": "d49b5683200b5db9b1c64cb06f52f50d147891c4",
                 "shasum": ""
             },
             "require": {
@@ -2464,7 +2403,7 @@
             "suggest": {
                 "ext-soap": "*"
             },
-            "time": "2013-01-13 10:24:48",
+            "time": "2013-02-05 07:46:41",
             "type": "library",
             "autoload": {
                 "classmap": [
@@ -2500,7 +2439,6 @@
     "stability-flags": {
         "jackalope/jackalope-doctrine-dbal": 20,
         "doctrine/doctrine-fixtures-bundle": 20,
-        "lunetics/locale-bundle": 20,
         "liip/doctrine-cache-bundle": 20,
         "liip/functional-test-bundle": 20
     }
