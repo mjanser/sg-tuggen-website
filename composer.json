@@ -1,5 +1,5 @@
 {
-    "name": "gogan/sg-tuggen-website",
+    "name": "mjanser/sg-tuggen-website",
     "autoload": {
         "psr-0": { "": "src/" }
     },
