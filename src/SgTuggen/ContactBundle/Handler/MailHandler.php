@@ -12,7 +12,6 @@
 namespace SgTuggen\ContactBundle\Handler;
 
 use SgTuggen\ContactBundle\Exception\HandlerNotInitializedException;
-
 use SgTuggen\ContactBundle\Model\MessageInterface;
 
 use \Swift_Mailer;
@@ -132,8 +131,11 @@ class MailHandler
         if (!$this->subjectTemplate) {
             throw new HandlerNotInitializedException('No subject template set');
         }
-        if (!$this->recipients) {
+        if (null === $this->recipients) {
             throw new HandlerNotInitializedException('No recipient addresses set');
+        }
+        if (empty($this->recipients)) {
+            return;
         }
 
         $email = $this->getMessage()

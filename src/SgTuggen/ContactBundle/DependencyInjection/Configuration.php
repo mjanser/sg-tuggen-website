@@ -32,7 +32,6 @@ class Configuration implements ConfigurationInterface
                     ->children()
                         ->scalarNode('subject')->defaultValue('%s')->end()
                         ->arrayNode('recipients')
-                            ->requiresAtLeastOneElement()
                             ->prototype('scalar')
                         ->end()
                     ->end()

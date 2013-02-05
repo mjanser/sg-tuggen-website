@@ -114,6 +114,26 @@ class MailHandlerTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
+     * @depends testSetMailer
+     * @depends testSetRecipients
+     */
+    public function testSendWithEmptyRecipients()
+    {
+        $recipients = array();
+        $body       = 'My body';
+
+        $entity = $this->getMockEntity();
+
+        $mailer = $this->getMockMailer();
+        $mailer->expects($this->never())->method('send');
+
+        $this->handler->setMailer($mailer);
+        $this->handler->setRecipients($recipients);
+
+        $this->handler->send($entity, $body);
+    }
+
+    /**
      * @depends testSetRecipients
      * @depends testSetMessage
      *
