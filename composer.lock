@@ -1,5 +1,5 @@
 {
-    "hash": "ed34883135bcb70d697c7e7b189cc455",
+    "hash": "07145cfafbb19aea80428882df72b2b8",
     "packages": [
         {
             "name": "doctrine/common",
@@ -829,6 +829,62 @@
             "keywords": [
                 "Symfony2",
                 "cache"
+            ]
+        },
+        {
+            "name": "liip/functional-test-bundle",
+            "version": "dev-master",
+            "target-dir": "Liip/FunctionalTestBundle",
+            "source": {
+                "type": "git",
+                "url": "git://github.com/liip/LiipFunctionalTestBundle.git",
+                "reference": "7c9062bf3a5fb69c2c892fe61f517a596ea24d5d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/liip/LiipFunctionalTestBundle/zipball/7c9062bf3a5fb69c2c892fe61f517a596ea24d5d",
+                "reference": "7c9062bf3a5fb69c2c892fe61f517a596ea24d5d",
+                "shasum": ""
+            },
+            "require": {
+                "doctrine/common": "2.*",
+                "php": ">=5.3.2",
+                "symfony/framework-bundle": ">=2.0,<2.3-dev"
+            },
+            "suggest": {
+                "doctrine/dbal": "Required when using the fixture loading functionality with an ORM and SQLite",
+                "doctrine/doctrine-fixtures-bundle": "Required when using the fixture loading functionality",
+                "doctrine/orm": "Required when using the fixture loading functionality with an ORM and SQLite"
+            },
+            "time": "2013-01-11 08:42:52",
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Liip\\FunctionalTestBundle": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Liip AG",
+                    "homepage": "http://www.liip.ch/"
+                },
+                {
+                    "name": "Community contributions",
+                    "homepage": "https://github.com/liip/LiipFunctionalTestBundle/contributors"
+                }
+            ],
+            "description": "This bundles provides additional functional test-cases for Symfony2 applications",
+            "keywords": [
+                "Symfony2"
             ]
         },
         {
@@ -2025,62 +2081,6 @@
     ],
     "packages-dev": [
         {
-            "name": "liip/functional-test-bundle",
-            "version": "dev-master",
-            "target-dir": "Liip/FunctionalTestBundle",
-            "source": {
-                "type": "git",
-                "url": "git://github.com/liip/LiipFunctionalTestBundle.git",
-                "reference": "7c9062bf3a5fb69c2c892fe61f517a596ea24d5d"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://github.com/liip/LiipFunctionalTestBundle/archive/7c9062bf3a5fb69c2c892fe61f517a596ea24d5d.zip",
-                "reference": "7c9062bf3a5fb69c2c892fe61f517a596ea24d5d",
-                "shasum": ""
-            },
-            "require": {
-                "doctrine/common": "2.*",
-                "php": ">=5.3.2",
-                "symfony/framework-bundle": ">=2.0,<2.3-dev"
-            },
-            "suggest": {
-                "doctrine/dbal": "Required when using the fixture loading functionality with an ORM and SQLite",
-                "doctrine/doctrine-fixtures-bundle": "Required when using the fixture loading functionality",
-                "doctrine/orm": "Required when using the fixture loading functionality with an ORM and SQLite"
-            },
-            "time": "2013-01-11 08:42:52",
-            "type": "symfony-bundle",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.0.x-dev"
-                }
-            },
-            "autoload": {
-                "psr-0": {
-                    "Liip\\FunctionalTestBundle": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Liip AG",
-                    "homepage": "http://www.liip.ch/"
-                },
-                {
-                    "name": "Community contributions",
-                    "homepage": "https://github.com/liip/LiipFunctionalTestBundle/contributors"
-                }
-            ],
-            "description": "This bundles provides additional functional test-cases for Symfony2 applications",
-            "keywords": [
-                "Symfony2"
-            ]
-        },
-        {
             "name": "phpunit/php-code-coverage",
             "version": "1.2.x-dev",
             "source": {
@@ -2437,7 +2437,6 @@
     ],
     "minimum-stability": "dev",
     "stability-flags": {
-        "jackalope/jackalope-doctrine-dbal": 20,
         "doctrine/doctrine-fixtures-bundle": 20,
         "liip/doctrine-cache-bundle": 20,
         "liip/functional-test-bundle": 20

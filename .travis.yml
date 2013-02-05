@@ -5,11 +5,11 @@ php:
   - 5.4
 
 before_script:
-  - composer install --dev
+  - composer install
   - php app/console doctrine:database:create -e=test
   - php app/console doctrine:phpcr:init:dbal -e=test
   - php app/console doctrine:phpcr:register-system-node-types -e=test
   - php app/console doctrine:phpcr:workspace:create standard_test -e=test
   - php app/console doctrine:phpcr:fixtures:load -e=test
 
-script: ./bin/phpunit -c app
+script: phpunit -c app
