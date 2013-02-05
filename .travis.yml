@@ -11,12 +11,15 @@ env:
 
 before_script:
   - cp app/config/parameters.yml.dist app/config/parameters.yml
-  - composer install
+  - composer install --prefer-dist --no-scripts
   - php app/console doctrine:database:create -e=test
   - php app/console doctrine:phpcr:init:dbal -e=test
   - php app/console doctrine:phpcr:register-system-node-types -e=test
   - php app/console doctrine:phpcr:workspace:create standard_test -e=test
   - php app/console doctrine:phpcr:fixtures:load -e=test
+  - php app/console assets:install --symlink web
+  - php app/console cache:clear
+  - php app/console cache:clear --env test
 
 script: phpunit -c app --coverage-html build/coverage-report --coverage-txt build/coverage.txt
 
