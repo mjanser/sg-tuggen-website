@@ -21,7 +21,7 @@ before_script:
   - php app/console cache:clear --no-interaction
   - php app/console cache:clear --env test --no-interaction
 
-script: phpunit -c app --coverage-html build/coverage-report --coverage-txt build/coverage.txt
+script: phpunit -c app --coverage-html build/coverage-report --coverage-text build/coverage.txt
 
 after_script:
   - ./bin/woodhouse publish mjanser/sg-tuggen-website build/coverage-report:coverage-report --message "Publishing coverage reports from build ${TRAVIS_BUILD_NUMBER} (php $(php -r 'echo phpversion();'))." --coverage-image coverage-report/coverage.png --coverage-phpunit test/report/coverage.txt --no-interaction --auth-token-env GITHUB_TOKEN
