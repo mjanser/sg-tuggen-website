@@ -18,6 +18,7 @@
             "require": {
                 "php": ">=5.3.2"
             },
+            "time": "2012-09-20 05:55:18",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -65,8 +66,7 @@
                 "eventmanager",
                 "persistence",
                 "spl"
-            ],
-            "time": "2012-09-20 05:55:18"
+            ]
         },
         {
             "name": "doctrine/data-fixtures",
@@ -633,6 +633,7 @@
                 "silex/silex": "for the integration with your silex application",
                 "twig/twig": "for the TwigRenderer and the integration with your templates"
             },
+            "time": "2012-06-10 16:20:40",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -666,8 +667,7 @@
             "keywords": [
                 "menu",
                 "tree"
-            ],
-            "time": "2012-06-10 16:20:40"
+            ]
         },
         {
             "name": "knplabs/knp-menu-bundle",
@@ -1484,12 +1484,12 @@
             "source": {
                 "type": "git",
                 "url": "git://github.com/symfony-cmf/RoutingExtraBundle.git",
-                "reference": "818a69c5aaf86270f6becf65b4de68c3821bcb9e"
+                "reference": "8d74bcd91e65eef56942f90978b5ccfe330ba0f7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony-cmf/RoutingExtraBundle/zipball/818a69c5aaf86270f6becf65b4de68c3821bcb9e",
-                "reference": "818a69c5aaf86270f6becf65b4de68c3821bcb9e",
+                "url": "https://api.github.com/repos/symfony-cmf/RoutingExtraBundle/zipball/8d74bcd91e65eef56942f90978b5ccfe330ba0f7",
+                "reference": "8d74bcd91e65eef56942f90978b5ccfe330ba0f7",
                 "shasum": ""
             },
             "require": {
@@ -1514,7 +1514,7 @@
                 "sonata-project/doctrine-phpcr-admin-bundle": "To provide an admin interface for the PHPCR ODM documents",
                 "symfony-cmf/content-bundle": "To optionally use the configured value for 'content_basepath' from the CoreBundle"
             },
-            "time": "2013-01-31 21:35:53",
+            "time": "2013-02-07 16:05:59",
             "type": "symfony-bundle",
             "extra": {
                 "branch-alias": {
@@ -1900,12 +1900,12 @@
             "source": {
                 "type": "git",
                 "url": "git://github.com/symfony/symfony.git",
-                "reference": "3e2ff71b7c24c0d1bfff02f94dc846f58fd9e97a"
+                "reference": "e50d33308a910db54158ea438282f09621769e74"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/symfony/zipball/3e2ff71b7c24c0d1bfff02f94dc846f58fd9e97a",
-                "reference": "3e2ff71b7c24c0d1bfff02f94dc846f58fd9e97a",
+                "url": "https://api.github.com/repos/symfony/symfony/zipball/e50d33308a910db54158ea438282f09621769e74",
+                "reference": "e50d33308a910db54158ea438282f09621769e74",
                 "shasum": ""
             },
             "require": {
@@ -1954,7 +1954,7 @@
                 "monolog/monolog": ">=1.0,<1.3-dev",
                 "propel/propel1": "dev-master"
             },
-            "time": "2013-02-04 18:15:54",
+            "time": "2013-02-07 11:58:33",
             "type": "library",
             "autoload": {
                 "psr-0": {
@@ -2402,7 +2402,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/sebastianbergmann/php-file-iterator/archive/2deb24c65ea78e126daa8d45b2089ddc29ec1d26.zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-file-iterator/zipball/2deb24c65ea78e126daa8d45b2089ddc29ec1d26",
                 "reference": "2deb24c65ea78e126daa8d45b2089ddc29ec1d26",
                 "shasum": ""
             },
@@ -2447,7 +2447,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/sebastianbergmann/php-text-template/archive/1eeef106193d2f8c539728e566bb4793071a9e18.zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-text-template/zipball/1eeef106193d2f8c539728e566bb4793071a9e18",
                 "reference": "1eeef106193d2f8c539728e566bb4793071a9e18",
                 "shasum": ""
             },
@@ -2491,7 +2491,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/sebastianbergmann/php-timer/archive/ecf7920b27003a9412b07dad79dbb5ad1249e6c3.zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-timer/zipball/ecf7920b27003a9412b07dad79dbb5ad1249e6c3",
                 "reference": "ecf7920b27003a9412b07dad79dbb5ad1249e6c3",
                 "shasum": ""
             },
@@ -2535,7 +2535,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/sebastianbergmann/php-token-stream/archive/c25dd88e1592e66dee2553c99ef244203d5a1b98.zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-token-stream/zipball/c25dd88e1592e66dee2553c99ef244203d5a1b98",
                 "reference": "c25dd88e1592e66dee2553c99ef244203d5a1b98",
                 "shasum": ""
             },
