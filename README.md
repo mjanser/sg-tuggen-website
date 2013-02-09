@@ -1,4 +1,7 @@
-# Website for SG Tuggen using Symfony CMF [![Build Status](https://travis-ci.org/mjanser/sg-tuggen-website.png)](https://travis-ci.org/mjanser/sg-tuggen-website)
+# Website for SG Tuggen using Symfony CMF
+
+[![Build Status](https://travis-ci.org/mjanser/sg-tuggen-website.png)](https://travis-ci.org/mjanser/sg-tuggen-website)
+[![Test Coverage](http://mjanser.github.com/sg-tuggen-website/coverage-report/coverage.png)](http://mjanser.github.com/sg-tuggen-website/coverage-report/index.html)
 
 ### You will need:
   * Git 1.6+
