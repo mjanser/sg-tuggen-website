@@ -6,6 +6,13 @@
     #    RewriteBase /
     #</IfModule>
 
+    ErrorDocument 503 /maintenance.html
+    RewriteEngine On
+    RewriteCond %{REQUEST_URI} !\.(css|gif|jpg|png)$
+    RewriteCond %{DOCUMENT_ROOT}/maintenance.html -f
+    RewriteCond %{SCRIPT_FILENAME} !maintenance.html
+    RewriteRule ^.*$ - [redirect=503,L]
+
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteRule ^(.*)$ app.php [QSA,L]
 </IfModule>
