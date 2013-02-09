@@ -14,13 +14,14 @@
         "symfony-cmf/symfony-cmf": "1.0.*",
         "symfony-cmf/simple-cms-bundle": "1.0.*",
         "jackalope/jackalope-doctrine-dbal": "1.0.*",
+        "jackalope/jackalope": "dev-master as 1.0.x-dev",
         "doctrine/doctrine-bundle": "1.0.*",
         "doctrine/doctrine-fixtures-bundle": "dev-master",
         "liip/doctrine-cache-bundle": "dev-master",
-        "symfony/swiftmailer-bundle": "2.1.*",
-        "liip/functional-test-bundle": "dev-master"
+        "symfony/swiftmailer-bundle": "2.1.*"
     },
     "require-dev": {
+        "liip/functional-test-bundle": "dev-master",
         "phpunit/phpunit": "3.7.*",
         "phpunit/php-code-coverage": "1.2.*",
         "icecave/woodhouse": "0.3.*"
