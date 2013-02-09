@@ -1,7 +1,7 @@
 set :application, "SG Tuggen Website"
 set :domain,      "sgtuggen.gogan.ch"
 set :user,        "goganch"
-set :deploy_to,   "/home/goganch/www/demo.#{domain}"
+set :deploy_to,   "/home/goganch/www/#{domain}"
 set :app_path,    "app"
 set :php_bin,     "php -d detect_unicode=Off -d allow_url_fopen=On"
 
