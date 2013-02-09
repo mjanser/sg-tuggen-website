@@ -24,4 +24,4 @@ before_script:
 script: phpunit -c app --coverage-html build/coverage-report --coverage-text=build/coverage.txt
 
 after_script:
-  - ./vendor/bin/woodhouse publish mjanser/sg-tuggen-website build/coverage-report:coverage-report --message "Publishing coverage reports from build ${TRAVIS_BUILD_NUMBER} (php $(php -r 'echo phpversion();'))." --coverage-image coverage-report/coverage.png --coverage-phpunit test/report/coverage.txt --no-interaction --auth-token-env GITHUB_TOKEN
+  - ./vendor/bin/woodhouse publish mjanser/sg-tuggen-website build/coverage-report:coverage-report --message "Publishing coverage reports from build ${TRAVIS_BUILD_NUMBER} (php $(php -r 'echo phpversion();'))." --coverage-image build/coverage-report/coverage.png --coverage-phpunit build/coverage.txt --no-interaction --auth-token-env GITHUB_TOKEN
