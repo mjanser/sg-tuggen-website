@@ -727,12 +727,12 @@
             "source": {
                 "type": "git",
                 "url": "http://github.com/kriswallsmith/assetic.git",
-                "reference": "faf3b245977d8bc06c9da4710dbcad37756993a9"
+                "reference": "504c9e8a6357583c20c9d9967ec2febea3157324"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kriswallsmith/assetic/zipball/faf3b245977d8bc06c9da4710dbcad37756993a9",
-                "reference": "faf3b245977d8bc06c9da4710dbcad37756993a9",
+                "url": "https://api.github.com/repos/kriswallsmith/assetic/zipball/504c9e8a6357583c20c9d9967ec2febea3157324",
+                "reference": "504c9e8a6357583c20c9d9967ec2febea3157324",
                 "shasum": ""
             },
             "require": {
@@ -747,6 +747,7 @@
                 "leafo/scssphp": "*",
                 "leafo/scssphp-compass": "*",
                 "mrclay/minify": "*",
+                "phpunit/phpunit": "3.7.*",
                 "ptachoire/cssembed": "*",
                 "twig/twig": ">=1.6.0,<2.0"
             },
@@ -757,7 +758,7 @@
                 "ptachoire/cssembed": "Assetic provides the integration with phpcssembed to embed data uris",
                 "twig/twig": "Assetic provides the integration with the Twig templating engine"
             },
-            "time": "2013-01-31 17:45:10",
+            "time": "2013-02-11 18:18:06",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -1059,12 +1060,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sonata-project/SonataBlockBundle",
-                "reference": "8eb88c5c744b2732c8e79e9595cb86dfbbd1f25b"
+                "reference": "3effdf4f8da8ebd256bfef9e42ad0f7ca53a5f9b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sonata-project/SonataBlockBundle/zipball/8eb88c5c744b2732c8e79e9595cb86dfbbd1f25b",
-                "reference": "8eb88c5c744b2732c8e79e9595cb86dfbbd1f25b",
+                "url": "https://api.github.com/repos/sonata-project/SonataBlockBundle/zipball/3effdf4f8da8ebd256bfef9e42ad0f7ca53a5f9b",
+                "reference": "3effdf4f8da8ebd256bfef9e42ad0f7ca53a5f9b",
                 "shasum": ""
             },
             "require": {
@@ -1079,7 +1080,7 @@
                 "sonata-project/admin-bundle": "dev-master",
                 "sonata-project/cache-bundle": "dev-master"
             },
-            "time": "2013-01-28 00:45:07",
+            "time": "2013-02-11 17:36:47",
             "type": "symfony-bundle",
             "autoload": {
                 "psr-0": {
@@ -1164,12 +1165,12 @@
             "source": {
                 "type": "git",
                 "url": "git://github.com/symfony-cmf/BlockBundle.git",
-                "reference": "9cfbfea59fa7e4b9a6e9d6568abaf13c5c6476a5"
+                "reference": "bbd02733d5af849908dcd12ecca456c4b99ccc77"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony-cmf/BlockBundle/zipball/9cfbfea59fa7e4b9a6e9d6568abaf13c5c6476a5",
-                "reference": "9cfbfea59fa7e4b9a6e9d6568abaf13c5c6476a5",
+                "url": "https://api.github.com/repos/symfony-cmf/BlockBundle/zipball/bbd02733d5af849908dcd12ecca456c4b99ccc77",
+                "reference": "bbd02733d5af849908dcd12ecca456c4b99ccc77",
                 "shasum": ""
             },
             "require": {
@@ -1185,7 +1186,7 @@
             "suggest": {
                 "sonata-project/cache-bundle": "To add caching support for block loading"
             },
-            "time": "2013-02-08 13:34:33",
+            "time": "2013-01-30 09:16:10",
             "type": "symfony-bundle",
             "extra": {
                 "branch-alias": {
@@ -1608,12 +1609,12 @@
             "source": {
                 "type": "git",
                 "url": "git://github.com/symfony-cmf/TreeBrowserBundle.git",
-                "reference": "fe87c4b1916326e549b428985c1e54bfb978520a"
+                "reference": "97c7d91167234b37de2da0b6a1e4a707b6aa983e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony-cmf/TreeBrowserBundle/zipball/fe87c4b1916326e549b428985c1e54bfb978520a",
-                "reference": "fe87c4b1916326e549b428985c1e54bfb978520a",
+                "url": "https://api.github.com/repos/symfony-cmf/TreeBrowserBundle/zipball/97c7d91167234b37de2da0b6a1e4a707b6aa983e",
+                "reference": "97c7d91167234b37de2da0b6a1e4a707b6aa983e",
                 "shasum": ""
             },
             "require": {
@@ -1634,7 +1635,7 @@
                 "doctrine/phpcr-bundle": "1.0.*",
                 "doctrine/phpcr-odm": "1.0.*"
             },
-            "time": "2013-01-31 13:19:31",
+            "time": "2013-02-09 14:20:42",
             "type": "symfony-bundle",
             "extra": {
                 "branch-alias": {
@@ -1847,12 +1848,12 @@
             "source": {
                 "type": "git",
                 "url": "git://github.com/symfony/symfony.git",
-                "reference": "e0637fa9b75e9a74e6a23dd0167cf74ee9518403"
+                "reference": "0209eb6c470b3f73d89b859b332c93875833e6d1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/symfony/zipball/e0637fa9b75e9a74e6a23dd0167cf74ee9518403",
-                "reference": "e0637fa9b75e9a74e6a23dd0167cf74ee9518403",
+                "url": "https://api.github.com/repos/symfony/symfony/zipball/0209eb6c470b3f73d89b859b332c93875833e6d1",
+                "reference": "0209eb6c470b3f73d89b859b332c93875833e6d1",
                 "shasum": ""
             },
             "require": {
@@ -1901,7 +1902,7 @@
                 "monolog/monolog": ">=1.0,<1.3-dev",
                 "propel/propel1": "dev-master"
             },
-            "time": "2013-02-07 22:54:50",
+            "time": "2013-02-11 11:42:49",
             "type": "library",
             "autoload": {
                 "psr-0": {
@@ -1982,18 +1983,18 @@
             "source": {
                 "type": "git",
                 "url": "git://github.com/fabpot/Twig.git",
-                "reference": "01bf732b8b52e0bfaf1c645638bfcdd4e2f13492"
+                "reference": "72c8bb73e90cf6d2e992b01ab508f7fc13e38c8f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fabpot/Twig/zipball/01bf732b8b52e0bfaf1c645638bfcdd4e2f13492",
-                "reference": "01bf732b8b52e0bfaf1c645638bfcdd4e2f13492",
+                "url": "https://api.github.com/repos/fabpot/Twig/zipball/72c8bb73e90cf6d2e992b01ab508f7fc13e38c8f",
+                "reference": "72c8bb73e90cf6d2e992b01ab508f7fc13e38c8f",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.2.4"
             },
-            "time": "2013-02-08 21:03:10",
+            "time": "2013-02-09 18:37:02",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -2349,12 +2350,12 @@
             "source": {
                 "type": "git",
                 "url": "git://github.com/sebastianbergmann/php-code-coverage.git",
-                "reference": "ec7f6f388ca315b6520f61be670ff82fa6ce68fb"
+                "reference": "6b99bb605f9fb946161239a4f26f3c186cd261fd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/ec7f6f388ca315b6520f61be670ff82fa6ce68fb",
-                "reference": "ec7f6f388ca315b6520f61be670ff82fa6ce68fb",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/6b99bb605f9fb946161239a4f26f3c186cd261fd",
+                "reference": "6b99bb605f9fb946161239a4f26f3c186cd261fd",
                 "shasum": ""
             },
             "require": {
@@ -2367,7 +2368,7 @@
                 "ext-dom": "*",
                 "ext-xdebug": ">=2.0.5"
             },
-            "time": "2013-01-07 10:45:42",
+            "time": "2013-02-02 10:49:26",
             "type": "library",
             "autoload": {
                 "classmap": [
@@ -2580,12 +2581,12 @@
             "source": {
                 "type": "git",
                 "url": "git://github.com/sebastianbergmann/phpunit.git",
-                "reference": "0b50d0a762494d72a83c956a7c90dbf72a432d33"
+                "reference": "2f1390aed547b46171b82c1166be72db0bbc763e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/0b50d0a762494d72a83c956a7c90dbf72a432d33",
-                "reference": "0b50d0a762494d72a83c956a7c90dbf72a432d33",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/2f1390aed547b46171b82c1166be72db0bbc763e",
+                "reference": "2f1390aed547b46171b82c1166be72db0bbc763e",
                 "shasum": ""
             },
             "require": {
@@ -2594,7 +2595,7 @@
                 "ext-reflection": "*",
                 "ext-spl": "*",
                 "php": ">=5.3.3",
-                "phpunit/php-code-coverage": ">=1.2.1",
+                "phpunit/php-code-coverage": ">=1.2.1,<1.3.0",
                 "phpunit/php-file-iterator": ">=1.3.1",
                 "phpunit/php-text-template": ">=1.1.1",
                 "phpunit/php-timer": ">=1.0.2,<1.1.0",
@@ -2607,7 +2608,7 @@
                 "ext-tokenizer": "*",
                 "phpunit/php-invoker": ">=1.1.0,<1.2.0"
             },
-            "time": "2013-02-05 09:09:12",
+            "time": "2013-02-11 19:33:20",
             "bin": [
                 "composer/bin/phpunit"
             ],
