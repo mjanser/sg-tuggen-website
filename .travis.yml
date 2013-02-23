@@ -7,7 +7,7 @@ php:
 
 env:
   global:
-    - secure: "dA+XBc38aTPk6ZNqG+NOTXPvEh14WkztNJXYku6qOn3zxUauobe3QRe6GXu9\nHKTTFdMqvW5RWYvkdaoKTKQSCyDxte2Kwpc9KFtRGrYkBS1B0VODSQI80ycP\nb/P6Gegf8GHnn3BHJG5QfmFR+iwgmEGMz1dh+gSTPpsGh9TaVrQ="
+    - secure: "EJPhAuhZaKRYKXAMiVLhhvXeG4xp/D/jSgZURRREio7FFrz/iv5s+XiAoRYC\nul31GSeEUkIBhsLk+ds1db7fl6OningPZYJtwKlK+5MSmpXakPHyq9JGbrEP\nPhwIO614+Wodr+qmVupnK6VEuWqh4K/rvKzVyg5ENcSkICH+bqU="
 
 before_script:
   - cp app/config/parameters.yml.dist app/config/parameters.yml
