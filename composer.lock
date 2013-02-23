@@ -18,7 +18,6 @@
             "require": {
                 "php": ">=5.3.2"
             },
-            "time": "2012-09-20 05:55:18",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -68,7 +67,8 @@
                 "eventmanager",
                 "persistence",
                 "spl"
-            ]
+            ],
+            "time": "2012-09-20 05:55:18"
         },
         {
             "name": "doctrine/data-fixtures",
@@ -76,12 +76,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/data-fixtures.git",
-                "reference": "50e7e644984f17038224f6fcd02c2b7c20147980"
+                "reference": "689bc2ae2a41dff1107d9d50e2daa4c349222869"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/data-fixtures/zipball/50e7e644984f17038224f6fcd02c2b7c20147980",
-                "reference": "50e7e644984f17038224f6fcd02c2b7c20147980",
+                "url": "https://api.github.com/repos/doctrine/data-fixtures/zipball/689bc2ae2a41dff1107d9d50e2daa4c349222869",
+                "reference": "689bc2ae2a41dff1107d9d50e2daa4c349222869",
                 "shasum": ""
             },
             "require": {
@@ -96,7 +96,6 @@
                 "doctrine/orm": "For loading ORM fixtures",
                 "doctrine/phpcr-odm": "For loading PHPCR ODM fixtures"
             },
-            "time": "2013-01-05 13:05:52",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -108,7 +107,7 @@
                     "Doctrine\\Common\\DataFixtures": "lib/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
+            "notification-url": "http://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -123,7 +122,8 @@
             "homepage": "http://www.doctrine-project.org",
             "keywords": [
                 "database"
-            ]
+            ],
+            "time": "2013-02-12 02:52:36"
         },
         {
             "name": "doctrine/dbal",
@@ -143,7 +143,6 @@
                 "doctrine/common": "2.3.*",
                 "php": ">=5.3.2"
             },
-            "time": "2013-01-20 11:50:36",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -186,7 +185,8 @@
                 "dbal",
                 "persistence",
                 "queryobject"
-            ]
+            ],
+            "time": "2013-01-20 11:50:36"
         },
         {
             "name": "doctrine/doctrine-bundle",
@@ -217,7 +217,6 @@
             "suggest": {
                 "doctrine/orm": "The Doctrine ORM integration is optional in the bundle."
             },
-            "time": "2012-09-07 14:18:21",
             "type": "symfony-bundle",
             "extra": {
                 "branch-alias": {
@@ -254,7 +253,8 @@
                 "dbal",
                 "orm",
                 "persistence"
-            ]
+            ],
+            "time": "2012-09-07 14:18:21"
         },
         {
             "name": "doctrine/doctrine-fixtures-bundle",
@@ -263,12 +263,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/DoctrineFixturesBundle.git",
-                "reference": "95d1e0291878f64d376c878d9578239760cbaf73"
+                "reference": "275540d96599baec19fa3292c4d06c5cd4eefd06"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/DoctrineFixturesBundle/zipball/95d1e0291878f64d376c878d9578239760cbaf73",
-                "reference": "95d1e0291878f64d376c878d9578239760cbaf73",
+                "url": "https://api.github.com/repos/doctrine/DoctrineFixturesBundle/zipball/275540d96599baec19fa3292c4d06c5cd4eefd06",
+                "reference": "275540d96599baec19fa3292c4d06c5cd4eefd06",
                 "shasum": ""
             },
             "require": {
@@ -277,14 +277,18 @@
                 "php": ">=5.3.2",
                 "symfony/doctrine-bridge": ">=2.1.0,<2.3-dev"
             },
-            "time": "2013-01-13 12:20:51",
             "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.1.x-dev"
+                }
+            },
             "autoload": {
                 "psr-0": {
                     "Doctrine\\Bundle\\FixturesBundle": ""
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
+            "notification-url": "http://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -307,7 +311,8 @@
             "keywords": [
                 "Fixture",
                 "persistence"
-            ]
+            ],
+            "time": "2013-02-12 11:13:27"
         },
         {
             "name": "doctrine/phpcr-bundle",
@@ -315,19 +320,19 @@
             "target-dir": "Doctrine/Bundle/PHPCRBundle",
             "source": {
                 "type": "git",
-                "url": "https://github.com/doctrine/DoctrinePHPCRBundle",
-                "reference": "b6f97009377e07d116520c54979574af9e68be3c"
+                "url": "https://github.com/doctrine/DoctrinePHPCRBundle.git",
+                "reference": "4ae55c05a14b0841ba1ce243e04884468d31b60e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/DoctrinePHPCRBundle/zipball/b6f97009377e07d116520c54979574af9e68be3c",
-                "reference": "b6f97009377e07d116520c54979574af9e68be3c",
+                "url": "https://api.github.com/repos/doctrine/DoctrinePHPCRBundle/zipball/4ae55c05a14b0841ba1ce243e04884468d31b60e",
+                "reference": "4ae55c05a14b0841ba1ce243e04884468d31b60e",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.3",
                 "phpcr/phpcr-implementation": "2.1.*",
-                "phpcr/phpcr-utils": "1.0-beta4",
+                "phpcr/phpcr-utils": ">=1.0-beta5",
                 "symfony/doctrine-bridge": ">=2.1,<2.3-dev",
                 "symfony/framework-bundle": ">=2.1,<2.3-dev"
             },
@@ -336,7 +341,6 @@
                 "doctrine/doctrine-bundle": "when using jackalope-doctrine-dbal",
                 "doctrine/phpcr-odm": "if you want to use the odm as well. require version 1.0.*"
             },
-            "time": "2013-02-05 13:00:22",
             "type": "symfony-bundle",
             "extra": {
                 "branch-alias": {
@@ -348,7 +352,7 @@
                     "Doctrine\\Bundle\\PHPCRBundle": ""
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
+            "notification-url": "http://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -369,38 +373,38 @@
                 "odm",
                 "persistence",
                 "phpcr"
-            ]
+            ],
+            "time": "2013-02-18 12:00:15"
         },
         {
             "name": "doctrine/phpcr-odm",
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/doctrine/phpcr-odm",
-                "reference": "5b7dce23b667d4cc819ce7e6a981967f2f75c31b"
+                "url": "https://github.com/doctrine/phpcr-odm.git",
+                "reference": "4cda01fcdc618687a7f2a7173c5c2082d2ef4e9c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/phpcr-odm/zipball/5b7dce23b667d4cc819ce7e6a981967f2f75c31b",
-                "reference": "5b7dce23b667d4cc819ce7e6a981967f2f75c31b",
+                "url": "https://api.github.com/repos/doctrine/phpcr-odm/zipball/4cda01fcdc618687a7f2a7173c5c2082d2ef4e9c",
+                "reference": "4cda01fcdc618687a7f2a7173c5c2082d2ef4e9c",
                 "shasum": ""
             },
             "require": {
                 "doctrine/common": ">=2.3-dev,<2.4-dev",
                 "php": ">=5.3.3",
                 "phpcr/phpcr-implementation": ">=2.1.0-beta3,<2.2.0-dev",
-                "phpcr/phpcr-utils": "1.0-beta4"
+                "phpcr/phpcr-utils": ">=1.0-beta5"
             },
             "require-dev": {
-                "symfony/yaml": ">=2.0.0,<2.3.0-dev"
+                "symfony/yaml": ">=2.0.0,<2.4.0-dev"
             },
             "suggest": {
-                "jackalope/jackalope-doctrine-dbal": "dev-master",
-                "jackalope/jackalope-jackrabbit": "1.0.*",
+                "jackalope/jackalope-doctrine-dbal": ">=1.0.0-alpha1",
+                "jackalope/jackalope-jackrabbit": ">=1.0.0-alpha1",
                 "midgard/phpcr": ">=1.3",
-                "symfony/yaml": ">=2.0.0,<2.3.0-dev"
+                "symfony/yaml": ">=2.0.0,<2.4.0-dev"
             },
-            "time": "2013-02-08 12:50:00",
             "bin": [
                 "bin/phpcrodm",
                 "bin/phpcrodm.php"
@@ -416,7 +420,7 @@
                     "Doctrine\\ODM\\PHPCR": "lib/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
+            "notification-url": "http://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -442,7 +446,8 @@
                 "database",
                 "odm",
                 "phpcr"
-            ]
+            ],
+            "time": "2013-02-22 23:11:54"
         },
         {
             "name": "friendsofsymfony/jsrouting-bundle",
@@ -465,7 +470,6 @@
                 "symfony/framework-bundle": ">=2.0,<2.3-dev",
                 "symfony/serializer": ">=2.0,<2.3-dev"
             },
-            "time": "2013-01-14 18:53:13",
             "type": "symfony-bundle",
             "extra": {
                 "branch-alias": {
@@ -496,33 +500,33 @@
             "homepage": "http://friendsofsymfony.github.com",
             "keywords": [
                 "Js Routing"
-            ]
+            ],
+            "time": "2013-01-14 18:53:13"
         },
         {
             "name": "jackalope/jackalope",
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/jackalope/jackalope",
-                "reference": "a8ba9dbf6ec2b73e29973912016b9b99beb506b9"
+                "url": "https://github.com/jackalope/jackalope.git",
+                "reference": "9aaf5974849b399faba648e389070002cbffe53d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jackalope/jackalope/zipball/a8ba9dbf6ec2b73e29973912016b9b99beb506b9",
-                "reference": "a8ba9dbf6ec2b73e29973912016b9b99beb506b9",
+                "url": "https://api.github.com/repos/jackalope/jackalope/zipball/9aaf5974849b399faba648e389070002cbffe53d",
+                "reference": "9aaf5974849b399faba648e389070002cbffe53d",
                 "shasum": ""
             },
             "require": {
                 "ext-libxml": "*",
                 "jackalope/jackalope-transport": "1.0.*",
                 "php": ">=5.3.2",
-                "phpcr/phpcr": "2.1.0-beta8",
-                "phpcr/phpcr-utils": "1.0-beta4"
+                "phpcr/phpcr": "=2.1.0-beta8",
+                "phpcr/phpcr-utils": ">=1.0-beta4"
             },
             "provide": {
                 "phpcr/phpcr-implementation": "2.1.0-beta4"
             },
-            "time": "2013-02-01 13:58:47",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -534,7 +538,7 @@
                     "Jackalope\\": "src/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
+            "notification-url": "http://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -548,27 +552,27 @@
             "homepage": "http://jackalope.github.com",
             "keywords": [
                 "phpcr implementation"
-            ]
+            ],
+            "time": "2013-02-19 16:33:07"
         },
         {
             "name": "jackalope/jackalope-doctrine-dbal",
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/jackalope/jackalope-doctrine-dbal",
-                "reference": "d8a81bc6569221e09827aca10fb01c7bb530f9db"
+                "url": "https://github.com/jackalope/jackalope-doctrine-dbal.git",
+                "reference": "5b32d44452188180f87f9878573d890e820a3a33"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jackalope/jackalope-doctrine-dbal/zipball/d8a81bc6569221e09827aca10fb01c7bb530f9db",
-                "reference": "d8a81bc6569221e09827aca10fb01c7bb530f9db",
+                "url": "https://api.github.com/repos/jackalope/jackalope-doctrine-dbal/zipball/5b32d44452188180f87f9878573d890e820a3a33",
+                "reference": "5b32d44452188180f87f9878573d890e820a3a33",
                 "shasum": ""
             },
             "require": {
                 "doctrine/dbal": ">=2.2.0,<2.4",
-                "jackalope/jackalope": "1.0.*",
-                "php": ">=5.3.2",
-                "phpcr/phpcr": "2.1.0-beta8"
+                "jackalope/jackalope": ">=1.0.0-alpha1",
+                "php": ">=5.3.2"
             },
             "provide": {
                 "jackalope/jackalope-transport": "1.0.0-alpha1"
@@ -576,10 +580,6 @@
             "require-dev": {
                 "phpcr/phpcr-api-tests": "dev-master"
             },
-            "suggest": {
-                "phpcr/phpcr-api-tests": "dev-master"
-            },
-            "time": "2013-01-22 18:34:18",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -591,7 +591,7 @@
                     "Jackalope\\": "src/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
+            "notification-url": "http://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -606,7 +606,8 @@
             "keywords": [
                 "doctrine-dbal",
                 "transport implementation"
-            ]
+            ],
+            "time": "2013-02-13 17:53:13"
         },
         {
             "name": "knplabs/knp-menu",
@@ -635,7 +636,6 @@
                 "silex/silex": "for the integration with your silex application",
                 "twig/twig": "for the TwigRenderer and the integration with your templates"
             },
-            "time": "2012-06-10 16:20:40",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -670,7 +670,8 @@
             "keywords": [
                 "menu",
                 "tree"
-            ]
+            ],
+            "time": "2012-06-10 16:20:40"
         },
         {
             "name": "knplabs/knp-menu-bundle",
@@ -691,7 +692,6 @@
                 "knplabs/knp-menu": "1.1.*",
                 "symfony/framework-bundle": ">=2.0,<2.3-dev"
             },
-            "time": "2012-11-28 20:05:09",
             "type": "symfony-bundle",
             "autoload": {
                 "psr-0": {
@@ -719,20 +719,21 @@
             "description": "This bundle provides an integration of the KnpMenu library",
             "keywords": [
                 "menu"
-            ]
+            ],
+            "time": "2012-11-28 20:05:09"
         },
         {
             "name": "kriswallsmith/assetic",
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "http://github.com/kriswallsmith/assetic.git",
-                "reference": "504c9e8a6357583c20c9d9967ec2febea3157324"
+                "url": "https://github.com/kriswallsmith/assetic.git",
+                "reference": "v1.1.0-alpha3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kriswallsmith/assetic/zipball/504c9e8a6357583c20c9d9967ec2febea3157324",
-                "reference": "504c9e8a6357583c20c9d9967ec2febea3157324",
+                "url": "https://api.github.com/repos/kriswallsmith/assetic/zipball/v1.1.0-alpha3",
+                "reference": "v1.1.0-alpha3",
                 "shasum": ""
             },
             "require": {
@@ -758,7 +759,6 @@
                 "ptachoire/cssembed": "Assetic provides the integration with phpcssembed to embed data uris",
                 "twig/twig": "Assetic provides the integration with the Twig templating engine"
             },
-            "time": "2013-02-11 18:18:06",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -773,7 +773,7 @@
                     "src/functions.php"
                 ]
             },
-            "notification-url": "https://packagist.org/downloads/",
+            "notification-url": "http://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -790,7 +790,8 @@
                 "assets",
                 "compression",
                 "minification"
-            ]
+            ],
+            "time": "2013-02-18 16:17:57"
         },
         {
             "name": "liip/doctrine-cache-bundle",
@@ -812,7 +813,6 @@
                 "php": ">=5.3.0",
                 "symfony/symfony": ">=2.0"
             },
-            "time": "2013-02-01 07:47:54",
             "type": "symfony-bundle",
             "autoload": {
                 "psr-0": {
@@ -833,7 +833,8 @@
             "keywords": [
                 "Symfony2",
                 "cache"
-            ]
+            ],
+            "time": "2013-02-01 07:47:54"
         },
         {
             "name": "monolog/monolog",
@@ -860,7 +861,6 @@
                 "ext-mongo": "Allow sending log messages to a MongoDB server",
                 "mlehner/gelf-php": "Allow sending log messages to a GrayLog2 server"
             },
-            "time": "2012-08-29 11:53:20",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -889,7 +889,8 @@
             "keywords": [
                 "log",
                 "logging"
-            ]
+            ],
+            "time": "2012-08-29 11:53:20"
         },
         {
             "name": "phpcr/phpcr",
@@ -908,7 +909,6 @@
             "require": {
                 "php": ">=5.3.0"
             },
-            "time": "2013-01-12 17:19:47",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -943,28 +943,28 @@
             "keywords": [
                 "contentrepository",
                 "phpcr"
-            ]
+            ],
+            "time": "2013-01-12 17:19:47"
         },
         {
             "name": "phpcr/phpcr-utils",
-            "version": "1.0-beta4",
+            "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/phpcr/phpcr-utils",
-                "reference": "1.0-beta4"
+                "url": "https://github.com/phpcr/phpcr-utils.git",
+                "reference": "9a334225fd7980e8d3d2e02485212ad6dfceee50"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/phpcr/phpcr-utils/archive/1.0-beta4.zip",
-                "reference": "1.0-beta4",
+                "url": "https://api.github.com/repos/phpcr/phpcr-utils/zipball/9a334225fd7980e8d3d2e02485212ad6dfceee50",
+                "reference": "9a334225fd7980e8d3d2e02485212ad6dfceee50",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.0",
-                "phpcr/phpcr": ">=2.1.0-beta5",
+                "phpcr/phpcr": "2.1.0-beta8",
                 "symfony/console": ">=2.0.0,<2.3.0-dev"
             },
-            "time": "2013-01-11 09:42:33",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -976,7 +976,7 @@
                     "PHPCR\\Util": "src"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
+            "notification-url": "http://packagist.org/downloads/",
             "license": [
                 "Apache-2.0"
             ],
@@ -1005,7 +1005,8 @@
                 "cli",
                 "contentrepository",
                 "phpcr"
-            ]
+            ],
+            "time": "2013-02-22 23:08:00"
         },
         {
             "name": "sensio/distribution-bundle",
@@ -1025,7 +1026,6 @@
             "require": {
                 "symfony/framework-bundle": "2.1.*"
             },
-            "time": "2013-02-04 19:54:42",
             "type": "symfony-bundle",
             "extra": {
                 "branch-alias": {
@@ -1051,7 +1051,8 @@
             "keywords": [
                 "configuration",
                 "distribution"
-            ]
+            ],
+            "time": "2013-02-04 19:54:42"
         },
         {
             "name": "sonata-project/block-bundle",
@@ -1059,13 +1060,13 @@
             "target-dir": "Sonata/BlockBundle",
             "source": {
                 "type": "git",
-                "url": "https://github.com/sonata-project/SonataBlockBundle",
-                "reference": "3effdf4f8da8ebd256bfef9e42ad0f7ca53a5f9b"
+                "url": "https://github.com/sonata-project/SonataBlockBundle.git",
+                "reference": "23c04147b54ab93432a1ae2a044eca2edbdf27a5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sonata-project/SonataBlockBundle/zipball/3effdf4f8da8ebd256bfef9e42ad0f7ca53a5f9b",
-                "reference": "3effdf4f8da8ebd256bfef9e42ad0f7ca53a5f9b",
+                "url": "https://api.github.com/repos/sonata-project/SonataBlockBundle/zipball/23c04147b54ab93432a1ae2a044eca2edbdf27a5",
+                "reference": "23c04147b54ab93432a1ae2a044eca2edbdf27a5",
                 "shasum": ""
             },
             "require": {
@@ -1080,14 +1081,13 @@
                 "sonata-project/admin-bundle": "dev-master",
                 "sonata-project/cache-bundle": "dev-master"
             },
-            "time": "2013-02-11 17:36:47",
             "type": "symfony-bundle",
             "autoload": {
                 "psr-0": {
                     "Sonata\\BlockBundle": ""
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
+            "notification-url": "http://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -1107,7 +1107,8 @@
             "keywords": [
                 "block",
                 "sonata"
-            ]
+            ],
+            "time": "2013-02-16 14:05:06"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -1126,7 +1127,6 @@
             "require": {
                 "php": ">=5.2.4"
             },
-            "time": "2012-10-25 01:30:40",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -1156,7 +1156,8 @@
             "keywords": [
                 "mail",
                 "mailer"
-            ]
+            ],
+            "time": "2012-10-25 01:30:40"
         },
         {
             "name": "symfony-cmf/block-bundle",
@@ -1164,13 +1165,13 @@
             "target-dir": "Symfony/Cmf/Bundle/BlockBundle",
             "source": {
                 "type": "git",
-                "url": "git://github.com/symfony-cmf/BlockBundle.git",
-                "reference": "bbd02733d5af849908dcd12ecca456c4b99ccc77"
+                "url": "https://github.com/symfony-cmf/BlockBundle.git",
+                "reference": "89b890f10e445c74cc315d01839b0babcb658bf1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony-cmf/BlockBundle/zipball/bbd02733d5af849908dcd12ecca456c4b99ccc77",
-                "reference": "bbd02733d5af849908dcd12ecca456c4b99ccc77",
+                "url": "https://api.github.com/repos/symfony-cmf/BlockBundle/zipball/89b890f10e445c74cc315d01839b0babcb658bf1",
+                "reference": "89b890f10e445c74cc315d01839b0babcb658bf1",
                 "shasum": ""
             },
             "require": {
@@ -1186,7 +1187,6 @@
             "suggest": {
                 "sonata-project/cache-bundle": "To add caching support for block loading"
             },
-            "time": "2013-01-30 09:16:10",
             "type": "symfony-bundle",
             "extra": {
                 "branch-alias": {
@@ -1198,7 +1198,7 @@
                     "Symfony\\Cmf\\Bundle\\BlockBundle": ""
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
+            "notification-url": "http://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -1214,7 +1214,8 @@
                 "Symfony CMF",
                 "block",
                 "content fragments"
-            ]
+            ],
+            "time": "2013-02-15 12:14:58"
         },
         {
             "name": "symfony-cmf/content-bundle",
@@ -1222,13 +1223,13 @@
             "target-dir": "Symfony/Cmf/Bundle/ContentBundle",
             "source": {
                 "type": "git",
-                "url": "git://github.com/symfony-cmf/ContentBundle.git",
-                "reference": "3d04fe6f89441c3741759b8c8e0d39145178a2f8"
+                "url": "https://github.com/symfony-cmf/ContentBundle.git",
+                "reference": "bc5a152ee2080baf85d5bf4aaaa0739d5522b425"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony-cmf/ContentBundle/zipball/3d04fe6f89441c3741759b8c8e0d39145178a2f8",
-                "reference": "3d04fe6f89441c3741759b8c8e0d39145178a2f8",
+                "url": "https://api.github.com/repos/symfony-cmf/ContentBundle/zipball/bc5a152ee2080baf85d5bf4aaaa0739d5522b425",
+                "reference": "bc5a152ee2080baf85d5bf4aaaa0739d5522b425",
                 "shasum": ""
             },
             "require": {
@@ -1241,7 +1242,6 @@
             "suggest": {
                 "friendsofsymfony/rest-bundle": "Improved handling for different output formats"
             },
-            "time": "2013-01-31 08:44:31",
             "type": "symfony-bundle",
             "extra": {
                 "branch-alias": {
@@ -1253,7 +1253,7 @@
                     "Symfony\\Cmf\\Bundle\\ContentBundle": ""
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
+            "notification-url": "http://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -1267,7 +1267,8 @@
             "homepage": "http://cmf.symfony.com",
             "keywords": [
                 "Symfony CMF"
-            ]
+            ],
+            "time": "2013-02-15 12:14:02"
         },
         {
             "name": "symfony-cmf/core-bundle",
@@ -1294,7 +1295,6 @@
             "suggest": {
                 "symfony/twig-bundle": ">=2.1,<2.3-dev"
             },
-            "time": "2013-01-26 13:09:59",
             "type": "symfony-bundle",
             "extra": {
                 "branch-alias": {
@@ -1320,7 +1320,8 @@
             "homepage": "http://cmf.symfony.com",
             "keywords": [
                 "Symfony CMF"
-            ]
+            ],
+            "time": "2013-01-26 13:09:59"
         },
         {
             "name": "symfony-cmf/menu-bundle",
@@ -1328,13 +1329,13 @@
             "target-dir": "Symfony/Cmf/Bundle/MenuBundle",
             "source": {
                 "type": "git",
-                "url": "git://github.com/symfony-cmf/MenuBundle.git",
-                "reference": "d567ad79788cfa998f1bc54b591915536e465a7a"
+                "url": "https://github.com/symfony-cmf/MenuBundle.git",
+                "reference": "991fca0d9e3a96607882f5f6ee5778d202a887a3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony-cmf/MenuBundle/zipball/d567ad79788cfa998f1bc54b591915536e465a7a",
-                "reference": "d567ad79788cfa998f1bc54b591915536e465a7a",
+                "url": "https://api.github.com/repos/symfony-cmf/MenuBundle/zipball/991fca0d9e3a96607882f5f6ee5778d202a887a3",
+                "reference": "991fca0d9e3a96607882f5f6ee5778d202a887a3",
                 "shasum": ""
             },
             "require": {
@@ -1347,7 +1348,6 @@
             "suggest": {
                 "sonata-project/doctrine-phpcr-admin-bundle": "if you want to have editing capabilities"
             },
-            "time": "2013-02-08 13:34:18",
             "type": "symfony-bundle",
             "extra": {
                 "branch-alias": {
@@ -1359,7 +1359,7 @@
                     "Symfony\\Cmf\\Bundle\\MenuBundle": ""
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
+            "notification-url": "http://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -1374,7 +1374,8 @@
             "keywords": [
                 "Symfony CMF",
                 "menu"
-            ]
+            ],
+            "time": "2013-02-15 14:54:54"
         },
         {
             "name": "symfony-cmf/routing",
@@ -1382,13 +1383,13 @@
             "target-dir": "Symfony/Cmf/Component/Routing",
             "source": {
                 "type": "git",
-                "url": "https://github.com/symfony-cmf/Routing",
-                "reference": "72df1da07b3c4edf16df169fb7987f504070fe0d"
+                "url": "https://github.com/symfony-cmf/Routing.git",
+                "reference": "43585d83fb07f9354c098fcae593010567f53d45"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony-cmf/Routing/zipball/72df1da07b3c4edf16df169fb7987f504070fe0d",
-                "reference": "72df1da07b3c4edf16df169fb7987f504070fe0d",
+                "url": "https://api.github.com/repos/symfony-cmf/Routing/zipball/43585d83fb07f9354c098fcae593010567f53d45",
+                "reference": "43585d83fb07f9354c098fcae593010567f53d45",
                 "shasum": ""
             },
             "require": {
@@ -1396,7 +1397,6 @@
                 "symfony/http-kernel": ">=2.1,<2.3-dev",
                 "symfony/routing": ">=2.1,<2.3-dev"
             },
-            "time": "2013-01-24 16:09:01",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -1408,7 +1408,7 @@
                     "Symfony\\Cmf\\Component\\Routing": ""
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
+            "notification-url": "http://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -1423,7 +1423,8 @@
             "keywords": [
                 "database",
                 "routing"
-            ]
+            ],
+            "time": "2013-02-22 13:50:34"
         },
         {
             "name": "symfony-cmf/routing-extra-bundle",
@@ -1431,13 +1432,13 @@
             "target-dir": "Symfony/Cmf/Bundle/RoutingExtraBundle",
             "source": {
                 "type": "git",
-                "url": "git://github.com/symfony-cmf/RoutingExtraBundle.git",
-                "reference": "30784dcbed0c6b904bf51974b28aad0054e85f9d"
+                "url": "https://github.com/symfony-cmf/RoutingExtraBundle.git",
+                "reference": "9ca27d732b790a6186c45a03b3c05d022f593605"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony-cmf/RoutingExtraBundle/zipball/30784dcbed0c6b904bf51974b28aad0054e85f9d",
-                "reference": "30784dcbed0c6b904bf51974b28aad0054e85f9d",
+                "url": "https://api.github.com/repos/symfony-cmf/RoutingExtraBundle/zipball/9ca27d732b790a6186c45a03b3c05d022f593605",
+                "reference": "9ca27d732b790a6186c45a03b3c05d022f593605",
                 "shasum": ""
             },
             "require": {
@@ -1462,7 +1463,6 @@
                 "sonata-project/doctrine-phpcr-admin-bundle": "To provide an admin interface for the PHPCR ODM documents",
                 "symfony-cmf/content-bundle": "To optionally use the configured value for 'content_basepath' from the CoreBundle"
             },
-            "time": "2013-02-07 22:41:44",
             "type": "symfony-bundle",
             "extra": {
                 "branch-alias": {
@@ -1474,7 +1474,7 @@
                     "Symfony\\Cmf\\Bundle\\RoutingExtraBundle": ""
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
+            "notification-url": "http://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -1489,7 +1489,8 @@
             "keywords": [
                 "database",
                 "routing"
-            ]
+            ],
+            "time": "2013-02-22 13:46:29"
         },
         {
             "name": "symfony-cmf/simple-cms-bundle",
@@ -1497,13 +1498,13 @@
             "target-dir": "Symfony/Cmf/Bundle/SimpleCmsBundle",
             "source": {
                 "type": "git",
-                "url": "git://github.com/symfony-cmf/SimpleCmsBundle.git",
-                "reference": "a076d702a2554bd62e4553d36761a7fa867a6920"
+                "url": "https://github.com/symfony-cmf/SimpleCmsBundle.git",
+                "reference": "ac2c1164f848dcbc0ea1b197529e3c309c82a548"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony-cmf/SimpleCmsBundle/zipball/a076d702a2554bd62e4553d36761a7fa867a6920",
-                "reference": "a076d702a2554bd62e4553d36761a7fa867a6920",
+                "url": "https://api.github.com/repos/symfony-cmf/SimpleCmsBundle/zipball/ac2c1164f848dcbc0ea1b197529e3c309c82a548",
+                "reference": "ac2c1164f848dcbc0ea1b197529e3c309c82a548",
                 "shasum": ""
             },
             "require": {
@@ -1511,7 +1512,7 @@
                 "doctrine/phpcr-odm": "1.0.*",
                 "php": ">=5.3.2",
                 "symfony-cmf/content-bundle": "1.0.*",
-                "symfony-cmf/routing-extra-bundle": ">=1.0.0-alpha3",
+                "symfony-cmf/routing-extra-bundle": "<1.1, >1.0.0-alpha3",
                 "symfony/framework-bundle": ">=2.1,<2.3-dev"
             },
             "suggest": {
@@ -1519,7 +1520,6 @@
                 "symfony-cmf/create-bundle": "1.0.*",
                 "symfony-cmf/menu-bundle": "1.0.*"
             },
-            "time": "2013-01-22 23:32:43",
             "type": "symfony-bundle",
             "extra": {
                 "branch-alias": {
@@ -1531,7 +1531,7 @@
                     "Symfony\\Cmf\\Bundle\\SimpleCmsBundle": ""
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
+            "notification-url": "http://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -1546,7 +1546,8 @@
             "keywords": [
                 "Symfony CMF",
                 "cms"
-            ]
+            ],
+            "time": "2013-02-15 12:14:31"
         },
         {
             "name": "symfony-cmf/symfony-cmf",
@@ -1577,7 +1578,6 @@
             "suggest": {
                 "symfony-cmf/simple-cms-bundle": "1.0.*"
             },
-            "time": "2013-01-21 14:13:21",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -1600,7 +1600,8 @@
                 }
             ],
             "description": "Symfony Content Management Framework",
-            "homepage": "http://cmf.symfony.com"
+            "homepage": "http://cmf.symfony.com",
+            "time": "2013-01-21 14:13:21"
         },
         {
             "name": "symfony-cmf/tree-browser-bundle",
@@ -1635,7 +1636,6 @@
                 "doctrine/phpcr-bundle": "1.0.*",
                 "doctrine/phpcr-odm": "1.0.*"
             },
-            "time": "2013-02-09 14:20:42",
             "type": "symfony-bundle",
             "extra": {
                 "branch-alias": {
@@ -1663,7 +1663,8 @@
                 "Symfony CMF",
                 "phpcr",
                 "tree"
-            ]
+            ],
+            "time": "2013-02-09 14:20:42"
         },
         {
             "name": "symfony/assetic-bundle",
@@ -1671,13 +1672,13 @@
             "target-dir": "Symfony/Bundle/AsseticBundle",
             "source": {
                 "type": "git",
-                "url": "https://github.com/symfony/AsseticBundle",
-                "reference": "v2.1.1-beta1"
+                "url": "https://github.com/symfony/AsseticBundle.git",
+                "reference": "bc24734343cc6a77dc143d0cf80f33b5e18e4cc0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/AsseticBundle/zipball/v2.1.1-beta1",
-                "reference": "v2.1.1-beta1",
+                "url": "https://api.github.com/repos/symfony/AsseticBundle/zipball/bc24734343cc6a77dc143d0cf80f33b5e18e4cc0",
+                "reference": "bc24734343cc6a77dc143d0cf80f33b5e18e4cc0",
                 "shasum": ""
             },
             "require": {
@@ -1697,7 +1698,6 @@
             "suggest": {
                 "symfony/twig-bundle": ">=2.1.0,<2.3-dev"
             },
-            "time": "2013-01-31 17:56:17",
             "type": "symfony-bundle",
             "extra": {
                 "branch-alias": {
@@ -1709,7 +1709,7 @@
                     "Symfony\\Bundle\\AsseticBundle": ""
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
+            "notification-url": "http://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -1726,7 +1726,8 @@
                 "assets",
                 "compression",
                 "minification"
-            ]
+            ],
+            "time": "2013-02-18 16:21:03"
         },
         {
             "name": "symfony/monolog-bundle",
@@ -1754,7 +1755,6 @@
                 "symfony/config": ">=2.1.0,<2.3-dev",
                 "symfony/yaml": ">=2.1.0,<2.3-dev"
             },
-            "time": "2013-01-28 10:06:42",
             "type": "symfony-bundle",
             "extra": {
                 "branch-alias": {
@@ -1785,7 +1785,8 @@
             "keywords": [
                 "log",
                 "logging"
-            ]
+            ],
+            "time": "2013-01-28 10:06:42"
         },
         {
             "name": "symfony/swiftmailer-bundle",
@@ -1813,7 +1814,6 @@
                 "symfony/http-kernel": ">=2.1.0,<2.3-dev",
                 "symfony/yaml": ">=2.1.0,<2.3-dev"
             },
-            "time": "2013-01-04 17:04:29",
             "type": "symfony-bundle",
             "extra": {
                 "branch-alias": {
@@ -1840,24 +1840,25 @@
                 }
             ],
             "description": "Symfony SwiftmailerBundle",
-            "homepage": "http://symfony.com"
+            "homepage": "http://symfony.com",
+            "time": "2013-01-04 17:04:29"
         },
         {
             "name": "symfony/symfony",
             "version": "2.1.x-dev",
             "source": {
                 "type": "git",
-                "url": "git://github.com/symfony/symfony.git",
-                "reference": "0209eb6c470b3f73d89b859b332c93875833e6d1"
+                "url": "https://github.com/symfony/symfony.git",
+                "reference": "22dbfc009fcf990d77d77073ea6f728b159ededc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/symfony/zipball/0209eb6c470b3f73d89b859b332c93875833e6d1",
-                "reference": "0209eb6c470b3f73d89b859b332c93875833e6d1",
+                "url": "https://api.github.com/repos/symfony/symfony/zipball/22dbfc009fcf990d77d77073ea6f728b159ededc",
+                "reference": "22dbfc009fcf990d77d77073ea6f728b159ededc",
                 "shasum": ""
             },
             "require": {
-                "doctrine/common": ">2.2,<2.4-dev",
+                "doctrine/common": ">=2.2,<3.0",
                 "php": ">=5.3.3",
                 "twig/twig": ">=1.9.1,<2.0-dev"
             },
@@ -1902,7 +1903,6 @@
                 "monolog/monolog": ">=1.0,<1.3-dev",
                 "propel/propel1": "dev-master"
             },
-            "time": "2013-02-11 11:42:49",
             "type": "library",
             "autoload": {
                 "psr-0": {
@@ -1910,7 +1910,7 @@
                     "SessionHandlerInterface": "src/Symfony/Component/HttpFoundation/Resources/stubs"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
+            "notification-url": "http://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -1928,7 +1928,8 @@
             "homepage": "http://symfony.com",
             "keywords": [
                 "framework"
-            ]
+            ],
+            "time": "2013-02-23 06:41:44"
         },
         {
             "name": "twig/extensions",
@@ -1947,7 +1948,6 @@
             "require": {
                 "twig/twig": "1.*"
             },
-            "time": "2013-01-04 16:55:05",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -1975,26 +1975,26 @@
                 "debug",
                 "i18n",
                 "text"
-            ]
+            ],
+            "time": "2013-01-04 16:55:05"
         },
         {
             "name": "twig/twig",
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "git://github.com/fabpot/Twig.git",
-                "reference": "72c8bb73e90cf6d2e992b01ab508f7fc13e38c8f"
+                "url": "https://github.com/fabpot/Twig.git",
+                "reference": "15336c154c960f7e55e8b9fc1043ce7764ed7edc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fabpot/Twig/zipball/72c8bb73e90cf6d2e992b01ab508f7fc13e38c8f",
-                "reference": "72c8bb73e90cf6d2e992b01ab508f7fc13e38c8f",
+                "url": "https://api.github.com/repos/fabpot/Twig/zipball/15336c154c960f7e55e8b9fc1043ce7764ed7edc",
+                "reference": "15336c154c960f7e55e8b9fc1043ce7764ed7edc",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.2.4"
             },
-            "time": "2013-02-09 18:37:02",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -2006,7 +2006,7 @@
                     "Twig_": "lib/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
+            "notification-url": "http://packagist.org/downloads/",
             "license": [
                 "BSD-3"
             ],
@@ -2024,7 +2024,8 @@
             "homepage": "http://twig.sensiolabs.org",
             "keywords": [
                 "templating"
-            ]
+            ],
+            "time": "2013-02-21 06:47:52"
         }
     ],
     "packages-dev": [
@@ -2049,7 +2050,6 @@
             "require-dev": {
                 "phake/phake": "1.*"
             },
-            "time": "2012-08-05 18:24:33",
             "type": "library",
             "autoload": {
                 "psr-0": {
@@ -2077,7 +2077,8 @@
                 "fault",
                 "handler",
                 "handling"
-            ]
+            ],
+            "time": "2012-08-05 18:24:33"
         },
         {
             "name": "eloquent/enumeration",
@@ -2099,7 +2100,6 @@
             "require-dev": {
                 "phake/phake": "1.*"
             },
-            "time": "2012-08-21 01:21:14",
             "type": "library",
             "autoload": {
                 "psr-0": {
@@ -2124,7 +2124,8 @@
                 "enum",
                 "enumeration",
                 "set"
-            ]
+            ],
+            "time": "2012-08-21 01:21:14"
         },
         {
             "name": "ezzatron/ci-status-images",
@@ -2140,7 +2141,6 @@
                 "reference": "3.0.1",
                 "shasum": ""
             },
-            "time": "2013-02-01 01:04:18",
             "type": "library",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -2170,7 +2170,8 @@
                 "label",
                 "status",
                 "travis"
-            ]
+            ],
+            "time": "2013-02-01 01:04:18"
         },
         {
             "name": "icecave/isolator",
@@ -2192,7 +2193,6 @@
             "require-dev": {
                 "icecave/testing": "1.*"
             },
-            "time": "2013-01-14 04:17:36",
             "type": "library",
             "autoload": {
                 "psr-0": {
@@ -2218,7 +2218,8 @@
                 "phpunit",
                 "test",
                 "unit"
-            ]
+            ],
+            "time": "2013-01-14 04:17:36"
         },
         {
             "name": "icecave/woodhouse",
@@ -2248,7 +2249,6 @@
                 "eloquent/typhoon": "0.8.*",
                 "icecave/testing": "1.*"
             },
-            "time": "2013-02-09 07:27:25",
             "bin": [
                 "bin/woodhouse"
             ],
@@ -2286,7 +2286,8 @@
                 "pages",
                 "phpunit",
                 "publish"
-            ]
+            ],
+            "time": "2013-02-09 07:27:25"
         },
         {
             "name": "liip/functional-test-bundle",
@@ -2313,7 +2314,6 @@
                 "doctrine/doctrine-fixtures-bundle": "Required when using the fixture loading functionality",
                 "doctrine/orm": "Required when using the fixture loading functionality with an ORM and SQLite"
             },
-            "time": "2013-01-11 08:42:52",
             "type": "symfony-bundle",
             "extra": {
                 "branch-alias": {
@@ -2342,20 +2342,21 @@
             "description": "This bundles provides additional functional test-cases for Symfony2 applications",
             "keywords": [
                 "Symfony2"
-            ]
+            ],
+            "time": "2013-01-11 08:42:52"
         },
         {
             "name": "phpunit/php-code-coverage",
             "version": "1.2.x-dev",
             "source": {
                 "type": "git",
-                "url": "git://github.com/sebastianbergmann/php-code-coverage.git",
-                "reference": "6b99bb605f9fb946161239a4f26f3c186cd261fd"
+                "url": "https://github.com/sebastianbergmann/php-code-coverage.git",
+                "reference": "25232ac64f081abd7478ae2d63fdb757f45e92b9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/6b99bb605f9fb946161239a4f26f3c186cd261fd",
-                "reference": "6b99bb605f9fb946161239a4f26f3c186cd261fd",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/25232ac64f081abd7478ae2d63fdb757f45e92b9",
+                "reference": "25232ac64f081abd7478ae2d63fdb757f45e92b9",
                 "shasum": ""
             },
             "require": {
@@ -2368,14 +2369,13 @@
                 "ext-dom": "*",
                 "ext-xdebug": ">=2.0.5"
             },
-            "time": "2013-02-02 10:49:26",
             "type": "library",
             "autoload": {
                 "classmap": [
                     "PHP/"
                 ]
             },
-            "notification-url": "https://packagist.org/downloads/",
+            "notification-url": "http://packagist.org/downloads/",
             "include-path": [
                 ""
             ],
@@ -2395,7 +2395,8 @@
                 "coverage",
                 "testing",
                 "xunit"
-            ]
+            ],
+            "time": "2013-02-14 10:33:04"
         },
         {
             "name": "phpunit/php-file-iterator",
@@ -2414,7 +2415,6 @@
             "require": {
                 "php": ">=5.3.3"
             },
-            "time": "2013-01-07 10:47:05",
             "type": "library",
             "autoload": {
                 "classmap": [
@@ -2440,7 +2440,8 @@
             "keywords": [
                 "filesystem",
                 "iterator"
-            ]
+            ],
+            "time": "2013-01-07 10:47:05"
         },
         {
             "name": "phpunit/php-text-template",
@@ -2459,7 +2460,6 @@
             "require": {
                 "php": ">=5.3.3"
             },
-            "time": "2013-01-07 10:56:17",
             "type": "library",
             "autoload": {
                 "classmap": [
@@ -2484,7 +2484,8 @@
             "homepage": "https://github.com/sebastianbergmann/php-text-template/",
             "keywords": [
                 "template"
-            ]
+            ],
+            "time": "2013-01-07 10:56:17"
         },
         {
             "name": "phpunit/php-timer",
@@ -2503,7 +2504,6 @@
             "require": {
                 "php": ">=5.3.3"
             },
-            "time": "2013-01-30 06:08:51",
             "type": "library",
             "autoload": {
                 "classmap": [
@@ -2528,7 +2528,8 @@
             "homepage": "https://github.com/sebastianbergmann/php-timer/",
             "keywords": [
                 "timer"
-            ]
+            ],
+            "time": "2013-01-30 06:08:51"
         },
         {
             "name": "phpunit/php-token-stream",
@@ -2548,7 +2549,6 @@
                 "ext-tokenizer": "*",
                 "php": ">=5.3.3"
             },
-            "time": "2013-01-07 10:56:35",
             "type": "library",
             "autoload": {
                 "classmap": [
@@ -2573,20 +2573,21 @@
             "homepage": "https://github.com/sebastianbergmann/php-token-stream/",
             "keywords": [
                 "tokenizer"
-            ]
+            ],
+            "time": "2013-01-07 10:56:35"
         },
         {
             "name": "phpunit/phpunit",
             "version": "3.7.x-dev",
             "source": {
                 "type": "git",
-                "url": "git://github.com/sebastianbergmann/phpunit.git",
-                "reference": "2f1390aed547b46171b82c1166be72db0bbc763e"
+                "url": "https://github.com/sebastianbergmann/phpunit.git",
+                "reference": "345be291ec18365810745391e055ffba3c97006a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/2f1390aed547b46171b82c1166be72db0bbc763e",
-                "reference": "2f1390aed547b46171b82c1166be72db0bbc763e",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/345be291ec18365810745391e055ffba3c97006a",
+                "reference": "345be291ec18365810745391e055ffba3c97006a",
                 "shasum": ""
             },
             "require": {
@@ -2602,13 +2603,15 @@
                 "phpunit/phpunit-mock-objects": ">=1.2.0,<1.3.0",
                 "symfony/yaml": ">=2.1.0,<2.2.0"
             },
+            "require-dev": {
+                "pear-pear/pear": "1.9.4"
+            },
             "suggest": {
                 "ext-json": "*",
                 "ext-simplexml": "*",
                 "ext-tokenizer": "*",
                 "phpunit/php-invoker": ">=1.1.0,<1.2.0"
             },
-            "time": "2013-02-11 19:33:20",
             "bin": [
                 "composer/bin/phpunit"
             ],
@@ -2623,7 +2626,7 @@
                     "PHPUnit/"
                 ]
             },
-            "notification-url": "https://packagist.org/downloads/",
+            "notification-url": "http://packagist.org/downloads/",
             "include-path": [
                 "",
                 "../../symfony/yaml/"
@@ -2644,7 +2647,8 @@
                 "phpunit",
                 "testing",
                 "xunit"
-            ]
+            ],
+            "time": "2013-02-20 06:18:14"
         },
         {
             "name": "phpunit/phpunit-mock-objects",
@@ -2667,7 +2671,6 @@
             "suggest": {
                 "ext-soap": "*"
             },
-            "time": "2013-02-05 07:46:41",
             "type": "library",
             "autoload": {
                 "classmap": [
@@ -2693,7 +2696,8 @@
             "keywords": [
                 "mock",
                 "xunit"
-            ]
+            ],
+            "time": "2013-02-05 07:46:41"
         }
     ],
     "aliases": [
