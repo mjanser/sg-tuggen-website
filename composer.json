@@ -24,7 +24,7 @@
         "liip/functional-test-bundle": "dev-master",
         "phpunit/phpunit": "3.7.*",
         "phpunit/php-code-coverage": "1.2.*",
-        "icecave/woodhouse": "0.3.*"
+        "icecave/woodhouse": "0.4.*"
     },
     "scripts": {
         "post-install-cmd": [
