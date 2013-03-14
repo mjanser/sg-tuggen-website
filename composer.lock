@@ -1384,12 +1384,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony-cmf/CoreBundle.git",
-                "reference": "5227f08fe99d268b3f334e5a4da16ecac36e1dc7"
+                "reference": "08033ed165198392857a165f857fb78e8cd3ba13"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony-cmf/CoreBundle/zipball/5227f08fe99d268b3f334e5a4da16ecac36e1dc7",
-                "reference": "5227f08fe99d268b3f334e5a4da16ecac36e1dc7",
+                "url": "https://api.github.com/repos/symfony-cmf/CoreBundle/zipball/08033ed165198392857a165f857fb78e8cd3ba13",
+                "reference": "08033ed165198392857a165f857fb78e8cd3ba13",
                 "shasum": ""
             },
             "require": {
@@ -1429,7 +1429,7 @@
             "keywords": [
                 "Symfony CMF"
             ],
-            "time": "2013-03-08 11:37:10"
+            "time": "2013-03-14 19:11:14"
         },
         {
             "name": "symfony-cmf/menu-bundle",
@@ -1492,12 +1492,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony-cmf/Routing.git",
-                "reference": "4706313dc7708633cfb1228c8b44e807aa44b6bf"
+                "reference": "3c1b600c834438d6282e3653c164e172fc4f466d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony-cmf/Routing/zipball/4706313dc7708633cfb1228c8b44e807aa44b6bf",
-                "reference": "4706313dc7708633cfb1228c8b44e807aa44b6bf",
+                "url": "https://api.github.com/repos/symfony-cmf/Routing/zipball/3c1b600c834438d6282e3653c164e172fc4f466d",
+                "reference": "3c1b600c834438d6282e3653c164e172fc4f466d",
                 "shasum": ""
             },
             "require": {
@@ -1532,7 +1532,7 @@
                 "database",
                 "routing"
             ],
-            "time": "2013-03-06 09:12:29"
+            "time": "2013-03-14 19:13:42"
         },
         {
             "name": "symfony-cmf/routing-extra-bundle",
@@ -1541,12 +1541,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony-cmf/RoutingExtraBundle.git",
-                "reference": "31d3cb1101c27bd4b199b8505f6a16119145923b"
+                "reference": "7ce93df1c13e9a63ba3f7b4a293eb0db6a651c11"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony-cmf/RoutingExtraBundle/zipball/31d3cb1101c27bd4b199b8505f6a16119145923b",
-                "reference": "31d3cb1101c27bd4b199b8505f6a16119145923b",
+                "url": "https://api.github.com/repos/symfony-cmf/RoutingExtraBundle/zipball/7ce93df1c13e9a63ba3f7b4a293eb0db6a651c11",
+                "reference": "7ce93df1c13e9a63ba3f7b4a293eb0db6a651c11",
                 "shasum": ""
             },
             "require": {
@@ -1598,7 +1598,7 @@
                 "database",
                 "routing"
             ],
-            "time": "2013-03-05 15:50:43"
+            "time": "2013-03-14 19:23:29"
         },
         {
             "name": "symfony-cmf/simple-cms-bundle",
