@@ -6,19 +6,18 @@
     "minimum-stability": "dev",
     "require": {
         "php": ">=5.3.3",
-        "symfony/symfony": "2.1.*",
+        "symfony/symfony": "2.2.*",
         "twig/extensions": "1.0.*",
-        "symfony/monolog-bundle": "2.1.*",
+        "symfony/monolog-bundle": "2.2.*",
         "symfony/assetic-bundle": "2.1.*",
-        "sensio/distribution-bundle": "2.1.*",
+        "sensio/distribution-bundle": "2.2.*",
         "symfony-cmf/symfony-cmf": "1.0.*",
         "symfony-cmf/simple-cms-bundle": "1.0.*",
-        "jackalope/jackalope-doctrine-dbal": "1.0.*",
-        "jackalope/jackalope": "dev-master as 1.0.x-dev",
-        "doctrine/doctrine-bundle": "1.0.*",
+        "jackalope/jackalope-doctrine-dbal": "dev-master",
+        "doctrine/doctrine-bundle": "1.2.*",
         "doctrine/doctrine-fixtures-bundle": "dev-master",
         "liip/doctrine-cache-bundle": "dev-master",
-        "symfony/swiftmailer-bundle": "2.1.*"
+        "symfony/swiftmailer-bundle": "2.2.*"
     },
     "require-dev": {
         "liip/functional-test-bundle": "dev-master",
