@@ -19,7 +19,7 @@ before_script:
   - php app/console doctrine:phpcr:fixtures:load --env test --no-interaction
   - php app/console assets:install --symlink --no-interaction web
   - php app/console cache:clear --no-interaction
-  - php app/console cache:clear --env test --no-interaction
+  - php app/console cache:clear --env test --no-debug --no-interaction
 
 script: ./vendor/bin/phpunit -c app --coverage-html build/coverage-report --coverage-text=build/coverage.txt
 
