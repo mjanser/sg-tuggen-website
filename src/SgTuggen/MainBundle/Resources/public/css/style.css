@@ -535,7 +535,7 @@ span.link
 /* News */
 table#homenews
 {
-    width:550px;
+    width:600px;
     border:1px solid #C1E7FF;
 }
 table#news
@@ -556,7 +556,11 @@ table#homenews tr.newsinfo td, table#news tr.newsinfo td
 }
 table#homenews tr.newsinfo td.newsdate, table#news tr.newsinfo td.newsdate
 {
-    width:100px;
+    width:130px;
+}
+table#homenews tr.newsinfo td.newslocation, table#news tr.newsinfo td.newslocation
+{
+    width:140px;
 }
 
 /* Contact */

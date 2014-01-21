@@ -4,6 +4,16 @@ static:
         label: "Startseite"
         title: "Willkommen bei der Schützengesellschaft Tuggen"
         body: |
+            <table id="homenews">
+                <tr>
+                    <td class="newstitle" colspan="3">Generalversammlung 2014</td>
+                </tr>
+                <tr class="newsinfo">
+                    <td class="newsdate">21. Februar 2014, 19:15 Uhr</td>
+                    <td class="newslocation">Restaurant Hirschen in Tuggen</td>
+                    <td class="newstext">Vor der GV, um 19:15 Uhr, gibt es einen Imbiss. Anschliessend, um ca. 20:00 Uhr beginnt die Generalversammlung.</td>
+                </tr>
+            </table>
             <p>
                 <img src="/bundles/sgtuggenmain/images/verein.jpg" alt="Verein" />
             </p>
@@ -58,15 +68,15 @@ static:
                 <span class="type">Schützenmeister</span>
             </div>
             <div class="person">
-                <div class="img_person">&nbsp;</div>
-                <span class="name">Düggelin Marcel</span>
+                <img class="person" src="/bundles/sgtuggenmain/images/persons/franz.hueppin.png" alt="" />
+                <span class="name">Hüppin Franz</span>
                 <span class="type">Jungschützenleiter</span>
             </div>
 
     plan:
         name: "schiessplan"
         label: "Schiessplan"
-        title: "Schiessplan 2013"
+        title: "Schiessplan 2014"
         body: |
             <div id="obli">
                 <h2>Obligatorische Übungen</h2>
@@ -74,45 +84,40 @@ static:
                 Dienst- und Schiessbüchlein oder Leistungsausweis mitbringen.</div>
                 <table id="t_obli" summary="Obligatorische Übungen">
                 <tr class="datetime">
-                    <td class="date">Ostermontag, 01. April 2013</td>
+                    <td class="date">Ostermontag, 21. April 2014</td>
                     <td class="time">09:30 Uhr bis 11:00 Uhr</td>
                 </tr>
                 <tr class="datetime">
-                    <td class="date">Freitag, 05. Juli 2013</td>
+                    <td class="date">Freitag, 04. Juli 2014</td>
                     <td class="time">18:00 Uhr bis 19:30 Uhr</td>
                 </tr>
                 <tr class="datetime">
-                    <td class="date">Freitag, 23. August 2013</td>
+                    <td class="date">Freitag, 22. August 2014</td>
                     <td class="time">18:00 Uhr bis 19:30 Uhr</td>
                 </tr>
                 </table>
             </div>
             <div id="feld">
                 <h2>Feldschiessen</h2>
-                <div class="description">Auf dem Schiessplatz Tuggen mit Plauschgruppenwettkampf!<br /></div>
+                <div class="description">Auf dem Schiessplatz Reichenburg mit Plauschgruppenwettkampf!<br /></div>
                 <table id="t_feld" summary="Feldschiessen">
                 <!--<tr class="datetime">
-                    <td class="date">Montag, 23. Mai 2013</td>
+                    <td class="date">Montag, 23. Mai 2014</td>
                     <td class="time">18:00 Uhr bis 20:00 Uhr</td>
                     <td class="comment">Vorschiessen</td>
                 </tr>-->
-                <tr class="datetime">
-                    <td class="date">Freitag, 24. Mai 2013</td>
-                    <td class="time">17:30 Uhr bis 20:00 Uhr</td>
-                    <!--<td class="comment">&nbsp;</td>-->
-                </tr>
                 <tr>
-                    <td class="date">Freitag, 31. Juni 2013</td>
+                    <td class="date">Freitag, 31. Mai 2014</td>
                     <td class="time">17:30 Uhr bis 20:00 Uhr</td>
                     <!--<td class="comment">&nbsp;</td>-->
                 </tr>
                 <tr class="datetime">
-                    <td class="date">Samstag, 01. Juni 2013</td>
+                    <td class="date">Samstag, 01. Juni 2014</td>
                     <td class="time">14:00 Uhr bis 17:30 Uhr</td>
                     <!--<td class="comment">&nbsp;</td>-->
                 </tr>
                 <tr class="datetime">
-                    <td class="date">Sonntag, 02. Juni 2013</td>
+                    <td class="date">Sonntag, 01. Juni 2014</td>
                     <td class="time">09:00 Uhr bis 11:00 Uhr</td>
                     <!--<td class="comment">&nbsp;</td>-->
                 </tr>
@@ -122,36 +127,37 @@ static:
                 <h2>Trainingsschiessen</h2>
                 <table id="t_ueb" summary="Übungsschiessen">
                 <tr class="datetime">
-                    <td class="date">Samstag, 02. und 09. März 2013</td>
+                    <td class="date">Samstag, 01. und 08. März 2014</td>
                     <td class="time">13:30 Uhr bis 15:30 Uhr</td>
                     <td></td>
                 </tr>
                 <tr class="datetime">
-                    <td class="date">Samstag, 16. und 23. März 2013</td>
+                    <td class="date">Samstag, 15., 22. und 29. März 2014</td>
                     <td class="time">15:00 Uhr bis 17:00 Uhr</td>
                     <td></td>
                 </tr>
                 <tr class="datetime">
-                    <td class="date">Mittwoch, 03. April bis 03. Juli 2013</td>
+                    <td class="date">Mittwoch, 02. April bis 02. Juli 2014</td>
                     <td class="time">18:30 Uhr bis 20:00 Uhr</td>
                     <td class="position">Liegend</td>
                 </tr>
                 <tr class="datetime">
-                    <td class="date">Donnerstag, 04. April bis 04. Juli 2013</td>
+                    <td class="date">Donnerstag, 03. April bis 03. Juli 2014</td>
                     <td class="time">18:30 Uhr bis 20:00 Uhr</td>
                     <td class="position">Liegend und Kniend</td>
                 </tr>
                 <tr class="datetime">
-                    <td class="date">Mittwoch, 07. bis 28. August 2013</td>
+                    <td class="date">Mittwoch, 06. bis 27. August 2014</td>
                     <td class="time">18:30 Uhr bis 20:00 Uhr</td>
                     <td class="position">Liegend</td>
                 </tr>
                 <tr class="datetime">
-                    <td class="date">Mittwoch, 04. bis 25. September 2013</td>
+                    <td class="date">Mittwoch, 03. bis 24. September 2014</td>
                     <td class="time">18:00 Uhr bis 19:30 Uhr</td>
                     <td class="position">Liegend</td>
                 </tr>
                 </table>
+                <div class="text">Am <b>29. Mai und 19. Juni 2014</b> findet <b>kein</b> Training statt (Feiertage).</div>
             </div>
             <div id="meist">
                 <h2>Vereinsmeisterschaft</h2>
@@ -166,97 +172,85 @@ static:
                     <td class="cup"></td>
                     <td class="location">Tuggen</td>
                     <td class="shooting">Sektionsmeisterschaft</td>
-                    <td class="date">1. Heimrunde (02. März bis 13. Juni 2013)</td>
+                    <td class="date">1. Heimrunde (01. März bis 12. Juni 2014)</td>
                 </tr>
                 <tr class="datetime">
                     <td class="cup">1. Cup</td>
-                    <td class="location">Galgenen</td>
-                    <td class="shooting">Jubiläumsschiessen</td>
-                    <td class="date">12./13./19./20. April 2013</td>
-                </tr>
-                <tr class="datetime">
-                    <td class="cup"></td>
                     <td class="location">Freienbach-Pfäffikon</td>
                     <td class="shooting">Schlossturmschiessen</td>
-                    <td class="date">13./14./20. April 2013</td>
-                </tr>
-                <tr class="datetime">
-                    <td class="cup">2. Cup</td>
-                    <td class="location">Kaltbrunn</td>
-                    <td class="shooting">St. Georgschiessen</td>
-                    <td class="date">20./26./27. April 2013</td>
+                    <td class="date">12./13./26. April 2014</td>
                 </tr>
                 <tr class="datetime">
                     <td class="cup"></td>
                     <td class="location">Maseltrangen</td>
                     <td class="shooting">Frühlingsschiessen</td>
-                    <td class="date">27./28. April und 04./05. Mai 2013</td>
+                    <td class="date">25./26. April und 03./04. Mai 2014</td>
+                </tr>
+                <tr class="datetime">
+                    <td class="cup">2. Cup</td>
+                    <td class="location">Uznach</td>
+                    <td class="shooting">Buechwaldschiessen</td>
+                    <td class="date">09./10./17. Mai 2014</td>
+                </tr>
+                <tr class="datetime">
+                    <td class="cup"></td>
+                    <td class="location">Gommiswald</td>
+                    <td class="shooting">Regulasteinschiessen</td>
+                    <td class="date">09./10./17. Mai 2014</td>
                 </tr>
                 <tr class="datetime">
                     <td class="cup">3. Cup</td>
-                    <td class="location">Schmerikon</td>
-                    <td class="shooting">Grynau Schiessen</td>
-                    <td class="date">10./11./17./18. Mai 2013</td>
-                </tr>
-                <tr class="datetime">
-                    <td class="cup"></td>
-                    <td class="location">Eschenbach</td>
-                    <td class="shooting">Balmenrain Schiessen</td>
-                    <td class="date">10./11./18. Mai 2013</td>
-                </tr>
-                <tr class="datetime">
-                    <td class="cup">4. Cup</td>
-                    <td class="location">Amden</td>
-                    <td class="shooting">Amler Bergschiessen</td>
-                    <td class="date">08./09./14./15. Juni 2013</td>
-                </tr>
-                <tr class="datetime">
-                    <td class="cup"></td>
-                    <td class="location">Gross</td>
-                    <td class="shooting">Sihlseeschiessen</td>
-                    <td class="date">14./15./22. Juni 2013</td>
-                </tr>
-                <tr class="datetime">
-                    <td class="cup"></td>
-                    <td class="location">Tuggen</td>
-                    <td class="shooting">Verbandsschiessen M.H.</td>
-                    <td class="date">21./22. Juni 2013</td>
-                </tr>
-                <tr class="datetime">
-                    <td class="cup">5. Cup</td>
-                    <td class="location">Tuggen/Schmerikon</td>
-                    <td class="shooting">Freundschaftsschiessen</td>
-                    <td class="date">19./27. Juni 2013</td>
-                </tr>
-                <tr class="datetime">
-                    <td class="cup"></td>
-                    <td class="location">Unteriberg</td>
-                    <td class="shooting">Hirschfluohschiessen</td>
-                    <td class="date">16./17./24./25. August 2013</td>
-                </tr>
-                <tr class="datetime">
-                    <td class="cup"></td>
-                    <td class="location">Oberiberg</td>
-                    <td class="shooting">Roggenstockschiessen</td>
-                    <td class="date">16./17./24./25. August 2013</td>
-                </tr>
-                <tr class="datetime">
-                    <td class="cup">6. Cup</td>
-                    <td class="location">Ried Muotathal</td>
-                    <td class="shooting">Standerneuerungschiessen</td>
-                    <td class="date">30./31. August und 01./06./07. September 2013</td>
+                    <td class="location">Pfäffikon</td>
+                    <td class="shooting">Etzelbundschiessen</td>
+                    <td class="date">13./21. Juni 2014</td>
                 </tr>
                 <tr class="datetime">
                     <td class="cup"></td>
                     <td class="location">Schübelbach</td>
+                    <td class="shooting">Verbandsschiessen M.H.</td>
+                    <td class="date">21./22. Juni 2014</td>
+                </tr>
+                <tr class="datetime">
+                    <td class="cup">4. Cup</td>
+                    <td class="location">Tuggen/Schmerikon</td>
+                    <td class="shooting">Freundschaftsschiessen</td>
+                    <td class="date">18./26. Juni 2014</td>
+                </tr>
+                <tr class="datetime">
+                    <td class="cup"></td>
+                    <td class="location">Brunnen-Ingebohl</td>
+                    <td class="shooting">Fahnenweihschiessen</td>
+                    <td class="date">16./17./22./23./24. August 2014</td>
+                </tr>
+                <tr class="datetime">
+                    <td class="cup">5. Cup</td>
+                    <td class="location">Schwyz</td>
+                    <td class="shooting">Standartenweihschiessen</td>
+                    <td class="date">16./17./22./23./24. August 2014</td>
+                </tr>
+                <tr class="datetime">
+                    <td class="cup"></td>
+                    <td class="location">Weesen</td>
                     <td class="shooting">Herbstschiessen March</td>
-                    <td class="date">13./14. September 2013</td>
+                    <td class="date">05./06./13. September 2014</td>
+                </tr>
+                <tr class="datetime">
+                    <td class="cup">6. Cup</td>
+                    <td class="location">Niederurnen</td>
+                    <td class="shooting">Linth-Escher-Schiessen</td>
+                    <td class="date">05./06./13. September 2014</td>
+                </tr>
+                <tr class="datetime">
+                    <td class="cup"></td>
+                    <td class="location">Bilten/SV Nuolen</td>
+                    <td class="shooting">Herbstschiessen March</td>
+                    <td class="date">12./13. September 2014</td>
                 </tr>
                 <tr class="datetime">
                     <td class="cup">7. Cup</td>
                     <td class="location">Tuggen</td>
                     <td class="shooting">Endschiessen</td>
-                    <td class="date">28. September und 05. Oktober 2013</td>
+                    <td class="date">27. September und 03. Oktober 2014</td>
                 </tr>
                 </table>
             </div>
@@ -266,7 +260,7 @@ static:
                 <tr class="datetime">
                     <td class="shooting">Absenden</td>
                     <td class="location">Tuggen</td>
-                    <td class="date">19. Oktober 2013</td>
+                    <td class="date">18. Oktober 2014</td>
                 </tr>
                 </table>
             </div>
@@ -274,99 +268,91 @@ static:
     group:
         name: "gruppenschiessen"
         label: "Gruppenschiessen"
-        title: "Gruppenschiessen 2013"
+        title: "Gruppenschiessen 2014"
         body: |
             <table id="t_obli" summary="Gruppenschiessen">
             <tr class="datetime">
                 <td class="shooting">Feldstich</td>
-                <td class="date">Vor dem Feldschiessen 2013</td>
+                <td class="date">Vor dem Feldschiessen 2014</td>
             </tr>
             <tr class="datetime">
                 <td class="shooting">Mannschaftsmeisterschaft Tuggen</td>
-                <td class="date">4 Runden April - September 2013</td>
+                <td class="date">4 Runden April - September 2014</td>
             </tr>
             <tr class="datetime">
                 <td class="shooting">Fahrtschiessen Mollis</td>
-                <td class="date">20./21. April 2013</td>
-            </tr>
-            <tr class="datetime">
-                <td class="shooting">Kreiselschiessen Betzholz (bei Hinwil)</td>
-                <td class="date">26./27. April und 01. Mai 2013</td>
+                <td class="date">19./20. April 2014</td>
             </tr>
             <tr class="datetime">
                 <td class="shooting">Einzelwettschiessen (Sportwaffen)</td>
-                <td class="date">03./04. Mai 2013</td>
+                <td class="date">02./03. Mai 2014</td>
             </tr>
             <tr class="datetime">
                 <td class="shooting">Einzelwettschiessen (Armeewaffen)</td>
-                <td class="date">03./04. Mai 2013</td>
+                <td class="date">02./03. Mai 2014</td>
             </tr>
             <tr class="datetime">
-                <td class="shooting">Feldmeisterschaft 2013 in Bennau</td>
-                <td class="date">14./15./22. Juni 2013</td>
+                <td class="shooting">Feldmeisterschaft 2014 in Pfäffikon</td>
+                <td class="date">13./21. Juni 2014</td>
             </tr>
             <tr class="datetime">
                 <td class="shooting">Schindellegi 1. Augustschiessen</td>
-                <td class="date">26./28. Juli und 01./03. August 2013</td>
+                <td class="date">25./27. Juli und 01./02. August 2014</td>
             </tr>
             <tr class="datetime">
                 <td class="shooting">Rossbergschiessen</td>
-                <td class="date">03./04. August 2013</td>
+                <td class="date">08./09. August 2014</td>
             </tr>
             <tr class="datetime">
-                <td class="shooting">Pragelschiessen</td>
-                <td class="date">11./12. August 2013</td>
+                <td class="shooting">Burg-Schwanau-Schiessen in Lauerz</td>
+                <td class="date">16./17./22./24. August 2014</td>
             </tr>
             <tr class="datetime">
-                <td class="shooting">Steinerberg Jubiläumsschiessen</td>
-                <td class="date">30./31. August und 01./06./07. September 2013</td>
+                <td class="shooting">1. Muotitaler Gruppäschiessä</td>
+                <td class="date">16./17./22./23./24. August 2014</td>
             </tr>
             <tr class="datetime">
                 <td class="shooting">Wyber Schiessen Oberiberg</td>
-                <td class="date">05./14. September 2013</td>
-            </tr>
-            <tr class="datetime">
-                <td class="shooting">Kreuzmarktschiessen Netstal</td>
-                <td class="date">07./08./15. September 2013</td>
+                <td class="date">September 2014</td>
             </tr>
             <tr class="datetime">
                 <td class="shooting">Herbstschiessen Stäfa</td>
-                <td class="date">20./21./28. September 2013</td>
+                <td class="date">19./20./27. September 2014</td>
             </tr>
             <tr class="datetime">
                 <td class="shooting">Wertmüller Schiessen Wädenswil</td>
-                <td class="date">27./28. September und 05. Oktober 2013</td>
+                <td class="date">26./27. September und 04. Oktober 2014</td>
             </tr>
             <tr class="datetime">
                 <td class="shooting">Nachtschiessen Weisstannenthal</td>
-                <td class="date">26./27./28. September und 04./05. Oktober 2013</td>
+                <td class="date">19./26./27. September und 03./04. Oktober 2014</td>
             </tr>
             <tr class="datetime">
                 <td class="shooting">Landschiessen Lichtensteig</td>
-                <td class="date">28./30. September und 05./06./07. Oktober 2013</td>
+                <td class="date">27./29. September und 04./05./06. Oktober 2014</td>
             </tr>
             <tr class="datetime">
                 <td class="shooting">Vorstandsschiessen March</td>
                 <td class="date">&nbsp;</td>
             </tr>
             <tr class="datetime">
-                <td class="shooting">Feldschiessen Schiessplatz Tuggen</td>
-                <td class="date">24./31. Mai und 01./02. Juni 2013</td>
+                <td class="shooting">Feldschiessen Schiessplatz Reichenburg</td>
+                <td class="date">30./31. Mai und 01. Juni 2014</td>
             </tr>
             <tr class="datetime">
-                <td class="shooting">Luzerner Kantonal Langenthal</td>
-                <td class="date">21. September 2013</td>
+                <td class="shooting">St. Galler Kantonal in Wil</td>
+                <td class="date">29. Juni 2014</td>
             </tr>
             <tr class="datetime">
-                <td class="shooting">Thurgauer Kantonal Basadingen</td>
-                <td class="date">23. Juli 2013</td>
+                <td class="shooting">Schauffhauser Kantonal in Birch</td>
+                <td class="date">24. August 2014</td>
             </tr>
             </table>
 
     feldschiessen:
         name: "feldschiessen"
         label: "Feldschiessen"
-        title: "Feldschiessen 2013"
+        title: "Feldschiessen 2014"
         body: |
             <table id="dates" summary="Daten für das eidgenössische Feldschiessen">
                 <!--<tr class="datetime">
@@ -374,23 +360,18 @@ static:
                     <td class="time">18:00 Uhr bis 20:00 Uhr</td>
                     <td class="comment">Vorschiessen</td>
                 </tr>-->
-                <tr class="datetime">
-                    <td class="date">Freitag, 24. Mai 2013</td>
+                <tr>
+                    <td class="date">Freitag, 31. Mai 2014</td>
                     <td class="time">17:30 Uhr bis 20:00 Uhr</td>
                     <!--<td class="comment">&nbsp;</td>-->
                 </tr>
                 <tr>
-                    <td class="date">Freitag, 31. Juni 2013</td>
-                    <td class="time">17:30 Uhr bis 20:00 Uhr</td>
-                    <!--<td class="comment">&nbsp;</td>-->
-                </tr>
-                <tr class="datetime">
-                    <td class="date">Samstag, 01. Juni 2013</td>
+                    <td class="date">Samstag, 01. Juni 2014</td>
                     <td class="time">14:00 Uhr bis 17:30 Uhr</td>
                     <!--<td class="comment">&nbsp;</td>-->
                 </tr>
-                <tr class="datetime">
-                    <td class="date">Sonntag, 02. Juni 2013</td>
+                <tr>
+                    <td class="date">Sonntag, 01. Juni 2014</td>
                     <td class="time">09:00 Uhr bis 11:00 Uhr</td>
                     <!--<td class="comment">&nbsp;</td>-->
                 </tr>
