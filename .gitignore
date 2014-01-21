@@ -13,5 +13,8 @@ web/config.php
 app/SymfonyRequirements.php
 app/check.php
 
+build/
+.vagrant/
+
 /bin/
 !.gitignore
