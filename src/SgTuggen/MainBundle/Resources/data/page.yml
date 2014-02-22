@@ -397,11 +397,11 @@ static:
     youth:
         name: "jungschuetzenkurs"
         label: "Jungschützenkurs"
-        title: "Jungschützenkurs 2013"
+        title: "Jungschützenkurs 2014"
         body: |
-            <div class="text">Geschätzte Damen und Herren vom Jahrgang 1993 / 1994 / 1995 / 1996.
-            Geschätzte Mädchen und Burschen vom Jahrgang 1997 / 1998 / 1999 / 2000 / 2001.<br />
-            Die Jahrgänge 1993 - 1996 sind Jungschützen und 1997 - 2001 sind Jugendschützen.
+            <div class="text">Geschätzte Damen und Herren vom Jahrgang 1994 / 1995 / 1996 / 1997.
+            Geschätzte Mädchen und Burschen vom Jahrgang 1998 / 1999 / 2000 / 2001 / 2002.<br />
+            Die Jahrgänge 1994 - 1997 sind Jungschützen und 1998 - 2002 sind Jugendschützen.
             Alle dieser Jahrgänge können am Jungschützenkurs teilnehmen.</div>
             <div class="text"><ul>
                 <li>Hast du Interesse am sportlichen 300 Meter Schiessen mit dem Sportgerät Sturmgewehr 90?</li>
@@ -411,24 +411,24 @@ static:
             </ul>
             Wir möchten Dir gerne das sportliche Schiessen und der Umgang mit der Waffe beibringen.</div>
             <div class="text"><b>Der Jungschützenkurs ist gratis</b> und alle JS-Kurs Teilnehmer sind versichert.</div>
-            <div class="text"><b>Diese Einladung geht an alle die im Jahr 2012 den JS-Kurs besucht haben.</b><br />
+            <div class="text"><b>Diese Einladung geht an alle die im Jahr 2013 den JS-Kurs besucht haben.</b><br />
             <b>Ich hoffe dass Du dieses Jahr wieder am JS-Kurs teilnimmst.</b></div>
             <div class="text"><u>Bitte mache Werbung bei deinen Kameradinnen, Kameraden, Schulkollegen, Nachbarn usw.</u></div>
             <div class="text">Sollte es Dir an diesem Datum nicht möglich sein, dann kannst Du Dich auch per E-Mail oder telefonisch bei mir melden.</div>
-            <div class="highlight">Anmeldung: Donnerstag, den 14. März 2013, um 19:00 Uhr im Schützenhaus Chlausen in Tuggen.</div>
+            <div class="highlight">Anmeldung: Donnerstag, den 13. März 2014, um 19:00 Uhr im Schützenhaus Chlausen in Tuggen.</div>
             <div class="text">Die Anmeldung und Orientierung dauert ca. eine Stunde.</div>
             <div class="text">Auch die Eltern sind herzlich eingeladen um sich über den Jungschützenkurs zu informieren.</div>
             <div class="text">Ein erfahrenes Leiterteam möchte Dir das sportliche Schiessen gerne beibringen.</div>
             <div class="text">Wenn Du noch weitere Fragen hast bin ich gerne bereit, diese zu beantworten.</div>
-            <div class="text">Der Jungschützenleiter, Marcel Düggelin, und sein Team.</div>
+            <div class="text">Der Jungschützenleiter, Franz Hüppin, und sein Team.</div>
 
-            <h2>Kursdaten 2013</h2>
-            <table id="youth-dates" summary="Kursdaten 2013">
+            <h2>Kursdaten 2014</h2>
+            <table id="youth-dates" summary="Kursdaten 2014">
             <tr class="datetime">
                 <td class="day">1.</td>
                 <td class="courseday">Kurstag</td>
                 <td class="weekday">Donnerstag</td>
-                <td class="date">14. März</td>
+                <td class="date">13. März</td>
                 <td class="time">19:00 Uhr bis 20:00 Uhr</td>
                 <td class="todo">Anmeldung und Theorie</td>
             </tr>
@@ -436,7 +436,7 @@ static:
                 <td class="day">2.</td>
                 <td class="courseday">Kurstag</td>
                 <td class="weekday">Samstag</td>
-                <td class="date">16. März</td>
+                <td class="date">15. März</td>
                 <td class="time">13:30 Uhr bis 15:00 Uhr</td>
                 <td class="todo">Theorie</td>
             </tr>
@@ -444,31 +444,31 @@ static:
                 <td class="day">3.</td>
                 <td class="courseday">Kurstag</td>
                 <td class="weekday">Samstag</td>
-                <td class="date">23. März</td>
+                <td class="date">22. März</td>
                 <td class="time">10:00 Uhr bis 11:30 Uhr</td>
                 <td class="todo">Theorie + Schiessen</td>
             </tr>
             <tr class="datetime">
                 <td class="day">4.</td>
                 <td class="courseday">Kurstag</td>
-                <td class="weekday">Donnerstag</td>
-                <td class="date">04. April</td>
-                <td class="time">18:15 Uhr bis 20:00 Uhr</td>
+                <td class="weekday">Samstag</td>
+                <td class="date">29. März</td>
+                <td class="time">13:30 Uhr bis 15:00 Uhr</td>
                 <td class="todo">Schiessen</td>
             </tr>
             <tr class="datetime">
                 <td class="day">5.</td>
                 <td class="courseday">Kurstag</td>
-                <td class="weekday">Samstag</td>
-                <td class="date">06. April</td>
-                <td class="time">13:30 Uhr bis 15:00 Uhr</td>
+                <td class="weekday">Donnerstag</td>
+                <td class="date">03. April</td>
+                <td class="time">18:15 Uhr bis 20:00 Uhr</td>
                 <td class="todo">Schiessen</td>
             </tr>
             <tr class="datetime">
                 <td class="day">6.</td>
                 <td class="courseday">Kurstag</td>
                 <td class="weekday">Donnerstag</td>
-                <td class="date">11. April</td>
+                <td class="date">10. April</td>
                 <td class="time">18:15 Uhr bis 20:00 Uhr</td>
                 <td class="todo">Schiessen</td>
             </tr>
@@ -476,7 +476,7 @@ static:
                 <td class="day">7.</td>
                 <td class="courseday">Kurstag</td>
                 <td class="weekday">Donnerstag</td>
-                <td class="date">18. April</td>
+                <td class="date">17. April</td>
                 <td class="time">18:15 Uhr bis 20:00 Uhr</td>
                 <td class="todo">Schiessen</td>
             </tr>
@@ -484,32 +484,33 @@ static:
                 <td class="day">8.</td>
                 <td class="courseday">Kurstag</td>
                 <td class="weekday">Donnerstag</td>
-                <td class="date">25. April</td>
+                <td class="date">24. April</td>
                 <td class="time">18:15 Uhr bis 20:00 Uhr</td>
                 <td class="todo">Schiessen</td>
             </tr>
             <tr class="datetime">
                 <td class="day">9.</td>
                 <td class="courseday">Kurstag</td>
-                <td class="weekday">Donnerstag</td>
-                <td class="date">02. Mai</td>
-                <td class="time">18:15 Uhr bis 20:00 Uhr</td>
+                <td class="weekday">Samstag</td>
+                <td class="date">26. April</td>
+                <td class="time">13:30 Uhr bis 15:00 Uhr</td>
                 <td class="todo">Schiessen</td>
             </tr>
             <tr class="datetime">
                 <td class="day">10.</td>
                 <td class="courseday">Kurstag</td>
                 <td class="weekday">Donnerstag</td>
-                <td class="date">16. Mai</td>
+                <td class="date">08. Mai</td>
                 <td class="time">18:15 Uhr bis 20:00 Uhr</td>
                 <td class="todo">Schiessen</td>
             </tr>
             </table>
             <div class="text"><ul>
-                <li>Mai/Juni 2013: Jungschützenwettschiessen March - Höfe</li>
-                <li>22. und 23. Juni 2013 Kantonales Jugendschiessen in Rothenthurm</li>
-                <li>31. August 2013 Kantonaler Gruppen und Einzelfinal in Rothenthurm</li>
+                <li>05. und 06. Juni 2014: Jungschützenwettschiessen March - Höfe in Schübelbach</li>
+                <li>28. und 29. Juni 2014 Kantonales Jugendschiessen in Rothenthurm</li>
+                <li>23. August 2014 Kantonaler Gruppen und Einzelfinal in Rothenthurm</li>
             </ul></div>
+            <div class="text">Wir werden auch dieses Jahr wieder Schützenfeste besuchen, dieses ist aber freiwillig. Für alle Schützenfeste, die wir besuchen, gibt es eine Einladung.</div>
 
     links:
         name: "links"
