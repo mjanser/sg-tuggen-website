@@ -4,7 +4,7 @@ static:
         label: "Startseite"
         title: "Willkommen bei der Schützengesellschaft Tuggen"
         body: |
-            <table id="homenews">
+            <!--<table id="homenews">
                 <tr>
                     <td class="newstitle" colspan="3">Generalversammlung 2014</td>
                 </tr>
@@ -13,7 +13,7 @@ static:
                     <td class="newslocation">Restaurant Hirschen in Tuggen</td>
                     <td class="newstext">Vor der GV, um 19:15 Uhr, gibt es einen Imbiss. Anschliessend, um ca. 20:00 Uhr beginnt die Generalversammlung.</td>
                 </tr>
-            </table>
+            </table>-->
             <p>
                 <img src="/bundles/sgtuggenmain/images/verein.jpg" alt="Verein" />
             </p>
