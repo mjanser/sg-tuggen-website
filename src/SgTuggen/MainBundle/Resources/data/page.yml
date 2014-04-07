@@ -109,17 +109,17 @@ static:
                 <tr>
                     <td class="date">Freitag, 31. Mai 2014</td>
                     <td class="time">17:30 Uhr bis 20:00 Uhr</td>
-                    <!--<td class="comment">&nbsp;</td>-->
+                    <td class="comment">&nbsp;</td>
                 </tr>
                 <tr class="datetime">
                     <td class="date">Samstag, 01. Juni 2014</td>
                     <td class="time">14:00 Uhr bis 17:30 Uhr</td>
-                    <!--<td class="comment">&nbsp;</td>-->
+                    <td class="comment">&nbsp;</td>
                 </tr>
                 <tr class="datetime">
                     <td class="date">Sonntag, 01. Juni 2014</td>
                     <td class="time">09:00 Uhr bis 11:00 Uhr</td>
-                    <!--<td class="comment">&nbsp;</td>-->
+                    <td class="comment">&nbsp;</td>
                 </tr>
                 </table>
             </div>
@@ -355,11 +355,11 @@ static:
         title: "Feldschiessen 2014"
         body: |
             <table id="dates" summary="Daten für das eidgenössische Feldschiessen">
-                <!--<tr class="datetime">
-                    <td class="date">Montag, 23. Mai 2013</td>
+                <tr class="datetime">
+                    <td class="date">Montag, 23. Mai 2014</td>
                     <td class="time">18:00 Uhr bis 20:00 Uhr</td>
                     <td class="comment">Vorschiessen</td>
-                </tr>-->
+                </tr>
                 <tr>
                     <td class="date">Freitag, 31. Mai 2014</td>
                     <td class="time">17:30 Uhr bis 20:00 Uhr</td>
