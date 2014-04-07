@@ -101,11 +101,11 @@ static:
                 <h2>Feldschiessen</h2>
                 <div class="description">Auf dem Schiessplatz Reichenburg mit Plauschgruppenwettkampf!<br /></div>
                 <table id="t_feld" summary="Feldschiessen">
-                <!--<tr class="datetime">
+                <tr class="datetime">
                     <td class="date">Montag, 23. Mai 2014</td>
                     <td class="time">18:00 Uhr bis 20:00 Uhr</td>
                     <td class="comment">Vorschiessen</td>
-                </tr>-->
+                </tr>
                 <tr>
                     <td class="date">Freitag, 31. Mai 2014</td>
                     <td class="time">17:30 Uhr bis 20:00 Uhr</td>
