@@ -107,18 +107,18 @@ static:
                     <td class="comment">Vorschiessen</td>
                 </tr>
                 <tr>
-                    <td class="date">Freitag, 31. Mai 2014</td>
+                    <td class="date">Freitag, 30. Mai 2014</td>
                     <td class="time">17:30 Uhr bis 20:00 Uhr</td>
                     <td class="comment">&nbsp;</td>
                 </tr>
                 <tr class="datetime">
-                    <td class="date">Samstag, 01. Juni 2014</td>
-                    <td class="time">14:00 Uhr bis 17:30 Uhr</td>
+                    <td class="date">Samstag, 31. Mai 2014</td>
+                    <td class="time">13:30 Uhr bis 18:00 Uhr</td>
                     <td class="comment">&nbsp;</td>
                 </tr>
                 <tr class="datetime">
                     <td class="date">Sonntag, 01. Juni 2014</td>
-                    <td class="time">09:00 Uhr bis 11:00 Uhr</td>
+                    <td class="time">08:00 Uhr bis 11:30 Uhr</td>
                     <td class="comment">&nbsp;</td>
                 </tr>
                 </table>
@@ -361,18 +361,18 @@ static:
                     <td class="comment">Vorschiessen</td>
                 </tr>
                 <tr>
-                    <td class="date">Freitag, 31. Mai 2014</td>
+                    <td class="date">Freitag, 30. Mai 2014</td>
                     <td class="time">17:30 Uhr bis 20:00 Uhr</td>
                     <!--<td class="comment">&nbsp;</td>-->
                 </tr>
                 <tr>
-                    <td class="date">Samstag, 01. Juni 2014</td>
-                    <td class="time">14:00 Uhr bis 17:30 Uhr</td>
+                    <td class="date">Samstag, 31. Mai 2014</td>
+                    <td class="time">13:30 Uhr bis 18:00 Uhr</td>
                     <!--<td class="comment">&nbsp;</td>-->
                 </tr>
                 <tr>
                     <td class="date">Sonntag, 01. Juni 2014</td>
-                    <td class="time">09:00 Uhr bis 11:00 Uhr</td>
+                    <td class="time">08:00 Uhr bis 11:30 Uhr</td>
                     <!--<td class="comment">&nbsp;</td>-->
                 </tr>
             </table>
