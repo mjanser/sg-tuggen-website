@@ -4,7 +4,7 @@ static:
         label: "Startseite"
         title: "Willkommen bei der Schützengesellschaft Tuggen"
         body: |
-            <table id="homenews">
+            <!-- <table id="homenews">
                 <tr>
                     <td class="newstitle" colspan="3">Schnupperschiessen für Jugendliche mit dem Stgw. 90 auf 300m</td>
                 </tr>
@@ -13,7 +13,7 @@ static:
                     <td class="newslocation">Schiessanlage Chlausen Tuggen</td>
                     <td class="newstext">Zur Teilnahme sind alle Jugendlichen vom Jahrgang 1996 bis 2004 eingeladen, welche in Tuggen oder Wangen wohnen. Auch die Eltern sind herzlich eingeladen dabei zu sein. Dieser Anlass ist kostenlos.</td>
                 </tr>
-            </table>
+            </table> -->
             <p>
                 <img src="/bundles/sgtuggenmain/images/verein.jpg" alt="Verein" />
             </p>
