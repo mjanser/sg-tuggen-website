@@ -4,16 +4,16 @@ static:
         label: "Startseite"
         title: "Willkommen bei der Schützengesellschaft Tuggen"
         body: |
-            <!-- <table id="homenews">
+            <table id="homenews">
                 <tr>
-                    <td class="newstitle" colspan="3">Schnupperschiessen für Jugendliche mit dem Stgw. 90 auf 300m</td>
+                    <td class="newstitle" colspan="3">GV 2015 im Restaurant Limmat, Tuggen</td>
                 </tr>
                 <tr class="newsinfo">
-                    <td class="newsdate">8. November 2014, 14:00-16:00 Uhr</td>
-                    <td class="newslocation">Schiessanlage Chlausen Tuggen</td>
-                    <td class="newstext">Zur Teilnahme sind alle Jugendlichen vom Jahrgang 1996 bis 2004 eingeladen, welche in Tuggen oder Wangen wohnen. Auch die Eltern sind herzlich eingeladen dabei zu sein. Dieser Anlass ist kostenlos.</td>
+                    <td class="newsdate">20. Februar 2015</td>
+                    <td class="newslocation">Restaurant Limmat, Tuggen</td>
+                    <td class="newstext">Am 20.02.2015 findet im Restaurant Limmat die Generalversammlung statt.</td>
                 </tr>
-            </table> -->
+            </table>
             <p>
                 <img src="/bundles/sgtuggenmain/images/verein.jpg" alt="Verein" />
             </p>
@@ -76,7 +76,7 @@ static:
     plan:
         name: "schiessplan"
         label: "Schiessplan"
-        title: "Schiessplan 2014"
+        title: "Schiessplan 2015"
         body: |
             <div id="obli">
                 <h2>Obligatorische Übungen</h2>
@@ -84,40 +84,40 @@ static:
                 Dienst- und Schiessbüchlein oder Leistungsausweis mitbringen.</div>
                 <table id="t_obli" summary="Obligatorische Übungen">
                 <tr class="datetime">
-                    <td class="date">Ostermontag, 21. April 2014</td>
+                    <td class="date">Ostermontag, 06. April 2015</td>
                     <td class="time">09:30 Uhr bis 11:00 Uhr</td>
                 </tr>
                 <tr class="datetime">
-                    <td class="date">Freitag, 04. Juli 2014</td>
+                    <td class="date">Freitag, 03. Juli 2015</td>
                     <td class="time">18:00 Uhr bis 19:30 Uhr</td>
                 </tr>
                 <tr class="datetime">
-                    <td class="date">Freitag, 22. August 2014</td>
+                    <td class="date">Freitag, 21. August 2015</td>
                     <td class="time">18:00 Uhr bis 19:30 Uhr</td>
                 </tr>
                 </table>
             </div>
             <div id="feld">
                 <h2>Feldschiessen</h2>
-                <div class="description">Auf dem Schiessplatz Reichenburg mit Plauschgruppenwettkampf!<br /></div>
+                <div class="description">Auf dem Schiessplatz Schübelbach mit Plauschgruppenwettkampf!<br /></div>
                 <table id="t_feld" summary="Feldschiessen">
-                <tr class="datetime">
-                    <td class="date">Freitag, 23. Mai 2014</td>
+                <!-- <tr class="datetime">
+                    <td class="date">Freitag, 05. Juni 2015</td>
                     <td class="time">18:00 Uhr bis 20:00 Uhr</td>
                     <td class="comment">Vorschiessen</td>
-                </tr>
+                </tr> -->
                 <tr>
-                    <td class="date">Freitag, 30. Mai 2014</td>
+                    <td class="date">Freitag, 05. Juni 2015</td>
                     <td class="time">17:30 Uhr bis 20:00 Uhr</td>
                     <td class="comment">&nbsp;</td>
                 </tr>
                 <tr class="datetime">
-                    <td class="date">Samstag, 31. Mai 2014</td>
+                    <td class="date">Samstag, 06. Juni 2015</td>
                     <td class="time">13:30 Uhr bis 18:00 Uhr</td>
                     <td class="comment">&nbsp;</td>
                 </tr>
                 <tr class="datetime">
-                    <td class="date">Sonntag, 01. Juni 2014</td>
+                    <td class="date">Sonntag, 07. Juni 2015</td>
                     <td class="time">08:00 Uhr bis 11:30 Uhr</td>
                     <td class="comment">&nbsp;</td>
                 </tr>
@@ -127,37 +127,37 @@ static:
                 <h2>Trainingsschiessen</h2>
                 <table id="t_ueb" summary="Übungsschiessen">
                 <tr class="datetime">
-                    <td class="date">Samstag, 01. und 08. März 2014</td>
+                    <td class="date">Samstag, 07. und 14. März 2015</td>
                     <td class="time">13:30 Uhr bis 15:30 Uhr</td>
                     <td></td>
                 </tr>
                 <tr class="datetime">
-                    <td class="date">Samstag, 15., 22. und 29. März 2014</td>
+                    <td class="date">Samstag, 21. und 28. März 2015</td>
                     <td class="time">15:00 Uhr bis 17:00 Uhr</td>
                     <td></td>
                 </tr>
                 <tr class="datetime">
-                    <td class="date">Mittwoch, 02. April bis 02. Juli 2014</td>
+                    <td class="date">Mittwoch, 01. April bis 01. Juli 2015</td>
                     <td class="time">18:30 Uhr bis 20:00 Uhr</td>
                     <td class="position">Liegend</td>
                 </tr>
                 <tr class="datetime">
-                    <td class="date">Donnerstag, 03. April bis 03. Juli 2014</td>
+                    <td class="date">Donnerstag, 02. April bis 02. Juli 2015</td>
                     <td class="time">18:30 Uhr bis 20:00 Uhr</td>
                     <td class="position">Liegend und Kniend</td>
                 </tr>
                 <tr class="datetime">
-                    <td class="date">Mittwoch, 06. bis 27. August 2014</td>
+                    <td class="date">Mittwoch, 05. bis 26. August 2015</td>
                     <td class="time">18:30 Uhr bis 20:00 Uhr</td>
                     <td class="position">Liegend</td>
                 </tr>
                 <tr class="datetime">
-                    <td class="date">Mittwoch, 03. bis 24. September 2014</td>
+                    <td class="date">Mittwoch, 02. bis 23. September 2015</td>
                     <td class="time">18:00 Uhr bis 19:30 Uhr</td>
                     <td class="position">Liegend</td>
                 </tr>
                 </table>
-                <div class="text">Am <b>29. Mai und 19. Juni 2014</b> findet <b>kein</b> Training statt (Feiertage).</div>
+                <div class="text">Am <b>14. Mai, 04. Juni und 11. Juni 2015</b> findet <b>kein</b> Training statt (Feiertage und JS Wettschiessen).</div>
             </div>
             <div id="meist">
                 <h2>Vereinsmeisterschaft</h2>
@@ -172,85 +172,85 @@ static:
                     <td class="cup"></td>
                     <td class="location">Tuggen</td>
                     <td class="shooting">Sektionsmeisterschaft</td>
-                    <td class="date">1. Heimrunde (01. März bis 12. Juni 2014)</td>
+                    <td class="date">1. Heimrunde (07. März bis 11. Juni 2015)</td>
                 </tr>
                 <tr class="datetime">
                     <td class="cup">1. Cup</td>
                     <td class="location">Freienbach-Pfäffikon</td>
                     <td class="shooting">Schlossturmschiessen</td>
-                    <td class="date">12./13./26. April 2014</td>
+                    <td class="date">18./19./25. April 2015</td>
                 </tr>
                 <tr class="datetime">
                     <td class="cup"></td>
                     <td class="location">Maseltrangen</td>
                     <td class="shooting">Frühlingsschiessen</td>
-                    <td class="date">25./26. April und 03./04. Mai 2014</td>
+                    <td class="date">24./25. April und 02./03. Mai 2015</td>
                 </tr>
                 <tr class="datetime">
                     <td class="cup">2. Cup</td>
-                    <td class="location">Uznach</td>
-                    <td class="shooting">Buechwaldschiessen</td>
-                    <td class="date">09./10./17. Mai 2014</td>
+                    <td class="location">Pfäffikon RSV</td>
+                    <td class="shooting">Verbandsschiessen March-Höfe</td>
+                    <td class="date">April/Mai 2015</td>
                 </tr>
                 <tr class="datetime">
                     <td class="cup"></td>
-                    <td class="location">Gommiswald</td>
-                    <td class="shooting">Regulasteinschiessen</td>
-                    <td class="date">09./10./17. Mai 2014</td>
+                    <td class="location">Hinwil</td>
+                    <td class="shooting">Kreiselschiessen</td>
+                    <td class="date">01./08./09. Mai 2015</td>
                 </tr>
                 <tr class="datetime">
                     <td class="cup">3. Cup</td>
-                    <td class="location">Pfäffikon</td>
-                    <td class="shooting">Etzelbundschiessen</td>
-                    <td class="date">13./21. Juni 2014</td>
+                    <td class="location">Eschenbach</td>
+                    <td class="shooting">Balmenrainschiessen</td>
+                    <td class="date">15./16./23. Mai 2015</td>
                 </tr>
                 <tr class="datetime">
                     <td class="cup"></td>
-                    <td class="location">Schübelbach</td>
-                    <td class="shooting">Verbandsschiessen M.H.</td>
-                    <td class="date">21./22. Juni 2014</td>
+                    <td class="location">Trachslau</td>
+                    <td class="shooting">Sihlseeschiessen</td>
+                    <td class="date">12./13./20. Juni 2015</td>
                 </tr>
                 <tr class="datetime">
                     <td class="cup">4. Cup</td>
-                    <td class="location">Tuggen/Schmerikon</td>
-                    <td class="shooting">Freundschaftsschiessen</td>
-                    <td class="date">18./26. Juni 2014</td>
+                    <td class="location">Amden</td>
+                    <td class="shooting">Bergschiessen</td>
+                    <td class="date">13./14./19./20. Juni 2015</td>
                 </tr>
                 <tr class="datetime">
                     <td class="cup"></td>
-                    <td class="location">Brunnen-Ingebohl</td>
-                    <td class="shooting">Fahnenweihschiessen</td>
-                    <td class="date">16./17./22./23./24. August 2014</td>
+                    <td class="location">Tuggen/Schmerikon</td>
+                    <td class="shooting">Freundschaftsschiessen</td>
+                    <td class="date">17./25. Juni 2015</td>
                 </tr>
                 <tr class="datetime">
                     <td class="cup">5. Cup</td>
-                    <td class="location">Schwyz</td>
-                    <td class="shooting">Standartenweihschiessen</td>
-                    <td class="date">16./17./22./23./24. August 2014</td>
+                    <td class="location">Raron VS</td>
+                    <td class="shooting">Eidg. Schützenfest 2015</td>
+                    <td class="date">27./28. Juni 2015</td>
                 </tr>
                 <tr class="datetime">
                     <td class="cup"></td>
-                    <td class="location">Weesen</td>
-                    <td class="shooting">Herbstschiessen March</td>
-                    <td class="date">05./06./13. September 2014</td>
+                    <td class="location">Unteriberg</td>
+                    <td class="shooting">Hirschfluohschiessen</td>
+                    <td class="date">21./22./29./30. August 2015</td>
                 </tr>
                 <tr class="datetime">
                     <td class="cup">6. Cup</td>
-                    <td class="location">Niederurnen</td>
-                    <td class="shooting">Linth-Escher-Schiessen</td>
-                    <td class="date">05./06./13. September 2014</td>
+                    <td class="location">Oberiberg</td>
+                    <td class="shooting">Rogenstockschiessen</td>
+                    <td class="date">21./22./29./30. August 2015</td>
                 </tr>
                 <tr class="datetime">
                     <td class="cup"></td>
-                    <td class="location">Bilten/SV Nuolen</td>
-                    <td class="shooting">Herbstschiessen March</td>
-                    <td class="date">12./13. September 2014</td>
+                    <td class="location">Tuggen</td>
+                    <td class="shooting">Herbstschiessen Ober-/Mittelmarch</td>
+                    <td class="date">11./12. September 2015</td>
                 </tr>
                 <tr class="datetime">
                     <td class="cup">7. Cup</td>
                     <td class="location">Tuggen</td>
                     <td class="shooting">Endschiessen</td>
-                    <td class="date">27. September und 03. Oktober 2014</td>
+                    <td class="date">26. September und 03. Oktober 2015</td>
                 </tr>
                 </table>
             </div>
@@ -260,7 +260,7 @@ static:
                 <tr class="datetime">
                     <td class="shooting">Absenden</td>
                     <td class="location">Tuggen</td>
-                    <td class="date">18. Oktober 2014</td>
+                    <td class="date">17. Oktober 2015</td>
                 </tr>
                 </table>
             </div>
@@ -268,110 +268,94 @@ static:
     group:
         name: "gruppenschiessen"
         label: "Gruppenschiessen"
-        title: "Gruppenschiessen 2014"
+        title: "Gruppenschiessen 2015"
         body: |
             <table id="t_obli" summary="Gruppenschiessen">
             <tr class="datetime">
                 <td class="shooting">Feldstich</td>
-                <td class="date">Vor dem Feldschiessen 2014</td>
+                <td class="date">Vor dem Feldschiessen 2015</td>
             </tr>
             <tr class="datetime">
                 <td class="shooting">Mannschaftsmeisterschaft Tuggen</td>
-                <td class="date">4 Runden April - September 2014</td>
+                <td class="date">4 Runden April - September 2015</td>
             </tr>
             <tr class="datetime">
                 <td class="shooting">Fahrtschiessen Mollis</td>
-                <td class="date">19./20. April 2014</td>
+                <td class="date">17./18. April 2015</td>
             </tr>
             <tr class="datetime">
                 <td class="shooting">Einzelwettschiessen (Sportwaffen)</td>
-                <td class="date">02./03. Mai 2014</td>
+                <td class="date">01./02. Mai 2015</td>
             </tr>
             <tr class="datetime">
                 <td class="shooting">Einzelwettschiessen (Armeewaffen)</td>
-                <td class="date">02./03. Mai 2014</td>
+                <td class="date">01./02. Mai 2015</td>
             </tr>
             <tr class="datetime">
-                <td class="shooting">Feldmeisterschaft 2014 in Pfäffikon</td>
-                <td class="date">13./21. Juni 2014</td>
+                <td class="shooting">Feldmeisterschaft 2015 in Einsiedeln</td>
+                <td class="date">12./13./20. Juni 2015</td>
             </tr>
             <tr class="datetime">
                 <td class="shooting">Schindellegi 1. Augustschiessen</td>
-                <td class="date">25./27. Juli und 01./02. August 2014</td>
+                <td class="date">31. Juli und 01./08./09. August 2015</td>
             </tr>
             <tr class="datetime">
                 <td class="shooting">Rossbergschiessen</td>
-                <td class="date">08./09. August 2014</td>
+                <td class="date">07./08./09. August 2015</td>
             </tr>
             <tr class="datetime">
-                <td class="shooting">Burg-Schwanau-Schiessen in Lauerz</td>
-                <td class="date">16./17./22./24. August 2014</td>
-            </tr>
-            <tr class="datetime">
-                <td class="shooting">1. Muotitaler Gruppäschiessä</td>
-                <td class="date">16./17./22./23./24. August 2014</td>
+                <td class="shooting">1. Muota-Schiessen</td>
+                <td class="date">07./08./21./22. August 2015</td>
             </tr>
             <tr class="datetime">
                 <td class="shooting">Wyber Schiessen Oberiberg</td>
-                <td class="date">September 2014</td>
-            </tr>
-            <tr class="datetime">
-                <td class="shooting">Herbstschiessen Stäfa</td>
-                <td class="date">19./20./27. September 2014</td>
+                <td class="date">08./13./19. September 2015</td>
             </tr>
             <tr class="datetime">
                 <td class="shooting">Wertmüller Schiessen Wädenswil</td>
-                <td class="date">26./27. September und 04. Oktober 2014</td>
+                <td class="date">25./26. September und 03. Oktober 2015</td>
             </tr>
             <tr class="datetime">
                 <td class="shooting">Nachtschiessen Weisstannenthal</td>
-                <td class="date">19./26./27. September und 03./04. Oktober 2014</td>
+                <td class="date">18./25./26. September und 02./03. Oktober 2015</td>
             </tr>
             <tr class="datetime">
                 <td class="shooting">Landschiessen Lichtensteig</td>
-                <td class="date">27./29. September und 04./05./06. Oktober 2014</td>
+                <td class="date">26./28. September und 03./04./05. Oktober 2015</td>
             </tr>
             <tr class="datetime">
                 <td class="shooting">Vorstandsschiessen March</td>
                 <td class="date">&nbsp;</td>
             </tr>
             <tr class="datetime">
-                <td class="shooting">Feldschiessen Schiessplatz Reichenburg</td>
-                <td class="date">30./31. Mai und 01. Juni 2014</td>
-            </tr>
-            <tr class="datetime">
-                <td class="shooting">St. Galler Kantonal in Wil</td>
-                <td class="date">29. Juni 2014</td>
-            </tr>
-            <tr class="datetime">
-                <td class="shooting">Schauffhauser Kantonal in Birch</td>
-                <td class="date">24. August 2014</td>
+                <td class="shooting">Feldschiessen Schiessplatz Schübelbach</td>
+                <td class="date">05./06./07. Juni 2015</td>
             </tr>
             </table>
 
     feldschiessen:
         name: "feldschiessen"
         label: "Feldschiessen"
-        title: "Feldschiessen 2014"
+        title: "Feldschiessen 2015"
         body: |
             <table id="dates" summary="Daten für das eidgenössische Feldschiessen">
-                <tr class="datetime">
-                    <td class="date">Freitag, 23. Mai 2014</td>
+                <!-- <tr class="datetime">
+                    <td class="date">Freitag, 05. Juni 2015</td>
                     <td class="time">18:00 Uhr bis 20:00 Uhr</td>
                     <td class="comment">Vorschiessen</td>
-                </tr>
+                </tr> -->
                 <tr>
-                    <td class="date">Freitag, 30. Mai 2014</td>
+                    <td class="date">Freitag, 05. Juni 2015</td>
                     <td class="time">17:30 Uhr bis 20:00 Uhr</td>
                     <!--<td class="comment">&nbsp;</td>-->
                 </tr>
                 <tr>
-                    <td class="date">Samstag, 31. Mai 2014</td>
+                    <td class="date">Samstag, 06. Juni 2015</td>
                     <td class="time">13:30 Uhr bis 18:00 Uhr</td>
                     <!--<td class="comment">&nbsp;</td>-->
                 </tr>
                 <tr>
-                    <td class="date">Sonntag, 01. Juni 2014</td>
+                    <td class="date">Sonntag, 07. Juni 2015</td>
                     <td class="time">08:00 Uhr bis 11:30 Uhr</td>
                     <!--<td class="comment">&nbsp;</td>-->
                 </tr>
@@ -397,11 +381,11 @@ static:
     youth:
         name: "jungschuetzenkurs"
         label: "Jungschützenkurs"
-        title: "Jungschützenkurs 2014"
+        title: "Jungschützenkurs 2015"
         body: |
-            <div class="text">Geschätzte Damen und Herren vom Jahrgang 1994 / 1995 / 1996 / 1997.
-            Geschätzte Mädchen und Burschen vom Jahrgang 1998 / 1999 / 2000 / 2001 / 2002.<br />
-            Die Jahrgänge 1994 - 1997 sind Jungschützen und 1998 - 2002 sind Jugendschützen.
+            <div class="text">Geschätzte Damen und Herren vom Jahrgang 1995 / 1996 / 1997 / 1998.
+            Geschätzte Mädchen und Burschen vom Jahrgang 1999 / 2000 / 2001 / 2002 / 2003.<br />
+            Die Jahrgänge 1995 - 1998 sind Jungschützen und 1999 - 2003 sind Jugendschützen.
             Alle dieser Jahrgänge können am Jungschützenkurs teilnehmen.</div>
             <div class="text"><ul>
                 <li>Hast du Interesse am sportlichen 300 Meter Schiessen mit dem Sportgerät Sturmgewehr 90?</li>
@@ -411,24 +395,24 @@ static:
             </ul>
             Wir möchten Dir gerne das sportliche Schiessen und der Umgang mit der Waffe beibringen.</div>
             <div class="text"><b>Der Jungschützenkurs ist gratis</b> und alle JS-Kurs Teilnehmer sind versichert.</div>
-            <div class="text"><b>Diese Einladung geht an alle die im Jahr 2013 den JS-Kurs besucht haben.</b><br />
+            <div class="text"><b>Diese Einladung geht an alle die im Jahr 2014 den JS-Kurs besucht haben.</b><br />
             <b>Ich hoffe dass Du dieses Jahr wieder am JS-Kurs teilnimmst.</b></div>
             <div class="text"><u>Bitte mache Werbung bei deinen Kameradinnen, Kameraden, Schulkollegen, Nachbarn usw.</u></div>
             <div class="text">Sollte es Dir an diesem Datum nicht möglich sein, dann kannst Du Dich auch per E-Mail oder telefonisch bei mir melden.</div>
-            <div class="highlight">Anmeldung: Donnerstag, den 13. März 2014, um 19:00 Uhr im Schützenhaus Chlausen in Tuggen.</div>
+            <div class="highlight">Anmeldung: Mittwoch, den 18. März 2015, um 19:00 Uhr im Schützenhaus Chlausen in Tuggen.</div>
             <div class="text">Die Anmeldung und Orientierung dauert ca. eine Stunde.</div>
             <div class="text">Auch die Eltern sind herzlich eingeladen um sich über den Jungschützenkurs zu informieren.</div>
             <div class="text">Ein erfahrenes Leiterteam möchte Dir das sportliche Schiessen gerne beibringen.</div>
             <div class="text">Wenn Du noch weitere Fragen hast bin ich gerne bereit, diese zu beantworten.</div>
             <div class="text">Der Jungschützenleiter, Franz Hüppin, und sein Team.</div>
 
-            <h2>Kursdaten 2014</h2>
-            <table id="youth-dates" summary="Kursdaten 2014">
+            <h2>Kursdaten 2015</h2>
+            <table id="youth-dates" summary="Kursdaten 2015">
             <tr class="datetime">
                 <td class="day">1.</td>
                 <td class="courseday">Kurstag</td>
-                <td class="weekday">Donnerstag</td>
-                <td class="date">13. März</td>
+                <td class="weekday">Mittwoch</td>
+                <td class="date">18. März</td>
                 <td class="time">19:00 Uhr bis 20:00 Uhr</td>
                 <td class="todo">Anmeldung und Theorie</td>
             </tr>
@@ -436,31 +420,31 @@ static:
                 <td class="day">2.</td>
                 <td class="courseday">Kurstag</td>
                 <td class="weekday">Samstag</td>
-                <td class="date">15. März</td>
-                <td class="time">13:30 Uhr bis 15:00 Uhr</td>
+                <td class="date">21. März</td>
+                <td class="time">10:00 Uhr bis 11:30 Uhr</td>
                 <td class="todo">Theorie</td>
             </tr>
             <tr class="datetime">
                 <td class="day">3.</td>
                 <td class="courseday">Kurstag</td>
                 <td class="weekday">Samstag</td>
-                <td class="date">22. März</td>
-                <td class="time">10:00 Uhr bis 11:30 Uhr</td>
+                <td class="date">28. März</td>
+                <td class="time">13:15 Uhr bis 15:00 Uhr</td>
                 <td class="todo">Theorie + Schiessen</td>
             </tr>
             <tr class="datetime">
                 <td class="day">4.</td>
                 <td class="courseday">Kurstag</td>
-                <td class="weekday">Samstag</td>
-                <td class="date">29. März</td>
-                <td class="time">13:30 Uhr bis 15:00 Uhr</td>
+                <td class="weekday">Donnerstag</td>
+                <td class="date">02. März</td>
+                <td class="time">18:15 Uhr bis 20:00 Uhr</td>
                 <td class="todo">Schiessen</td>
             </tr>
             <tr class="datetime">
                 <td class="day">5.</td>
                 <td class="courseday">Kurstag</td>
                 <td class="weekday">Donnerstag</td>
-                <td class="date">03. April</td>
+                <td class="date">09. April</td>
                 <td class="time">18:15 Uhr bis 20:00 Uhr</td>
                 <td class="todo">Schiessen</td>
             </tr>
@@ -468,7 +452,7 @@ static:
                 <td class="day">6.</td>
                 <td class="courseday">Kurstag</td>
                 <td class="weekday">Donnerstag</td>
-                <td class="date">10. April</td>
+                <td class="date">16. April</td>
                 <td class="time">18:15 Uhr bis 20:00 Uhr</td>
                 <td class="todo">Schiessen</td>
             </tr>
@@ -476,7 +460,7 @@ static:
                 <td class="day">7.</td>
                 <td class="courseday">Kurstag</td>
                 <td class="weekday">Donnerstag</td>
-                <td class="date">17. April</td>
+                <td class="date">23. April</td>
                 <td class="time">18:15 Uhr bis 20:00 Uhr</td>
                 <td class="todo">Schiessen</td>
             </tr>
@@ -484,7 +468,7 @@ static:
                 <td class="day">8.</td>
                 <td class="courseday">Kurstag</td>
                 <td class="weekday">Donnerstag</td>
-                <td class="date">24. April</td>
+                <td class="date">30. April</td>
                 <td class="time">18:15 Uhr bis 20:00 Uhr</td>
                 <td class="todo">Schiessen</td>
             </tr>
@@ -492,23 +476,23 @@ static:
                 <td class="day">9.</td>
                 <td class="courseday">Kurstag</td>
                 <td class="weekday">Samstag</td>
-                <td class="date">26. April</td>
-                <td class="time">13:30 Uhr bis 15:00 Uhr</td>
+                <td class="date">07. Mai</td>
+                <td class="time">18:15 Uhr bis 20:00 Uhr</td>
                 <td class="todo">Schiessen</td>
             </tr>
             <tr class="datetime">
                 <td class="day">10.</td>
                 <td class="courseday">Kurstag</td>
                 <td class="weekday">Donnerstag</td>
-                <td class="date">08. Mai</td>
+                <td class="date">21. Mai</td>
                 <td class="time">18:15 Uhr bis 20:00 Uhr</td>
                 <td class="todo">Schiessen</td>
             </tr>
             </table>
             <div class="text"><ul>
-                <li>05. und 06. Juni 2014: Jungschützenwettschiessen March - Höfe in Schübelbach</li>
-                <li>28. und 29. Juni 2014 Kantonales Jugendschiessen in Rothenthurm</li>
-                <li>23. August 2014 Kantonaler Gruppen und Einzelfinal in Rothenthurm</li>
+                <li>11. und 12. Juni 2015: Jungschützenwettschiessen March - Höfe in Tuggen</li>
+                <li>22. und 23. August 2015 Kantonales Jugendschiessen in Rothenthurm</li>
+                <li>29. August 2015 Kantonaler Gruppen- und Einzelfinal in Rothenthurm</li>
             </ul></div>
             <div class="text">Wir werden auch dieses Jahr wieder Schützenfeste besuchen, dieses ist aber freiwillig. Für alle Schützenfeste, die wir besuchen, gibt es eine Einladung.</div>
 
