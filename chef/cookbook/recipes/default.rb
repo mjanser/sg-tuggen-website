@@ -42,6 +42,10 @@ php5-intl
 php-apc
 ).each { | pkg | package pkg }
 
+gem_package "capifony" do
+  action :install
+end
+
 template "/etc/apache2/sites-enabled/000-default" do
   user "root"
   mode "0644"
