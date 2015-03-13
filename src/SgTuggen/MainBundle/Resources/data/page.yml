@@ -4,7 +4,7 @@ static:
         label: "Startseite"
         title: "Willkommen bei der Schützengesellschaft Tuggen"
         body: |
-            <table id="homenews">
+            <!--<table id="homenews">
                 <tr>
                     <td class="newstitle" colspan="3">GV 2015 im Restaurant Limmat, Tuggen</td>
                 </tr>
@@ -13,7 +13,7 @@ static:
                     <td class="newslocation">Restaurant Limmat, Tuggen</td>
                     <td class="newstext">Am 20.02.2015 findet im Restaurant Limmat die Generalversammlung statt.</td>
                 </tr>
-            </table>
+            </table>-->
             <p>
                 <img src="/bundles/sgtuggenmain/images/verein.jpg" alt="Verein" />
             </p>
@@ -48,8 +48,8 @@ static:
                 <span class="type">Sekretärin</span>
             </div>
             <div class="person">
-                <img class="person" src="/bundles/sgtuggenmain/images/persons/karl.schnyder.png" alt="" />
-                <span class="name">Schnyder Karl</span>
+                <img class="person" src="/bundles/sgtuggenmain/images/persons/erhard.ziltener.png" alt="" />
+                <span class="name">Ziltener Erhard</span>
                 <span class="type">Beisitzer</span>
             </div>
             <div class="person">
@@ -58,8 +58,8 @@ static:
                 <span class="type">Munitionsverwalter</span>
             </div>
             <div class="person">
-                <img class="person" src="/bundles/sgtuggenmain/images/persons/edy.kaeslin.png" alt="" />
-                <span class="name">Käslin Edy</span>
+                <img class="person" src="/bundles/sgtuggenmain/images/persons/beat.janser.png" alt="" />
+                <span class="name">Janser Beat</span>
                 <span class="type">Schützenmeister</span>
             </div>
             <div class="person">
@@ -404,7 +404,7 @@ static:
             <div class="text">Auch die Eltern sind herzlich eingeladen um sich über den Jungschützenkurs zu informieren.</div>
             <div class="text">Ein erfahrenes Leiterteam möchte Dir das sportliche Schiessen gerne beibringen.</div>
             <div class="text">Wenn Du noch weitere Fragen hast bin ich gerne bereit, diese zu beantworten.</div>
-            <div class="text">Der Jungschützenleiter, Franz Hüppin, und sein Team.</div>
+            <div class="text">Der Jungschützenleiter, Franz Hüppin (Tel: 079 426 17 68), und sein Team.</div>
 
             <h2>Kursdaten 2015</h2>
             <table id="youth-dates" summary="Kursdaten 2015">
