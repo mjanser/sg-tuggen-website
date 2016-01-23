@@ -4,16 +4,19 @@ static:
         label: "Startseite"
         title: "Willkommen bei der Schützengesellschaft Tuggen"
         body: |
-            <!--<table id="homenews">
+            <table id="homenews">
                 <tr>
-                    <td class="newstitle" colspan="3">GV 2015 im Restaurant Limmat, Tuggen</td>
+                    <td class="newstitle" colspan="3">GV 2016 in der Schützenstube, Tuggen</td>
                 </tr>
                 <tr class="newsinfo">
-                    <td class="newsdate">20. Februar 2015</td>
-                    <td class="newslocation">Restaurant Limmat, Tuggen</td>
-                    <td class="newstext">Am 20.02.2015 findet im Restaurant Limmat die Generalversammlung statt.</td>
+                    <td class="newsdate">19. Februar 2016</td>
+                    <td class="newslocation">Schützenstube, Tuggen</td>
+                    <td class="newstext">
+                        Am 19.02.2015 findet in der Schützenstube die Generalversammlung statt.
+                        Vor der GV um 19:25 Uhr gibt es einen Imbiss, um ca. 20:00 Uhr startet die GV.
+                    </td>
                 </tr>
-            </table>-->
+            </table>
             <p>
                 <img src="/bundles/sgtuggenmain/images/verein.jpg" alt="Verein" />
             </p>
