@@ -4,7 +4,7 @@ static:
         label: "Startseite"
         title: "Willkommen bei der Schützengesellschaft Tuggen"
         body: |
-            <table id="homenews">
+            <!--<table id="homenews">
                 <tr>
                     <td class="newstitle" colspan="3">GV 2016 in der Schützenstube, Tuggen</td>
                 </tr>
@@ -16,7 +16,7 @@ static:
                         Vor der GV um 19:15 Uhr gibt es einen Imbiss, um ca. 20:00 Uhr startet die GV.
                     </td>
                 </tr>
-            </table>
+            </table>-->
             <p>
                 <img src="/bundles/sgtuggenmain/images/verein.jpg" alt="Verein" />
             </p>
