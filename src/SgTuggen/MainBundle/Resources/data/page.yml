@@ -107,22 +107,22 @@ static:
                 <tr class="datetime">
                     <td class="date">Montag, 23. Mai 2016</td>
                     <td class="time">18:00 Uhr bis 20:00 Uhr</td>
-                    <td class="comment">&nbsp;</td>
+                    <!--<td class="comment">&nbsp;</td>-->
                 </tr>
                 <tr>
                     <td class="date">Freitag, 27. Mai 2016</td>
                     <td class="time">18:00 Uhr bis 20:00 Uhr</td>
-                    <td class="comment">&nbsp;</td>
+                    <!--<td class="comment">&nbsp;</td>-->
                 </tr>
                 <tr class="datetime">
                     <td class="date">Samstag, 28. Mai 2016</td>
                     <td class="time">14:00 Uhr bis 17:00 Uhr</td>
-                    <td class="comment">&nbsp;</td>
+                    <!--<td class="comment">&nbsp;</td>-->
                 </tr>
                 <tr class="datetime">
                     <td class="date">Sonntag, 29. Mai 2016</td>
                     <td class="time">09:00 Uhr bis 11:00 Uhr</td>
-                    <td class="comment">&nbsp;</td>
+                    <!--<td class="comment">&nbsp;</td>-->
                 </tr>
                 </table>
             </div>
@@ -166,85 +166,85 @@ static:
                 <h2>Vereinsmeisterschaft</h2>
                 <table id="t_meist" summary="Vereinsmeisterschaft">
                 <tr class="datetime">
-                    <td class="cup"></td>
+                    <!--<td class="cup"></td>-->
                     <td class="location">Tuggen</td>
                     <td class="shooting">Kantonalstich</td>
                     <td class="date">Beste Passe der ersten zwei Passen</td>
                 </tr>
                 <tr class="datetime">
-                    <td class="cup"></td>
+                    <!--<td class="cup"></td>-->
                     <td class="location">Tuggen</td>
                     <td class="shooting">Sektionsmeisterschaft</td>
                     <td class="date">1. Heimrunde (05. März bis 09. Juni 2016)</td>
                 </tr>
                 <tr class="datetime">
-                    <td class="cup"></td>
+                    <!--<td class="cup"></td>-->
                     <td class="location">Freienbach-Pfäffikon</td>
                     <td class="shooting">Schlossturmschiessen</td>
                     <td class="date">16./17./23. April 2016</td>
                 </tr>
                 <tr class="datetime">
-                    <td class="cup"></td>
+                    <!--<td class="cup"></td>-->
                     <td class="location">Maseltrangen</td>
                     <td class="shooting">Frühlingsschiessen</td>
                     <td class="date">22./23./30. April und 01. Mai 2016</td>
                 </tr>
                 <tr class="datetime">
-                    <td class="cup"></td>
+                    <!--<td class="cup"></td>-->
                     <td class="location">Kaltbrunn</td>
                     <td class="shooting">St. Georgschiessen</td>
                     <td class="date">23./29./30. April 2016</td>
                 </tr>
                 <tr class="datetime">
-                    <td class="cup"></td>
+                    <!--<td class="cup"></td>-->
                     <td class="location">Innerthal</td>
                     <td class="shooting">Verbandsschiessen March-Höfe</td>
                     <td class="date">06./07. Mai 2016 (Match 21. Mai 2016)</td>
                 </tr>
                 <tr class="datetime">
-                    <td class="cup"></td>
+                    <!--<td class="cup"></td>-->
                     <td class="location">Gommiswald</td>
                     <td class="shooting">Regulasteinschiessen</td>
                     <td class="date">06./07./14. Mai 2016</td>
                 </tr>
                 <tr class="datetime">
-                    <td class="cup"></td>
+                    <!--<td class="cup"></td>-->
                     <td class="location">Uznach</td>
                     <td class="shooting">Buechwaldschiessen</td>
                     <td class="date">06./07./14. Mai 2016</td>
                 </tr>
                 <tr class="datetime">
-                    <td class="cup"></td>
+                    <!--<td class="cup"></td>-->
                     <td class="location">Trachslau</td>
                     <td class="shooting">Etzelbundschiessen</td>
                     <td class="date">03./10./11. Juni 2016</td>
                 </tr>
                 <tr class="datetime">
-                    <td class="cup"></td>
+                    <!--<td class="cup"></td>-->
                     <td class="location">Oberhelfenschwil</td>
                     <td class="shooting">Fahnenweihschiessen</td>
                     <td class="date">19./20./27./28. August 2016</td>
                 </tr>
                 <tr class="datetime">
-                    <td class="cup"></td>
+                    <!--<td class="cup"></td>-->
                     <td class="location">Niederurnen</td>
                     <td class="shooting">Linth-Escher-Schiessen</td>
                     <td class="date">02./03./10. September 2016</td>
                 </tr>
                 <tr class="datetime">
-                    <td class="cup"></td>
+                    <!--<td class="cup"></td>-->
                     <td class="location">Weesen</td>
                     <td class="shooting">Herbstschiessen</td>
                     <td class="date">02./03./10. September 2016</td>
                 </tr>
                 <tr class="datetime">
-                    <td class="cup"></td>
+                    <!--<td class="cup"></td>-->
                     <td class="location">Reichenburg</td>
                     <td class="shooting">Herbstschiessen Ober-/Mittelmarch</td>
                     <td class="date">09./10. September 2016</td>
                 </tr>
                 <tr class="datetime">
-                    <td class="cup"></td>
+                    <!--<td class="cup"></td>-->
                     <td class="location">Tuggen</td>
                     <td class="shooting">Endschiessen</td>
                     <td class="date">24. September und 01. Oktober 2016</td>
