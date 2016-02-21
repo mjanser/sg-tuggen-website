@@ -33,12 +33,7 @@ static:
             <div class="person">
                 <img class="person" src="/bundles/sgtuggenmain/images/persons/fanz.schuler.png" alt="" />
                 <span class="name">Schuler Franz</span>
-                <span class="type">Vize-Präsident</span>
-            </div>
-            <div class="person">
-                <img class="person" src="/bundles/sgtuggenmain/images/persons/fanz.schuler.png" alt="" />
-                <span class="name">Schuler Franz</span>
-                <span class="type">Aktuar</span>
+                <span class="type">Vize-Präsident und Aktuar</span>
             </div>
             <div class="person">
                 <img class="person" src="/bundles/sgtuggenmain/images/persons/margrit.rickenbach.png" alt="" />
@@ -51,8 +46,13 @@ static:
                 <span class="type">Sekretärin</span>
             </div>
             <div class="person">
-                <img class="person" src="/bundles/sgtuggenmain/images/persons/erhard.ziltener.png" alt="" />
-                <span class="name">Ziltener Erhard</span>
+                <img class="person" src="/bundles/sgtuggenmain/images/persons/hermann.pfister.png" alt="" />
+                <span class="name">Pfister Hermann</span>
+                <span class="type">Beisitzer und Gruppenchef</span>
+            </div>
+            <div class="person">
+                <img class="person" src="/bundles/sgtuggenmain/images/persons/roman.mueller.png" alt="" />
+                <span class="name">Müller Roland</span>
                 <span class="type">Beisitzer</span>
             </div>
             <div class="person">
