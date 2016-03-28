@@ -372,10 +372,10 @@ static:
             </div>
             <div class="highlight">Beteiligung kommt vor dem Rang!</div>
             <div class="text">Wieder mit Plausch-Gruppenwettkampf für Familien, Firmen, Vereine, Politische Parteien, Behörden und Plauschformationen. Vier Mann / Frau bilden eine Gruppe, drei werden gewertet. Bitte verlange das Reglement und die Anmeldeunterlagen bei deinem Vereinspräsidenten.
-            <!--<div id="links">
-                <a href="./docs/GruppenReglement.doc">Reglement</a><br />
+            <div id="links">
+                <!--<a href="./docs/GruppenReglement.doc">Reglement</a><br />-->
                 <a href="./docs/GruppenAnmeldung.doc">Anmeldeformular</a>
-            </div>-->
+            </div>
             </div>
             <div class="text">Also, an die Gewehre! Die Teilnahme ist völlig kostenlos! Waffen und Betreuer stehen im Bedarfsfall zur Verfügung! Praktisch keine Wartezeiten dank der modernen Anlage! Herzlichen Dank, gut Schuss und vergnügliche Stunden!</div>
 
