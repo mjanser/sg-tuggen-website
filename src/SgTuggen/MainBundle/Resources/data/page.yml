@@ -145,7 +145,7 @@ static:
                     <td class="position">Liegend</td>
                 </tr>
                 <tr class="datetime">
-                    <td class="date">Donnerstag, 31. März bis 30. Juli 2016</td>
+                    <td class="date">Donnerstag, 31. März bis 30. Juni 2016</td>
                     <td class="time">18:30 Uhr bis 20:00 Uhr</td>
                     <td class="position">Liegend und Kniend</td>
                 </tr>
@@ -270,7 +270,7 @@ static:
             <table id="t_obli" summary="Gruppenschiessen">
             <tr class="datetime">
                 <td class="shooting">Feldstich</td>
-                <td class="date">Vor dem Feldschiessen 2016</td>
+                <td class="date">Vor dem Feldschiessen 2016 in Tuggen</td>
             </tr>
             <tr class="datetime">
                 <td class="shooting">Mannschaftsmeisterschaft Tuggen</td>
