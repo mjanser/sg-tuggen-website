@@ -107,22 +107,18 @@ static:
                 <!--<tr class="datetime">
                     <td class="date">Montag, 23. Mai 2017</td>
                     <td class="time">18:00 Uhr bis 20:00 Uhr</td>
-                    <!--<td class="comment">&nbsp;</td>-->
                 </tr>-->
                 <tr>
                     <td class="date">Freitag, 09. Juni 2017</td>
                     <td class="time">18:00 Uhr bis 20:00 Uhr</td>
-                    <!--<td class="comment">&nbsp;</td>-->
                 </tr>
                 <tr class="datetime">
                     <td class="date">Samstag, 10. Juni 2017</td>
                     <td class="time">14:00 Uhr bis 17:00 Uhr</td>
-                    <!--<td class="comment">&nbsp;</td>-->
                 </tr>
                 <tr class="datetime">
                     <td class="date">Sonntag, 11. Juni 2017</td>
                     <td class="time">09:00 Uhr bis 11:00 Uhr</td>
-                    <!--<td class="comment">&nbsp;</td>-->
                 </tr>
                 </table>
             </div>
@@ -337,22 +333,18 @@ static:
                 <!--<tr class="datetime">
                     <td class="date">Montag, 23. Mai 2017</td>
                     <td class="time">18:00 Uhr bis 20:00 Uhr</td>
-                    <!--<td class="comment">Vorschiessen</td>-->
                 </tr>-->
                 <tr>
                     <td class="date">Freitag, 09. Juni 2017</td>
                     <td class="time">18:00 Uhr bis 20:00 Uhr</td>
-                    <!--<td class="comment">&nbsp;</td>-->
                 </tr>
                 <tr>
                     <td class="date">Samstag, 10. Juni 2017</td>
                     <td class="time">14:00 Uhr bis 17:00 Uhr</td>
-                    <!--<td class="comment">&nbsp;</td>-->
                 </tr>
                 <tr>
                     <td class="date">Sonntag, 11. Juni 2017</td>
                     <td class="time">09:00 Uhr bis 11:00 Uhr</td>
-                    <!--<td class="comment">&nbsp;</td>-->
                 </tr>
             </table>
             <div class="text">Wir laden Dich freundlich zum grössten Schützenfest der Welt ein, zum Eidgenössischen Feldschiessen! Damit dieser Anlass wieder zu einem Volksfest wird, hoffen wir auf die Teilnahme aller...
