@@ -156,7 +156,7 @@ static:
                     <td class="position">Liegend</td>
                 </tr>
                 </table>
-                <div class="text">Am <b>25. März und 15. Juni 2017</b> findet <b>kein</b> Training statt (Feiertage).</div>
+                <div class="text">Am <b>25. Mai und 15. Juni 2017</b> findet <b>kein</b> Training statt (Feiertage).</div>
             </div>
             <div id="meist">
                 <h2>Vereinsmeisterschaft</h2>
@@ -255,72 +255,64 @@ static:
     group:
         name: "gruppenschiessen"
         label: "Gruppenschiessen"
-        title: "Gruppenschiessen 2016"
+        title: "Gruppenschiessen 2017"
         body: |
             <table id="t_obli" summary="Gruppenschiessen">
             <tr class="datetime">
                 <td class="shooting">Feldstich</td>
-                <td class="date">Vor dem Feldschiessen 2016 in Tuggen</td>
+                <td class="date">Vor dem Feldschiessen 2017 in Tuggen</td>
             </tr>
             <tr class="datetime">
                 <td class="shooting">Mannschaftsmeisterschaft Tuggen</td>
-                <td class="date">4 Runden April - September 2016</td>
+                <td class="date">4 Runden April - September 2017</td>
             </tr>
             <tr class="datetime">
-                <td class="shooting">Einzelwettschiessen in Schübelbach (Sportwaffen)</td>
-                <td class="date">29./30. April 2016</td>
+                <td class="shooting">Einzelwettschiessen in Reichenburg (Sportwaffen)</td>
+                <td class="date">2017</td>
             </tr>
             <tr class="datetime">
-                <td class="shooting">Einzelwettschiessen in Schübelbach (Armeewaffen)</td>
-                <td class="date">29./30. April 2016</td>
-            </tr>
-            <tr class="datetime">
-                <td class="shooting">Feldmeisterschaft 2016 in Einsiedeln (Wäni)</td>
-                <td class="date">03./10./11. Juni 2016</td>
-            </tr>
-            <tr class="datetime">
-                <td class="shooting">Solothurner Kantonal 2016</td>
-                <td class="date">26. Juni 2016</td>
-            </tr>
-            <tr class="datetime">
-                <td class="shooting">Nidwaldner Kantonal 2016</td>
-                <td class="date">03./04. Juli 2016</td>
-            </tr>
-            <tr class="datetime">
-                <td class="shooting">Schindellegi 1. Augustschiessen</td>
-                <td class="date">01./06./07. August 2016</td>
-            </tr>
-            <tr class="datetime">
-                <td class="shooting">Rossbergschiessen</td>
-                <td class="date">12./13./14. August 2016</td>
-            </tr>
-            <tr class="datetime">
-                <td class="shooting">2. Muota-Schiessen (Lustenau)</td>
-                <td class="date">12./13./19./20. August 2016</td>
-            </tr>
-            <tr class="datetime">
-                <td class="shooting">Wyber Schiessen Oberiberg</td>
-                <td class="date">06./11./17. September 2016</td>
-            </tr>
-            <tr class="datetime">
-                <td class="shooting">Wertmüller Schiessen Wädenswil</td>
-                <td class="date">23./24. September und 01. Oktober 2016</td>
-            </tr>
-            <tr class="datetime">
-                <td class="shooting">Nachtschiessen Weisstannenthal</td>
-                <td class="date">01./07./08. Oktober 2016</td>
-            </tr>
-            <tr class="datetime">
-                <td class="shooting">Landschiessen Lichtensteig</td>
-                <td class="date">01./02./03./08./10. Oktober 2016</td>
-            </tr>
-            <tr class="datetime">
-                <td class="shooting">Vorstandsschiessen March</td>
+                <td class="shooting">Einzelwettschiessen in Reichenburg (Armeewaffen)</td>
                 <td class="date">&nbsp;</td>
             </tr>
             <tr class="datetime">
+                <td class="shooting">Feldmeisterschaft 2017 in Tuggen</td>
+                <td class="date">16./17./23. Juni 2017</td>
+            </tr>
+            <tr class="datetime">
+                <td class="shooting">Glarner Kantonal 2017 in Elm und Schwanden</td>
+                <td class="date">20./25. August 2017</td>
+            </tr>
+            <tr class="datetime">
+                <td class="shooting">Berner Kantonal 2017</td>
+                <td class="date">02. Juli 2017</td>
+            </tr>
+            <tr class="datetime">
+                <td class="shooting">Zuger Alplischiessen</td>
+                <td class="date">16. Juli 2017</td>
+            </tr>
+            <tr class="datetime">
+                <td class="shooting">Rossbergschiessen</td>
+                <td class="date">11./12./13. August 2017</td>
+            </tr>
+            <tr class="datetime">
+                <td class="shooting">Wyber Schiessen Oberiberg</td>
+                <td class="date">10./16. September 2017</td>
+            </tr>
+            <tr class="datetime">
+                <td class="shooting">Wertmüller Schiessen Wädenswil</td>
+                <td class="date">29./30. September 2017</td>
+            </tr>
+            <tr class="datetime">
+                <td class="shooting">Landschiessen Lichtensteig</td>
+                <td class="date">30. September und 01./02./07./09. Oktober 2017</td>
+            </tr>
+            <tr class="datetime">
+                <td class="shooting">Vorstandsschiessen March</td>
+                <td class="date">August/September 2017</td>
+            </tr>
+            <tr class="datetime">
                 <td class="shooting">Feldschiessen Schiessplatz Schübelbach</td>
-                <td class="date">23./27./28./29. Mai 2016</td>
+                <td class="date">09./10./11. Juni 2017</td>
             </tr>
             </table>
 
