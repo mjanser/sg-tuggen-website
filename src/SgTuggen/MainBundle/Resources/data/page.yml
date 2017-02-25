@@ -4,7 +4,7 @@ static:
         label: "Startseite"
         title: "Willkommen bei der Schützengesellschaft Tuggen"
         body: |
-            <table id="homenews">
+            <!--<table id="homenews">
                 <tr>
                     <td class="newstitle" colspan="3">GV 2017 im Restaurant Kapellhof, Tuggen</td>
                 </tr>
@@ -16,7 +16,7 @@ static:
                         Vor der GV um 19:15 Uhr gibt es einen Imbiss, um ca. 20:00 Uhr startet die GV.
                     </td>
                 </tr>
-            </table>
+            </table>-->
             <p>
                 <img src="/bundles/sgtuggenmain/images/verein.jpg" alt="Verein" />
             </p>
@@ -104,10 +104,10 @@ static:
                 <h2>Feldschiessen</h2>
                 <div class="description">Auf dem Schiessplatz Schübelbach mit Plauschgruppenwettkampf!<br /></div>
                 <table id="t_feld" summary="Feldschiessen">
-                <!--<tr class="datetime">
-                    <td class="date">Montag, 23. Mai 2017</td>
+                <tr class="datetime">
+                    <td class="date">Montag, 29. Mai 2017 (Vorschiessen)</td>
                     <td class="time">18:00 Uhr bis 20:00 Uhr</td>
-                </tr>-->
+                </tr>
                 <tr>
                     <td class="date">Freitag, 09. Juni 2017</td>
                     <td class="time">18:00 Uhr bis 20:00 Uhr</td>
@@ -131,8 +131,13 @@ static:
                     <td></td>
                 </tr>
                 <tr class="datetime">
-                    <td class="date">Samstag, 11./18. und 25. März 2017</td>
+                    <td class="date">Samstag, 11. und 18. März 2017</td>
                     <td class="time">15:00 Uhr bis 17:00 Uhr</td>
+                    <td></td>
+                </tr>
+                <tr class="datetime">
+                    <td class="date">Samstag, 25. März 2017</td>
+                    <td class="time">13:30 Uhr bis 14:45 Uhr</td>
                     <td></td>
                 </tr>
                 <tr class="datetime">
@@ -322,10 +327,10 @@ static:
         title: "Feldschiessen 2017"
         body: |
             <table id="dates" summary="Daten für das eidgenössische Feldschiessen">
-                <!--<tr class="datetime">
-                    <td class="date">Montag, 23. Mai 2017</td>
+                <tr class="datetime">
+                    <td class="date">Montag, 29. Mai 2017 (Vorschiessen)</td>
                     <td class="time">18:00 Uhr bis 20:00 Uhr</td>
-                </tr>-->
+                </tr>
                 <tr>
                     <td class="date">Freitag, 09. Juni 2017</td>
                     <td class="time">18:00 Uhr bis 20:00 Uhr</td>
