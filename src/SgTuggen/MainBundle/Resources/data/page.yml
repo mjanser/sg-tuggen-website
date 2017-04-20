@@ -328,7 +328,7 @@ static:
         body: |
             <table id="dates" summary="Daten für das eidgenössische Feldschiessen">
                 <tr class="datetime">
-                    <td class="date">Montag, 29. Mai 2017 (Vorschiessen)</td>
+                    <td class="date">Montag, 29. Mai 2017</td>
                     <td class="time">18:00 Uhr bis 20:00 Uhr</td>
                 </tr>
                 <tr>
@@ -341,7 +341,7 @@ static:
                 </tr>
                 <tr>
                     <td class="date">Sonntag, 11. Juni 2017</td>
-                    <td class="time">09:00 Uhr bis 11:00 Uhr</td>
+                    <td class="time">09:00 Uhr bis 11:30 Uhr</td>
                 </tr>
             </table>
             <div class="text">Wir laden Dich freundlich zum grössten Schützenfest der Welt ein, zum Eidgenössischen Feldschiessen! Damit dieser Anlass wieder zu einem Volksfest wird, hoffen wir auf die Teilnahme aller...
@@ -355,10 +355,10 @@ static:
             </div>
             <div class="highlight">Beteiligung kommt vor dem Rang!</div>
             <div class="text">Wieder mit Plausch-Gruppenwettkampf für Familien, Firmen, Vereine, Politische Parteien, Behörden und Plauschformationen. Vier Mann / Frau bilden eine Gruppe, drei werden gewertet. Bitte verlange das Reglement und die Anmeldeunterlagen bei deinem Vereinspräsidenten.
-            <!--<div id="links">-->
-                <!--<a href="./docs/GruppenReglement.doc">Reglement</a><br />-->
-                <!--<a href="./docs/GruppenAnmeldung.doc">Anmeldeformular</a>-->
-            <!--</div>-->
+            <div id="links">
+                <a href="./docs/GruppenReglement.doc">Reglement</a><br />
+                <a href="./docs/GruppenAnmeldung.doc">Anmeldeformular</a>
+            </div>
             </div>
             <div class="text">Also, an die Gewehre! Die Teilnahme ist völlig kostenlos! Waffen und Betreuer stehen im Bedarfsfall zur Verfügung! Praktisch keine Wartezeiten dank der modernen Anlage! Herzlichen Dank, gut Schuss und vergnügliche Stunden!</div>
 
@@ -386,7 +386,7 @@ static:
             <div class="text">Auch die Eltern sind herzlich eingeladen um sich über den Jungschützenkurs zu informieren.</div>
             <div class="text">Ein erfahrenes Leiterteam möchte Dir das sportliche Schiessen gerne beibringen.</div>
             <div class="text">Wenn Du noch weitere Fragen hast bin ich gerne bereit, diese zu beantworten.</div>
-            <div class="text">Der Jungschützenleiter, Franz Hüppin (Tel: 079 426 17 68), und sein Team.</div>
+            <div class="text">Der Jungschützenleiter, Franz Hüppin, und sein Team.</div>
 
             <h2>Kursdaten 2017</h2>
             <table id="youth-dates" summary="Kursdaten 2017">
