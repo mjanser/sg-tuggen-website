@@ -1,5 +1,6 @@
 {
     "name": "mjanser/sg-tuggen-website",
+    "type": "project",
     "autoload": {
         "psr-0": { "": "src/" }
     },
