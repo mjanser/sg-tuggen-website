@@ -4,19 +4,19 @@ static:
         label: "Startseite"
         title: "Willkommen bei der Schützengesellschaft Tuggen"
         body: |
-            <!--<table id="homenews">
+            <table id="homenews">
                 <tr>
-                    <td class="newstitle" colspan="3">GV 2017 im Restaurant Kapellhof, Tuggen</td>
+                    <td class="newstitle" colspan="3">GV 2018 im Restaurant Löwen, Tuggen</td>
                 </tr>
                 <tr class="newsinfo">
-                    <td class="newsdate">17. Februar 2017</td>
-                    <td class="newslocation">Restaurant Kapellhof, Tuggen</td>
+                    <td class="newsdate">16. Februar 2018</td>
+                    <td class="newslocation">Restaurant Löwen, Tuggen</td>
                     <td class="newstext">
-                        Am 17.02.2017 findet im Restaurant Kapellhof die Generalversammlung statt.
-                        Vor der GV um 19:15 Uhr gibt es einen Imbiss, um ca. 20:00 Uhr startet die GV.
+                        Am 16.02.2017 findet im Restaurant Löwen die Generalversammlung statt.
+                        Vor der GV um 19:00 Uhr gibt es einen Imbiss, um ca. 20:00 Uhr startet die GV.
                     </td>
                 </tr>
-            </table>-->
+            </table>
             <p>
                 <img src="/bundles/sgtuggenmain/images/verein.jpg" alt="Verein" />
             </p>
@@ -365,11 +365,11 @@ static:
     youth:
         name: "jungschuetzenkurs"
         label: "Jungschützenkurs"
-        title: "Jungschützenkurs 2017"
+        title: "Jungschützenkurs 2018"
         body: |
-            <div class="text">Geschätzte Damen und Herren vom Jahrgang 1997 / 1998 / 1999 / 2000 / 2001 / 2002.
-            Geschätzte Mädchen und Burschen vom Jahrgang  2003 / 2004 / 2005.<br />
-            Die Jahrgänge 1997 - 2002 sind Jungschützen und 2003 - 2005 sind Jugendschützen.
+            <div class="text">Geschätzte Damen und Herren vom Jahrgang 1998 / 1999 / 2000 / 2001 / 2002 / 2003.
+            Geschätzte Mädchen und Burschen vom Jahrgang  2004 / 2005 / 2006.<br />
+            Die Jahrgänge 1998 - 2003 sind Jungschützen und 2004 - 2006 sind Jugendschützen.
             Alle dieser Jahrgänge können am Jungschützenkurs teilnehmen.</div>
             <div class="text"><ul>
                 <li>Hast du Interesse am sportlichen 300 Meter Schiessen mit dem Sportgerät Sturmgewehr 90?</li>
@@ -380,21 +380,21 @@ static:
             Wir möchten Dir gerne das sportliche Schiessen und der Umgang mit der Waffe beibringen.</div>
             <div class="text"><b>Der Jungschützenkurs ist gratis</b> und alle JS-Kurs Teilnehmer sind versichert.</div>
             <div class="text"><u>Bitte mache Werbung bei deinen Kameradinnen, Kameraden, Schulkollegen, Nachbarn usw.</u></div>
-            <div class="highlight">Anmeldung: Donnerstag, den 9. März 2017, um 19:00 Uhr im Schützenhaus Chlausen in Tuggen.</div>
+            <div class="highlight">Anmeldung: Donnerstag, den 8. März 2018, um 19:00 Uhr im Schützenhaus Chlausen in Tuggen.</div>
             <div class="text">Sollte es Dir an diesem Datum nicht möglich sein, dann kannst Du Dich auch per E-Mail oder telefonisch bei mir melden.</div>
             <div class="text">Die Anmeldung und Orientierung dauert ca. eine Stunde.</div>
             <div class="text">Auch die Eltern sind herzlich eingeladen um sich über den Jungschützenkurs zu informieren.</div>
             <div class="text">Ein erfahrenes Leiterteam möchte Dir das sportliche Schiessen gerne beibringen.</div>
             <div class="text">Wenn Du noch weitere Fragen hast bin ich gerne bereit, diese zu beantworten.</div>
-            <div class="text">Der Jungschützenleiter, Franz Hüppin, und sein Team.</div>
+            <div class="text">Der Jungschützenleiter, Beat Gräzer, und sein Team.</div>
 
-            <h2>Kursdaten 2017</h2>
-            <table id="youth-dates" summary="Kursdaten 2017">
+            <h2>Kursdaten 2018</h2>
+            <table id="youth-dates" summary="Kursdaten 2018">
             <tr class="datetime">
                 <td class="day">1.</td>
                 <td class="courseday">Kurstag</td>
                 <td class="weekday">Donnerstag</td>
-                <td class="date">09. März</td>
+                <td class="date">08. März</td>
                 <td class="time">19:00 Uhr bis 20:00 Uhr</td>
                 <td class="todo">Anmeldung und Theorie</td>
             </tr>
@@ -402,7 +402,7 @@ static:
                 <td class="day">2.</td>
                 <td class="courseday">Kurstag</td>
                 <td class="weekday">Donnerstag</td>
-                <td class="date">23. März</td>
+                <td class="date">29. März</td>
                 <td class="time">19:00 Uhr bis 20:00 Uhr</td>
                 <td class="todo">Theorie</td>
             </tr>
@@ -410,7 +410,7 @@ static:
                 <td class="day">3.</td>
                 <td class="courseday">Kurstag</td>
                 <td class="weekday">Donnerstag</td>
-                <td class="date">30. März</td>
+                <td class="date">05. April</td>
                 <td class="time">18:15 Uhr bis 20:00 Uhr</td>
                 <td class="todo">Theorie + Schiessen</td>
             </tr>
@@ -418,7 +418,7 @@ static:
                 <td class="day">4.</td>
                 <td class="courseday">Kurstag</td>
                 <td class="weekday">Donnerstag</td>
-                <td class="date">06. April</td>
+                <td class="date">12. April</td>
                 <td class="time">18:15 Uhr bis 20:00 Uhr</td>
                 <td class="todo">Schiessen</td>
             </tr>
@@ -426,7 +426,7 @@ static:
                 <td class="day">5.</td>
                 <td class="courseday">Kurstag</td>
                 <td class="weekday">Donnerstag</td>
-                <td class="date">20. April</td>
+                <td class="date">19. April</td>
                 <td class="time">18:15 Uhr bis 20:00 Uhr</td>
                 <td class="todo">Schiessen</td>
             </tr>
@@ -434,7 +434,7 @@ static:
                 <td class="day">6.</td>
                 <td class="courseday">Kurstag</td>
                 <td class="weekday">Donnerstag</td>
-                <td class="date">27. April</td>
+                <td class="date">26. April</td>
                 <td class="time">18:15 Uhr bis 20:00 Uhr</td>
                 <td class="todo">Schiessen</td>
             </tr>
@@ -442,7 +442,7 @@ static:
                 <td class="day">7.</td>
                 <td class="courseday">Kurstag</td>
                 <td class="weekday">Donnerstag</td>
-                <td class="date">11. Mai</td>
+                <td class="date">03. Mai</td>
                 <td class="time">18:15 Uhr bis 20:00 Uhr</td>
                 <td class="todo">Schiessen</td>
             </tr>
@@ -450,7 +450,7 @@ static:
                 <td class="day">8.</td>
                 <td class="courseday">Kurstag</td>
                 <td class="weekday">Donnerstag</td>
-                <td class="date">18. Mai</td>
+                <td class="date">17. Mai</td>
                 <td class="time">18:15 Uhr bis 20:00 Uhr</td>
                 <td class="todo">Schiessen</td>
             </tr>
@@ -458,15 +458,15 @@ static:
                 <td class="day">9.</td>
                 <td class="courseday">Kurstag</td>
                 <td class="weekday">Donnerstag</td>
-                <td class="date">01. Juni</td>
+                <td class="date">24. Mai</td>
                 <td class="time">18:15 Uhr bis 20:00 Uhr</td>
                 <td class="todo">Schiessen</td>
             </tr>
             </table>
             <div class="text"><ul>
-                <li>Im Juni 2017: Jungschützenwettschiessen March - Höfe</li>
-                <li>25. August 2017 Kantonales Jugendschiessen in Rothenthurm</li>
-                <li>19. August 2017 Kantonaler Gruppen- und Einzelfinal in Rothenthurm</li>
+                <!--<li>Im Juni 2018: Jungschützenwettschiessen March - Höfe</li>-->
+                <li>17./19. August 2018 Kantonales Jugendschiessen in Rothenthurm</li>
+                <li>25. August 2018 Kantonaler Gruppen- und Einzelfinal in Rothenthurm</li>
             </ul></div>
             <div class="text">Wir werden auch dieses Jahr wieder Schützenfeste besuchen, dieses ist aber freiwillig. Für alle Schützenfeste, die wir besuchen, gibt es eine Einladung.</div>
 
