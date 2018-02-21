@@ -8,14 +8,14 @@ static:
                 <tr>
                     <td class="newstitle" colspan="3">GV 2018 im Restaurant Löwen, Tuggen</td>
                 </tr>
-                <tr class="newsinfo">
+                <!--<tr class="newsinfo">
                     <td class="newsdate">16. Februar 2018</td>
                     <td class="newslocation">Restaurant Löwen, Tuggen</td>
                     <td class="newstext">
                         Am 16.02.2018 findet im Restaurant Löwen die Generalversammlung statt.
                         Vor der GV um 19:00 Uhr gibt es einen Imbiss, um ca. 20:00 Uhr startet die GV.
                     </td>
-                </tr>
+                </tr>-->
             </table>
             <p>
                 <img src="/bundles/sgtuggenmain/images/verein.jpg" alt="Verein" />
