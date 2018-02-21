@@ -26,8 +26,8 @@ static:
         title: "Vorstand"
         body: |
             <div class="person">
-                <img class="person" src="/bundles/sgtuggenmain/images/persons/emil.janser.png" alt="" />
-                <span class="name">Janser Emil</span>
+                <img class="person" src="/bundles/sgtuggenmain/images/persons/hermann.pfister.png" alt="" />
+                <span class="name">Pfister Hermann</span>
                 <span class="type">Präsident</span>
             </div>
             <div class="person">
@@ -71,15 +71,15 @@ static:
                 <span class="type">Schützenmeister</span>
             </div>
             <div class="person">
-                <img class="person" src="/bundles/sgtuggenmain/images/persons/franz.hueppin.png" alt="" />
-                <span class="name">Hüppin Franz</span>
+                <img class="person" src="/bundles/sgtuggenmain/images/persons/beat.graezer.png" alt="" />
+                <span class="name">Gräzer Beat</span>
                 <span class="type">Jungschützenleiter</span>
             </div>
 
     plan:
         name: "schiessplan"
         label: "Schiessplan"
-        title: "Schiessplan 2017"
+        title: "Schiessplan 2018"
         body: |
             <div id="obli">
                 <h2>Obligatorische Übungen</h2>
@@ -87,37 +87,37 @@ static:
                 Dienst- und Schiessbüchlein oder Leistungsausweis mitbringen.</div>
                 <table id="t_obli" summary="Obligatorische Übungen">
                 <tr class="datetime">
-                    <td class="date">Ostermontag, 17. April 2017</td>
+                    <td class="date">Ostermontag, 02. April 2018</td>
                     <td class="time">09:30 Uhr bis 11:00 Uhr</td>
                 </tr>
                 <tr class="datetime">
-                    <td class="date">Freitag, 30. Juni 2017</td>
+                    <td class="date">Freitag, 29. Juni 2018</td>
                     <td class="time">18:00 Uhr bis 19:30 Uhr</td>
                 </tr>
                 <tr class="datetime">
-                    <td class="date">Freitag, 25. August 2017</td>
+                    <td class="date">Freitag, 24. August 2018</td>
                     <td class="time">18:00 Uhr bis 19:30 Uhr</td>
                 </tr>
                 </table>
             </div>
             <div id="feld">
                 <h2>Feldschiessen</h2>
-                <div class="description">Auf dem Schiessplatz Schübelbach mit Plauschgruppenwettkampf!<br /></div>
+                <div class="description">Auf dem Schiessplatz Reichenburg mit Plauschgruppenwettkampf!<br /></div>
                 <table id="t_feld" summary="Feldschiessen">
                 <tr class="datetime">
-                    <td class="date">Montag, 29. Mai 2017 (Vorschiessen)</td>
+                    <td class="date">Montag, 04. Juni 2018 (Vorschiessen)</td>
                     <td class="time">18:00 Uhr bis 20:00 Uhr</td>
                 </tr>
                 <tr>
-                    <td class="date">Freitag, 09. Juni 2017</td>
+                    <td class="date">Freitag, 08. Juni 2018</td>
                     <td class="time">18:00 Uhr bis 20:00 Uhr</td>
                 </tr>
                 <tr class="datetime">
-                    <td class="date">Samstag, 10. Juni 2017</td>
+                    <td class="date">Samstag, 09. Juni 2018</td>
                     <td class="time">14:00 Uhr bis 17:00 Uhr</td>
                 </tr>
                 <tr class="datetime">
-                    <td class="date">Sonntag, 11. Juni 2017</td>
+                    <td class="date">Sonntag, 10. Juni 2018</td>
                     <td class="time">09:00 Uhr bis 11:00 Uhr</td>
                 </tr>
                 </table>
@@ -126,42 +126,37 @@ static:
                 <h2>Trainingsschiessen</h2>
                 <table id="t_ueb" summary="Übungsschiessen">
                 <tr class="datetime">
-                    <td class="date">Samstag, 04. März 2017</td>
+                    <td class="date">Samstag, 03. März 2018</td>
                     <td class="time">13:30 Uhr bis 15:30 Uhr</td>
                     <td></td>
                 </tr>
                 <tr class="datetime">
-                    <td class="date">Samstag, 11. und 18. März 2017</td>
+                    <td class="date">Samstag, 10./17. und 24. März 2018</td>
                     <td class="time">15:00 Uhr bis 17:00 Uhr</td>
                     <td></td>
                 </tr>
                 <tr class="datetime">
-                    <td class="date">Samstag, 25. März 2017</td>
-                    <td class="time">13:30 Uhr bis 14:45 Uhr</td>
-                    <td></td>
-                </tr>
-                <tr class="datetime">
-                    <td class="date">Mittwoch, 29. März bis 28. Juni 2017</td>
+                    <td class="date">Mittwoch, 28. März bis 27. Juni 2018</td>
                     <td class="time">18:30 Uhr bis 20:00 Uhr</td>
                     <td class="position">Liegend</td>
                 </tr>
                 <tr class="datetime">
-                    <td class="date">Donnerstag, 30. März bis 29. Juni 2017</td>
+                    <td class="date">Donnerstag, 29. März bis 28. Juni 2018</td>
                     <td class="time">18:30 Uhr bis 20:00 Uhr</td>
                     <td class="position">Liegend und Kniend</td>
                 </tr>
                 <tr class="datetime">
-                    <td class="date">Mittwoch, 02. bis 30. August 2017</td>
+                    <td class="date">Mittwoch, 08. bis 29. August 2018</td>
                     <td class="time">18:30 Uhr bis 20:00 Uhr</td>
                     <td class="position">Liegend</td>
                 </tr>
                 <tr class="datetime">
-                    <td class="date">Mittwoch, 06. bis 27. September 2017</td>
+                    <td class="date">Mittwoch, 05. bis 26. September 2018</td>
                     <td class="time">18:00 Uhr bis 19:30 Uhr</td>
                     <td class="position">Liegend</td>
                 </tr>
                 </table>
-                <div class="text">Am <b>25. Mai und 15. Juni 2017</b> findet <b>kein</b> Training statt (Feiertage).</div>
+                <div class="text">Am <b>10. Mai, 31. Mai und 15. August 2018</b> findet <b>kein</b> Training statt (Feiertage).</div>
             </div>
             <div id="meist">
                 <h2>Vereinsmeisterschaft</h2>
@@ -176,73 +171,79 @@ static:
                     <!--<td class="cup"></td>-->
                     <td class="location">Tuggen</td>
                     <td class="shooting">Sektionsmeisterschaft</td>
-                    <td class="date">1. Heimrunde (04. März bis 08. Juni 2017)</td>
+                    <td class="date">1. Heimrunde (03. März bis 07. Juni 2018)</td>
                 </tr>
                 <tr class="datetime">
                     <!--<td class="cup"></td>-->
                     <td class="location">Pfäffikon</td>
-                    <td class="shooting">Standerneuerungsschiessen</td>
-                    <td class="date">22./23./29. April 2017</td>
-                </tr>
-                <tr class="datetime">
-                    <!--<td class="cup"></td>-->
-                    <td class="location">Altendorf</td>
-                    <td class="shooting">Fusionsschiessen</td>
-                    <td class="date">21./22./29./30. April 2017</td>
+                    <td class="shooting">Schlossturmschiessen</td>
+                    <td class="date">14./15./21. April 2018</td>
                 </tr>
                 <tr class="datetime">
                     <!--<td class="cup"></td>-->
                     <td class="location">Maseltrangen</td>
                     <td class="shooting">Frühlingsschiessen</td>
-                    <td class="date">28./29. April und 06./07. Mai 2017</td>
+                    <td class="date">27./28. April und 05./06. Mai 2018</td>
                 </tr>
                 <tr class="datetime">
                     <!--<td class="cup"></td>-->
-                    <td class="location">Schmerikon</td>
-                    <td class="shooting">Grynauschiessen</td>
-                    <td class="date">26./27. Mai und 02./03. Juni 2017</td>
+                    <td class="location">Uznach</td>
+                    <td class="shooting">Buechwaldschiessen</td>
+                    <td class="date">28. April und 04./05. Mai 2018</td>
                 </tr>
                 <tr class="datetime">
                     <!--<td class="cup"></td>-->
-                    <td class="location">Amden</td>
-                    <td class="shooting">Bergschiessen</td>
-                    <td class="date">26./27. Mai und 03./04. Juni 2017</td>
+                    <td class="location">Gommiswald</td>
+                    <td class="shooting">Regulasteinschiessen</td>
+                    <td class="date">28. April und 04./05. Mai 2018</td>
                 </tr>
                 <tr class="datetime">
                     <!--<td class="cup"></td>-->
-                    <td class="location">Eschenbach</td>
-                    <td class="shooting">Balmenrainschiessen</td>
-                    <td class="date">26./27. Mai und 03. Juni 2017</td>
+                    <td class="location">Kaltbrunn</td>
+                    <td class="shooting">St. Georgschiessen</td>
+                    <td class="date">28. April und 04./05. Mai 2018</td>
                 </tr>
                 <tr class="datetime">
                     <!--<td class="cup"></td>-->
                     <td class="location">Altendorf</td>
+                    <td class="shooting">Etzelbundschiessen</td>
+                    <td class="date">16./22./23. Juni 2018</td>
+                </tr>
+                <tr class="datetime">
+                    <!--<td class="cup"></td>-->
+                    <td class="location">Pfäffikon</td>
                     <td class="shooting">Verbandsschiessen March-Höfe</td>
-                    <td class="date">17./23. Juni 2017</td>
+                    <td class="date">16./22./23. Juni 2018</td>
                 </tr>
                 <tr class="datetime">
                     <!--<td class="cup"></td>-->
-                    <td class="location">Oberiberg</td>
-                    <td class="shooting">Roggenstockschiessen</td>
-                    <td class="date">18./19./26./27. August 2017</td>
+                    <td class="location">Oberhelfenschwil</td>
+                    <td class="shooting">Chilbischiessen</td>
+                    <td class="date">17./18./25./26. August 2018</td>
                 </tr>
                 <tr class="datetime">
                     <!--<td class="cup"></td>-->
-                    <td class="location">Unteriberg</td>
-                    <td class="shooting">Hirschfluehschiessen</td>
-                    <td class="date">18./19./26./27. August 2017</td>
+                    <td class="location">Niederurnen</td>
+                    <td class="shooting">Linth-Escher-Schiessen</td>
+                    <td class="date">31. August und 01./08. September 2018</td>
                 </tr>
                 <tr class="datetime">
                     <!--<td class="cup"></td>-->
-                    <td class="location">Schübelbach</td>
+                    <td class="location">Weesen</td>
+                    <td class="shooting">Herbstschiessen</td>
+                    <td class="date">31. August und 01./08. September 2018</td>
+                </tr>
+                <tr class="datetime">
+                    <!--<td class="cup"></td>-->
+                    <td class="location">Tuggen</td>
                     <td class="shooting">Herbstschiessen Ober-/Mittelmarch</td>
-                    <td class="date">August und September 2017</td>
+                    <td class="date">14./15. September 2018</td>
                 </tr>
                 <tr class="datetime">
                     <!--<td class="cup"></td>-->
                     <td class="location">Tuggen</td>
                     <td class="shooting">Endschiessen</td>
-                    <td class="date">30. September und 07. Oktober 2017</td>
+                    <td class="date">29. September und 06. Oktober 2018</td>
                 </tr>
                 </table>
             </div>
@@ -252,7 +253,7 @@ static:
                 <tr class="datetime">
                     <td class="shooting">Absenden</td>
                     <td class="location">Tuggen</td>
-                    <td class="date">28. Oktober 2017</td>
+                    <td class="date">20. Oktober 2018</td>
                 </tr>
                 </table>
             </div>
@@ -260,87 +261,95 @@ static:
     group:
         name: "gruppenschiessen"
         label: "Gruppenschiessen"
-        title: "Gruppenschiessen 2017"
+        title: "Gruppenschiessen 2018"
         body: |
             <table id="t_obli" summary="Gruppenschiessen">
             <tr class="datetime">
                 <td class="shooting">Feldstich</td>
-                <td class="date">Vor dem Feldschiessen 2017 in Tuggen</td>
+                <td class="date">Vor dem Feldschiessen 2018 in Tuggen</td>
             </tr>
             <tr class="datetime">
                 <td class="shooting">Mannschaftsmeisterschaft Tuggen</td>
-                <td class="date">4 Runden April - September 2017</td>
+                <td class="date">4 Runden April - September 2018</td>
             </tr>
             <tr class="datetime">
-                <td class="shooting">Einzelwettschiessen in Reichenburg (Sportwaffen)</td>
-                <td class="date">&nbsp;</td>
+                <td class="shooting">Hanslin-Gedenk-Schiessen</td>
+                <td class="date">16./17./18./24. März 2018</td>
             </tr>
             <tr class="datetime">
-                <td class="shooting">Einzelwettschiessen in Reichenburg (Armeewaffen)</td>
-                <td class="date">&nbsp;</td>
+                <td class="shooting">Pantherschiessen Ricken (SV Walde)</td>
+                <td class="date">28. April und 04./05. Mai 2018</td>
             </tr>
             <tr class="datetime">
-                <td class="shooting">Feldmeisterschaft 2017 in Tuggen</td>
-                <td class="date">16./17./23. Juni 2017</td>
+                <td class="shooting">Einzelwettschiessen in Altendorf (Sportwaffen) (SV Lachen)</td>
+                <td class="date">27./28. April 2018</td>
             </tr>
             <tr class="datetime">
-                <td class="shooting">Glarner Kantonal 2017 in Elm und Schwanden</td>
-                <td class="date">20./25. August 2017</td>
+                <td class="shooting">Einzelwettschiessen in Altendorf (Armeewaffen) (SV Lachen)</td>
+                <td class="date">27./28. April 2018</td>
             </tr>
             <tr class="datetime">
-                <td class="shooting">Berner Kantonal 2017</td>
-                <td class="date">02. Juli 2017</td>
+                <td class="shooting">Feldschiessen Schiessplatz Reichenburg</td>
+                <td class="date">08./09./10. Juni 2018</td>
             </tr>
             <tr class="datetime">
-                <td class="shooting">Zuger Alplischiessen</td>
-                <td class="date">16. Juli 2017</td>
+                <td class="shooting">Feldmeisterschaft 2018 in Pfäffikon (MSV Wilen)</td>
+                <td class="date">16./22./23. Juni 2018</td>
+            </tr>
+            <tr class="datetime">
+                <td class="shooting">Zürcher Kantonal 2018</td>
+                <td class="date">24. Juni 2018</td>
+            </tr>
+            <tr class="datetime">
+                <td class="shooting">Vorstandsschiessen March in Altendorf</td>
+                <td class="date">29. Juni 2018</td>
+            </tr>
+            <tr class="datetime">
+                <td class="shooting">Thurgauer Kantonal 2018 in Wängi und Nollen</td>
+                <td class="date">01. Juli 2018 (Wängi) und 02. Juli 2018 (Nollen)</td>
             </tr>
             <tr class="datetime">
                 <td class="shooting">Rossbergschiessen</td>
-                <td class="date">11./12./13. August 2017</td>
+                <td class="date">10./11./12. August 2018</td>
             </tr>
             <tr class="datetime">
-                <td class="shooting">Wyber Schiessen Oberiberg</td>
-                <td class="date">10./16. September 2017</td>
+                <td class="shooting">Bündner Kantonal 2018 in Laax</td>
+                <td class="date">17. August 2018</td>
             </tr>
             <tr class="datetime">
                 <td class="shooting">Wertmüller Schiessen Wädenswil</td>
-                <td class="date">29./30. September 2017</td>
+                <td class="date">28./29. September und 06. Oktober 2018</td>
             </tr>
             <tr class="datetime">
                 <td class="shooting">Landschiessen Lichtensteig</td>
-                <td class="date">30. September und 01./02./07./09. Oktober 2017</td>
+                <td class="date">29. September und 01./06./07./08. Oktober 2018</td>
             </tr>
             <tr class="datetime">
-                <td class="shooting">Vorstandsschiessen March</td>
-                <td class="date">August/September 2017</td>
-            </tr>
-            <tr class="datetime">
-                <td class="shooting">Feldschiessen Schiessplatz Schübelbach</td>
-                <td class="date">09./10./11. Juni 2017</td>
+                <td class="shooting">Nachtschiessen Weisstannen</td>
+                <td class="date">21./28./29. September und 05./06. Oktober 2018</td>
             </tr>
             </table>
 
     feldschiessen:
         name: "feldschiessen"
         label: "Feldschiessen"
-        title: "Feldschiessen 2017"
+        title: "Feldschiessen 2018"
         body: |
             <table id="dates" summary="Daten für das eidgenössische Feldschiessen">
                 <tr class="datetime">
-                    <td class="date">Montag, 29. Mai 2017</td>
+                    <td class="date">Montag, 04. Juni 2018</td>
                     <td class="time">18:00 Uhr bis 20:00 Uhr</td>
                 </tr>
                 <tr>
-                    <td class="date">Freitag, 09. Juni 2017</td>
+                    <td class="date">Freitag, 08. Juni 2018</td>
                     <td class="time">18:00 Uhr bis 20:00 Uhr</td>
                 </tr>
                 <tr>
-                    <td class="date">Samstag, 10. Juni 2017</td>
+                    <td class="date">Samstag, 09. Juni 2018</td>
                     <td class="time">14:00 Uhr bis 17:00 Uhr</td>
                 </tr>
                 <tr>
-                    <td class="date">Sonntag, 11. Juni 2017</td>
+                    <td class="date">Sonntag, 10. Juni 2018</td>
                     <td class="time">09:00 Uhr bis 11:30 Uhr</td>
                 </tr>
             </table>
