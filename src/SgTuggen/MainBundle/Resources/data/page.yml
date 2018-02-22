@@ -46,11 +46,6 @@ static:
                 <span class="type">Sekretärin</span>
             </div>
             <div class="person">
-                <img class="person" src="/bundles/sgtuggenmain/images/persons/hermann.pfister.png" alt="" />
-                <span class="name">Pfister Hermann</span>
-                <span class="type">Beisitzer und Gruppenchef</span>
-            </div>
-            <div class="person">
                 <img class="person" src="/bundles/sgtuggenmain/images/persons/roland.mueller.png" alt="" />
                 <span class="name">Müller Roland</span>
                 <span class="type">Beisitzer</span>
