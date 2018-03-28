@@ -105,15 +105,15 @@ static:
                 </tr>
                 <tr>
                     <td class="date">Freitag, 08. Juni 2018</td>
-                    <td class="time">18:00 Uhr bis 20:00 Uhr</td>
+                    <td class="time">17:30 Uhr bis 20:00 Uhr</td>
                 </tr>
                 <tr class="datetime">
                     <td class="date">Samstag, 09. Juni 2018</td>
-                    <td class="time">14:00 Uhr bis 17:00 Uhr</td>
+                    <td class="time">10:00 Uhr bis 12:00 Uhr und 13:30 Uhr bis 17:30 Uhr</td>
                 </tr>
                 <tr class="datetime">
                     <td class="date">Sonntag, 10. Juni 2018</td>
-                    <td class="time">09:00 Uhr bis 11:00 Uhr</td>
+                    <td class="time">08:00 Uhr bis 11:30 Uhr</td>
                 </tr>
                 </table>
             </div>
@@ -337,15 +337,15 @@ static:
                 </tr>
                 <tr>
                     <td class="date">Freitag, 08. Juni 2018</td>
-                    <td class="time">18:00 Uhr bis 20:00 Uhr</td>
+                    <td class="time">17:30 Uhr bis 20:00 Uhr</td>
                 </tr>
                 <tr>
                     <td class="date">Samstag, 09. Juni 2018</td>
-                    <td class="time">14:00 Uhr bis 17:00 Uhr</td>
+                    <td class="time">10:00 Uhr bis 12:00 Uhr und 13:30 Uhr bis 17:30 Uhr</td>
                 </tr>
                 <tr>
                     <td class="date">Sonntag, 10. Juni 2018</td>
-                    <td class="time">09:00 Uhr bis 11:30 Uhr</td>
+                    <td class="time">08:00 Uhr bis 11:30 Uhr</td>
                 </tr>
             </table>
             <div class="text">Wir laden Dich freundlich zum grössten Schützenfest der Welt ein, zum Eidgenössischen Feldschiessen! Damit dieser Anlass wieder zu einem Volksfest wird, hoffen wir auf die Teilnahme aller...
