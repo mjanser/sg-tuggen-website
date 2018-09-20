@@ -1,0 +1,19 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Kontakt - SG Tuggen{% endblock %}
+
+{% block content %}
+<h1>Kontakt</h1>
+{{ form_start(form) }}
+    {{ form_errors(form) }}
+    <fieldset id="contact">
+        {{ form_row(form.name) }}
+        {{ form_row(form.email) }}
+        {{ form_row(form.subject) }}
+        {{ form_row(form.body) }}
+        <div class="button">
+            {{ form_widget(form.send) }}
+        </div>
+    </fieldset>
+{{ form_end(form) }}
+{% endblock %}

@@ -1,27 +1,19 @@
 language: php
 
 php:
-  - 5.3
-  - 5.4
-  - 5.5
+  - 7.1
+  - 7.2
 
 env:
   global:
-    - secure: "EJPhAuhZaKRYKXAMiVLhhvXeG4xp/D/jSgZURRREio7FFrz/iv5s+XiAoRYC\nul31GSeEUkIBhsLk+ds1db7fl6OningPZYJtwKlK+5MSmpXakPHyq9JGbrEP\nPhwIO614+Wodr+qmVupnK6VEuWqh4K/rvKzVyg5ENcSkICH+bqU="
+    - APP_ENV: test
+    - APP_SECRET: l5XUAAp5ZXBC57ZnSWo2XnNLR1mcEm
+    - MAILER_URL: "null://localhost"
 
 before_script:
-  - cp app/config/parameters.yml.dist app/config/parameters.yml
-  - composer install --dev --prefer-source --no-scripts
-  - php app/console doctrine:database:create --env test --no-interaction
-  - php app/console doctrine:phpcr:init:dbal --env test --no-interaction
-  - php app/console doctrine:phpcr:register-system-node-types --env test --no-interaction
-  - php app/console doctrine:phpcr:workspace:create standard_test --env test --no-interaction
-  - php app/console doctrine:phpcr:fixtures:load --env test --no-interaction
-  - php app/console assets:install --symlink --no-interaction web
-  - php app/console cache:clear --no-interaction
-  - php app/console cache:clear --env test --no-debug --no-interaction
+  - composer install --no-interaction --no-progress --no-suggest
 
-script: ./vendor/bin/phpunit -c app --coverage-html build/coverage-report --coverage-text=build/coverage.txt
-
-after_script:
-  - ./vendor/bin/woodhouse publish mjanser/sg-tuggen-website build/coverage-report:coverage-report --message "Publishing coverage reports from build ${TRAVIS_BUILD_NUMBER} (php $(php -r 'echo phpversion();'))." --coverage-image coverage-report/coverage.png --coverage-phpunit build/coverage.txt --no-interaction --auth-token-env GITHUB_TOKEN
+script:
+  - ./vendor/bin/php-cs-fixer fix -v --dry-run --diff
+  - ./vendor/bin/phpstan analyze --level 7 src/
+  - ./bin/console security:check

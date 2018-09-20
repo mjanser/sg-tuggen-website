@@ -1,0 +1,738 @@
+@CHARSET "UTF-8";
+
+body
+{
+    margin:0;
+    padding:0;
+}
+body, span.label, td
+{
+    font-size:0.86em;
+}
+body, label, span.label, td, textarea
+{
+    font-family:sans-serif;
+}
+
+/* Borders */
+div.border_top
+{
+    height:18px;
+    background-image:url(/images/border.top.png);
+}
+div.border_bottom
+{
+    height:20px;
+    background-image:url(/images/border.bottom.png);
+}
+div.border_right
+{
+    width:18px;
+    float:right;
+    background-image:url(/images/border.right.png);
+}
+
+div.border_top_right
+{
+    width:18px;
+    height:18px;
+    float:right;
+    background-image:url(/images/corner.top.right.png);
+}
+div.border_bottom_right
+{
+    width:18px;
+    height:18px;
+    float:right;
+    background-image:url(/images/corner.bottom.right.png);
+}
+
+.blue
+{
+    background-color:#C1E7FF;
+}
+
+/* Header */
+#headline
+{
+    z-index:2;
+    position:fixed;
+    margin-bottom:25px;
+    width:100%;
+    height:99px;
+    background-color:#C1E7FF;
+}
+#header
+{
+    padding-left:10px;
+    padding-top:10px;
+    width:100%;
+}
+#logo
+{
+    height:80px;
+    width:80px;
+}
+#pagetitle
+{
+    z-index:3;
+    font-size:2.8em;
+    font-weight:bold;
+    vertical-align:top;
+    position:relative;
+    top:15px;
+    margin-left:10px;
+    color:#1C058A;
+}
+#copyright
+{
+    padding:5px;
+    font-size:0.7em;
+    border-left:3px double #1C058A;
+    border-bottom:3px double #1C058A;
+    float:right;
+}
+#choose_language
+{
+    float:right;
+}
+#header_bottom
+{
+}
+
+
+/* Sidebar */
+#sidebar
+{
+    z-index:2;
+    position:fixed;
+    top:130px;
+    width:170px;
+}
+
+#sidebar_top
+{
+    background-image:url(/images/border.top.corner.png);
+    height:20px;
+}
+#sidebar_bottom
+{
+    background-image:url(/images/border.bottom.corner.png);
+    height:20px;
+}
+
+#navigation
+{
+    height:250px;
+    background-color:#C1E7FF;
+    background-image:url(/images/border.right.png);
+    background-position:right;
+    background-repeat:repeat-y;
+}
+
+#navigation ul
+{
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+
+#navigation li
+{
+    width:136px;
+    height:16px;
+    padding-top:2px;
+    padding-left:10px;
+    padding-bottom:3px;
+    display:block;
+    border-bottom:1px solid #1C058A;
+    color:#1C058A;
+}
+#navigation a
+{
+    text-decoration:none;
+    display:inline-block;
+    width:100%;
+}
+#navigation li:hover, #navigation li.current
+{
+    border-color:#FF0000;
+}
+#navigation li:hover a, #navigation li.current a
+{
+    color:#FF0000;
+}
+
+a.navigation_2
+{
+    width:116px;
+    height:16px;
+    padding-top:2px;
+    padding-left:30px;
+    display:block;
+    border-bottom:1px solid #1C058A;
+    text-decoration:none;
+    color:#1C058A;
+}
+a.navigation_2:hover, a.navigation_active_2
+{
+    border-color:#FF0000;
+    color:#FF0000;
+}
+
+a.navigation_3
+{
+    width:101px;
+    height:16px;
+    padding-top:2px;
+    padding-left:45px;
+    display:block;
+    border-bottom:1px solid #1C058A;
+    font-style:italic;
+    text-decoration:none;
+    color:#1C058A;
+}
+a.navigation_3:hover, a.navigation_active_3
+{
+    border-color:#FF0000;
+    color:#FF0000;
+}
+
+/* Main part */
+#content
+{
+    z-index:1;
+    position:absolute;
+    top:130px;
+    left:170px;
+    width:80%;
+    padding-left:15px;
+    padding-top:10px;
+    padding-bottom:20px;
+    padding-right:10px;
+}
+
+ol li ol
+{
+    list-style-type:upper-alpha;
+}
+
+/* Titles */
+h1
+{
+    font-size:1.5em;
+    margin-top:12px;
+}
+h2
+{
+    font-size:1.2em;
+    margin-bottom:5px;
+    margin-top:12px;
+}
+h3
+{
+    font-size:1em;
+    margin-bottom:2px;
+    margin-top:10px;
+}
+
+
+/* Misc classes */
+div.line
+{
+    width:100%;
+    margin-left:0;
+    border-bottom:3px groove #CCCCCC;
+}
+
+
+/* Tables */
+table
+{
+    border-collapse:collapse;
+}
+td, th
+{
+    padding:2px;
+    vertical-align:top;
+}
+th
+{
+    font-size:0.86em;
+    text-align:left;
+}
+span.th
+{
+    font-weight:bold;
+}
+td
+{
+    border:2px solid #C1E7FF;
+}
+
+/* Checkbox in a table */
+td.actionbox
+{
+    width:25px;
+    vertical-align:middle;
+    text-align:center;
+}
+
+/* List actions */
+div.listaction
+{
+    margin-top:17px;
+}
+
+
+/* Links */
+.link a
+{
+    color:#1C058A;
+    text-decoration:underline;
+}
+.link a:hover
+{
+    text-decoration:none;
+}
+
+/* Images */
+img
+{
+    border:none;
+}
+
+/* Administration */
+#admin_navigation
+{
+    position:fixed;
+    z-index:2;
+    top:120px;
+    padding-bottom:2px;
+}
+
+div#admin_navigation div.box_title
+{
+    display:none;
+}
+div#admin_navigation div.box_content
+{
+    margin-top:10px;
+}
+
+
+a.admin_nav_item, a.admin_nav_sub_item
+{
+    font-size:1em;
+    padding-bottom:1px;
+    padding-left:5px;
+    padding-right:5px;
+    color:#000000;
+    text-decoration:none;
+}
+a.admin_nav_sub_item
+{
+    position:relative;
+    top:2em;
+    border-left:1px solid #C1E7FF;
+}
+a.admin_nav_item:hover, a.admin_nav_sub_item:hover
+{
+    text-decoration:underline;
+}
+a.admin_nav_item_active, a.admin_nav_sub_item_active
+{
+    font-weight:bold;
+}
+a.admin_nav_sub_item_active
+{
+    font-style:italic;
+}
+
+#admin_content
+{
+}
+
+/* Forms */
+form
+{
+    margin:0;
+}
+fieldset
+{
+    border:none;
+}
+#contact>div
+{
+    border-top:2px solid #C1E7FF;
+    padding:1px;
+    clear:both;
+}
+#contact>div.button
+{
+    border:none;
+    margin-top:15px;
+    padding-top:2px;
+}
+#contact>div label
+{
+    width:120px;
+    padding-right:40px;
+    float:left;
+}
+#contact input
+{
+    float:left;
+    width:260px;
+    margin-bottom:10px;
+}
+#contact textarea
+{
+    width:100%;
+    font-size:1em;
+    height:10em;
+}
+
+/* Required fields in forms */
+div.required_fields
+{
+    width:100%;
+    padding-left:2px;
+    font-size:0.8em;
+    margin-bottom:5px;
+}
+span.field_req
+{
+    color:#FF0000;
+    margin-left:5px;
+}
+
+/* Message */
+div.message
+{
+    width:75%;
+    padding-left:2px;
+    font-size:0.8em;
+    margin-bottom:5px;
+}
+
+/* Error messages */
+div.field.error input, div.field.error textarea
+{
+}
+ul.errors
+{
+    margin:5px 0 0 13px;
+    padding:0;
+    float:left;
+    list-style:none;
+}
+ul.errors li
+{
+    font-size:0.86em;
+    color:#FF0000;
+}
+
+/* Confirmation dialogs */
+#confirmation
+{
+    text-align:center;
+    margin:20px;
+}
+#confirmation_buttons
+{
+    margin-top:10px;
+}
+
+/* Tables */
+table
+{
+    width:100%;
+}
+
+/* Navigation */
+a.insert_item
+{
+    color:#000000;
+}
+a.insert_item:hover, a.selected
+{
+    text-decoration:none;
+    color:#FF0000;
+}
+
+div#f_howtoinsert
+{
+    margin-top:20px;
+}
+div#i_howtoinsert
+{
+    width:100%;
+}
+
+span.link
+{
+    font-style:italic;
+}
+
+/* News */
+table#homenews
+{
+    width:600px;
+    border:1px solid #C1E7FF;
+}
+table#news
+{
+    width:70%;
+    border:1px solid #C1E7FF;
+}
+table#homenews tr td.newstitle, table#news tr td.newstitle
+{
+    border-style:none;
+    font-size:0.8em;
+    font-weight:bold;
+}
+table#homenews tr.newsinfo td, table#news tr.newsinfo td
+{
+    border-style:none;
+    padding-bottom:10px;
+}
+table#homenews tr.newsinfo td.newsdate, table#news tr.newsinfo td.newsdate
+{
+    width:130px;
+}
+table#homenews tr.newsinfo td.newslocation, table#news tr.newsinfo td.newslocation
+{
+    width:140px;
+}
+
+/* Contact */
+div.form
+{
+    padding:2px;
+}
+div.field
+{
+    padding:1px;
+    clear:both;
+}
+span.label
+{
+    width:110px;
+    padding-right:30px;
+    float:left;
+}
+span.field_req
+{
+    color:#FF0000;
+}
+div.input
+{
+    float:left;
+    width:300px;
+    margin-bottom:5px;
+}
+.io
+{
+    width:100%;
+}
+
+#submit
+{
+    padding-top:15px;
+    margin-bottom:35px;
+    border-top:2px solid #5599FF;
+    clear:both;
+}
+
+div.required_fields
+{
+    padding-left:2px;
+    font-size:0.8em;
+    border:1px solid #5599FF;
+    margin-bottom:5px;
+}
+
+/* Feldschiessen */
+table#dates
+{
+    /*width:75%;*/
+    width:480px;
+    /*font-size:1.2em;*/
+    font-weight:bold;
+    margin-bottom:10px;
+}
+div.text
+{
+    width:75%;
+    margin:5px;
+}
+div.text div#members
+{
+    margin-left:7px;
+    font-style:italic;
+}
+
+div.highlight
+{
+    color:#FF5555;
+    font-size:2em;
+    font-weight:bold;
+}
+
+div.text div#links
+{
+    margin:2px;
+    padding:2px;
+    border:1px solid #C1E7FF;
+    text-align:center;
+    margin-bottom:20px;
+}
+
+/* Jubilaeum */
+div.form
+{
+    padding:2px;
+}
+div.field
+{
+    padding:1px;
+    clear:both;
+}
+span.label
+{
+    width:125px;
+    padding-right:30px;
+    float:left;
+}
+span.field_req
+{
+    color:#FF0000;
+}
+div.input
+{
+    float:left;
+    width:300px;
+    margin-bottom:5px;
+}
+.io
+{
+    width:100%;
+}
+
+#submit
+{
+    padding-top:15px;
+    margin-bottom:35px;
+    border-top:2px solid #5599FF;
+    clear:both;
+}
+
+div.required_fields
+{
+    padding-left:2px;
+    font-size:0.8em;
+    border:1px solid #5599FF;
+    margin-bottom:5px;
+}
+
+/* Jungschuetzen */
+table#youth-dates
+{
+    width:75%;
+    margin-bottom:10px;
+}
+div.text
+{
+    margin:5px;
+}
+
+div.highlight
+{
+    color:#FF5555;
+    font-size:1.8em;
+    font-weight:bold;
+}
+
+/* Links */
+div.link
+{
+    float:left;
+    margin:10px;
+}
+
+/* Management */
+div.person
+{
+    padding-right:50px;
+    margin-bottom:25px;
+    float:left;
+    border-bottom:2px solid #C1E7FF;
+}
+img.person, div.img_person
+{
+    height:75px;
+    width:75px;
+    display:block;
+}
+span.name
+{
+    display:block;
+    font-weight:bold;
+    white-space:nowrap;
+}
+span.type
+{
+}
+
+/* Plan */
+h2
+{
+    color:#5E0000;
+}
+
+#obli table, #ueb table, #feld table, #meist table, #endschiessen table
+{
+    width:auto;
+    margin-left:20px;
+    margin-top:5px;
+}
+
+div.description
+{
+    font-size:0.8em;
+}
+
+tr.datetime
+{
+}
+
+tr.datetime td.date
+{
+    width:290px;
+}
+tr.datetime td.time
+{
+    width:290px;
+}
+tr.datetime td.position
+{
+    width:130px;
+}
+
+tr.datetime td.cup
+{
+    width:50px;
+}
+tr.datetime td.championship
+{
+    width:50px;
+}
+tr.datetime td.location
+{
+    width:130px;
+}
+tr.datetime td.shooting
+{
+    width:180px;
+}
