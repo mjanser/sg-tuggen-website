@@ -7,7 +7,7 @@ require 'recipe/symfony.php';
 set('application', 'sgtuggen');
 set('repository', 'git@github.com:mjanser/sg-tuggen-website.git');
 set('git_tty', true);
-add('shared_files', ['public/.htaccess']);
+add('shared_files', ['public/.htaccess', '.env']);
 add('shared_dirs', []);
 add('writable_dirs', []);
 
