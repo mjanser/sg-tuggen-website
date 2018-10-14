@@ -23,7 +23,7 @@ final class ContactController extends AbstractController
             $message = (new \Swift_Message($message->getSubject()))
                 ->setFrom($message->getEmail(), $message->getName())
                 ->setTo([
-                    'preasi-sgtuggen@bluewin.ch' => 'Präsident SG Tuggen',
+                    'praesi-sgtuggen@bluewin.ch' => 'Präsident SG Tuggen',
                     'martin@duss-janser.ch' => 'Martin Janser',
                 ])
                 ->setBody(
