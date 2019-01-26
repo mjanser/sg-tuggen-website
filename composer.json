@@ -24,8 +24,8 @@
     "require-dev": {
         "deployer/deployer": "^6.3",
         "friendsofphp/php-cs-fixer": "^2.13",
-        "phpstan/phpstan-shim": "^0.10.3",
-        "sensiolabs/security-checker": "^4.1",
+        "phpstan/phpstan-shim": "^0.11.0",
+        "sensiolabs/security-checker": "^5.0",
         "symfony/debug-pack": "*",
         "symfony/maker-bundle": "^1.0",
         "symfony/profiler-pack": "*",
@@ -73,7 +73,7 @@
     "extra": {
         "symfony": {
             "allow-contrib": false,
-            "require": "4.1.*"
+            "require": "4.2.*"
         }
     }
 }
