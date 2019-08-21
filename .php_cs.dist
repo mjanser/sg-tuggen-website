@@ -9,7 +9,7 @@ return PhpCsFixer\Config::create()
     ->setRules([
         '@Symfony' => true,
         'array_syntax' => ['syntax' => 'short'],
-	'dir_constant' => true,
+        'dir_constant' => true,
         'is_null' => true,
         'modernize_types_casting' => true,
         'native_function_invocation' => [
