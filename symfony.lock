@@ -5,11 +5,8 @@
     "composer/xdebug-handler": {
         "version": "1.4.5"
     },
-    "deployer/deployer": {
+    "deployer/dist": {
         "version": "v6.8.0"
-    },
-    "deployer/phar-update": {
-        "version": "v2.2.0"
     },
     "doctrine/annotations": {
         "version": "1.0",
@@ -65,11 +62,11 @@
     "php-cs-fixer/diff": {
         "version": "v1.3.1"
     },
-    "phpstan/phpstan-shim": {
-        "version": "0.11.19"
+    "phpstan/phpstan": {
+        "version": "0.12.70"
     },
-    "pimple/pimple": {
-        "version": "v3.3.1"
+    "phpstan/phpstan-symfony": {
+        "version": "0.12.16"
     },
     "psr/cache": {
         "version": "1.0.1"
@@ -94,18 +91,6 @@
             "version": "5.2",
             "ref": "fb7e19da7f013d0d422fa9bce16f5c510e27609b"
         }
-    },
-    "sensiolabs/security-checker": {
-        "version": "4.0",
-        "recipe": {
-            "repo": "github.com/symfony/recipes",
-            "branch": "master",
-            "version": "4.0",
-            "ref": "160c9b600564faa1224e8f387d49ef13ceb8b793"
-        },
-        "files": [
-            "config/packages/security_checker.yaml"
-        ]
     },
     "swiftmailer/swiftmailer": {
         "version": "v6.2.5"
@@ -208,9 +193,6 @@
             "src/Kernel.php"
         ]
     },
-    "symfony/http-client": {
-        "version": "v5.2.2"
-    },
     "symfony/http-client-contracts": {
         "version": "v2.3.1"
     },
@@ -231,9 +213,6 @@
             "version": "1.0",
             "ref": "fadbfe33303a76e25cb63401050439aa9b1a9c7f"
         }
-    },
-    "symfony/mime": {
-        "version": "v5.2.2"
     },
     "symfony/monolog-bridge": {
         "version": "v5.2.2"

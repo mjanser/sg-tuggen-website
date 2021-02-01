@@ -5,6 +5,7 @@ namespace App\Controller;
 use App\Form\ContactType;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Request;
+use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
 
 final class ContactController extends AbstractController
@@ -12,7 +13,7 @@ final class ContactController extends AbstractController
     /**
      * @Route("/kontakt", name="contact")
      */
-    public function contact(Request $request, \Swift_Mailer $mailer)
+    public function contact(Request $request, \Swift_Mailer $mailer): Response
     {
         $form = $this->createForm(ContactType::class);
 
@@ -49,7 +50,7 @@ final class ContactController extends AbstractController
     /**
      * @Route("/kontakt-gesendet", name="contact_success")
      */
-    public function success()
+    public function success(): Response
     {
         return $this->render('contact.success.html.twig', [
             'controller_name' => 'ContactController',
