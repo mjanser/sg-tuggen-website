@@ -10,8 +10,10 @@ ifeq ("$(wildcard ./vendor)", "")
 	DEPS := vendor
 endif
 
-BASE_RUN := podman run -it --rm $(VOLUMES)
-RUN = $(BASE_RUN) --name $(NAME)-$@ --userns=keep-id $(CONTAINER_IMAGE)
+SSH_ARGS := -v $(SSH_AUTH_SOCK):/root/.ssh-agent/local-socket -e SSH_AUTH_SOCK=/root/.ssh-agent/local-socket
+
+BASE_RUN := podman run -it --rm $(VOLUMES) $(SSH_ARGS)
+RUN = $(BASE_RUN) --name $(NAME)-$@ $(CONTAINER_IMAGE)
 
 .PHONY: build
 build:
@@ -36,13 +38,21 @@ cs-fix: $(DEPS)
 cs-diff: $(DEPS)
 	$(RUN) composer cs:diff
 
+.PHONY: up
+up:
+	$(BASE_RUN) --name $(NAME) --publish 8000:8000 $(CONTAINER_IMAGE)
+
 .PHONY: shell
 shell:
 	podman exec -it $(NAME) sh
 
-.PHONY: up
-up:
-	$(BASE_RUN) --name $(NAME) --userns=keep-id --publish 8000:8000 $(CONTAINER_IMAGE)
+.PHONY: run-shell
+run-shell:
+	$(BASE_RUN) --name $(NAME)-shell $(CONTAINER_IMAGE) sh
+
+.PHONY: deploy
+deploy:
+	podman exec -it $(NAME) vendor/bin/dep deploy
 
 .PHONY: cmd
 cmd:

@@ -2,40 +2,40 @@
 
 namespace Deployer;
 
-require 'recipe/common.php';
+require 'recipe/symfony.php';
 
+// Project name
 set('application', 'sgtuggen');
+
+// Project repository
 set('repository', 'git@github.com:mjanser/sg-tuggen-website.git');
+
+// [Optional] Allocate tty for git clone. Default value is false.
 set('git_tty', true);
-set('http_user', 'goganch');
-add('shared_files', ['public/.htaccess', '.env']);
+
+// Shared files/dirs between deploys
+add('shared_files', ['public/.htaccess', '.env.local']);
 add('shared_dirs', []);
-set('writable_dirs', ['var']);
+
+// Writable dirs by web server
+add('writable_dirs', ['var']);
+
+// Hosts
 
 host('gogan.ch')
-    ->user('goganch')
-    ->set('deploy_path', '~/www/sgtuggen.gogan.ch');
+    ->set('http_user', 'goganch')
+    ->setRemoteUser('goganch')
+    ->setDeployPath('~/www/sgtuggen.gogan.ch');
 
-desc('Clear cache');
-task('deploy:cache:clear', function () {
-    run('{{bin/php}} {{release_path}}/bin/console cache:clear');
+// Tasks
+
+task('build', function () {
+    run('cd {{release_path}} && build');
 });
 
-desc('Deploy project');
-task('deploy', [
-    'deploy:info',
-    'deploy:prepare',
-    'deploy:lock',
-    'deploy:release',
-    'deploy:update_code',
-    'deploy:shared',
-    'deploy:vendors',
-    'deploy:writable',
-    'deploy:cache:clear',
-    'deploy:symlink',
-    'deploy:unlock',
-    'cleanup',
-]);
-
-after('deploy', 'success');
+// [Optional] if deploy fails automatically unlock.
 after('deploy:failed', 'deploy:unlock');
+
+// Migrate database before symlink new release.
+
+//before('deploy:symlink', 'database:migrate');

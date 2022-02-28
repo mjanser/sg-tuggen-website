@@ -7,6 +7,7 @@ RUN apk add --no-cache \
         gettext \
         git \
         gnu-libiconv \
+        openssh-client \
     ;
 
 # install gnu-libiconv and set LD_PRELOAD env to make iconv work fully on Alpine image.
@@ -56,8 +57,7 @@ COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
 # https://getcomposer.org/doc/03-cli.md#composer-allow-superuser
 ENV COMPOSER_ALLOW_SUPERUSER=1
 
-ENV HOME=/tmp
-ENV PATH="${PATH}:/root/.composer/vendor/bin"
+ENV HOME=/root
 
 WORKDIR /srv/app
 
