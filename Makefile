@@ -46,10 +46,6 @@ up:
 shell:
 	podman exec -it $(NAME) sh
 
-.PHONY: run-shell
-run-shell:
-	$(BASE_RUN) --name $(NAME)-shell $(CONTAINER_IMAGE) sh
-
 .PHONY: deploy
 deploy:
 	podman exec -it $(NAME) vendor/bin/dep deploy
