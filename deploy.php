@@ -12,6 +12,8 @@ set('repository', 'git@github.com:mjanser/sg-tuggen-website.git');
 
 // [Optional] Allocate tty for git clone. Default value is false.
 set('git_tty', true);
+set('bin/php', '/usr/local/php80/bin/php');
+set('bin/composer', '/usr/local/php80/bin/php /usr/local/bin/composer');
 
 // Shared files/dirs between deploys
 add('shared_files', ['public/.htaccess', '.env.local']);
