@@ -6,6 +6,9 @@ use App\Form\ContactType;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
+use Symfony\Component\Mailer\MailerInterface;
+use Symfony\Component\Mime\Address;
+use Symfony\Component\Mime\Email;
 use Symfony\Component\Routing\Annotation\Route;
 
 final class ContactController extends AbstractController
@@ -13,7 +16,7 @@ final class ContactController extends AbstractController
     /**
      * @Route("/kontakt", name="contact")
      */
-    public function contact(Request $request, \Swift_Mailer $mailer): Response
+    public function contact(Request $request, MailerInterface $mailer): Response
     {
         $form = $this->createForm(ContactType::class);
 
@@ -21,13 +24,12 @@ final class ContactController extends AbstractController
         if ($form->isSubmitted() && $form->isValid()) {
             $message = $form->getData();
 
-            $message = (new \Swift_Message($message->getSubject()))
-                ->setFrom($message->getEmail(), $message->getName())
-                ->setTo([
-                    'praesi-sgtuggen@bluewin.ch' => 'Präsident SG Tuggen',
-                    'martin@duss-janser.ch' => 'Martin Janser',
-                ])
-                ->setBody(
+            $message = (new Email())
+                ->subject($message->getSubject())
+                ->from(new Address($message->getEmail(), $message->getName()))
+                ->to(new Address('praesi-sgtuggen@bluewin.ch', 'Präsident SG Tuggen'))
+                ->addTo(new Address('martin@duss-janser.ch', 'Martin Janser'))
+                ->text(
                     $this->renderView(
                         // templates/emails/registration.html.twig
                         'contact.email.txt.twig',

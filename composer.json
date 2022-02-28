@@ -13,9 +13,10 @@
         "symfony/flex": "^1.1",
         "symfony/form": "^5.4",
         "symfony/framework-bundle": "^5.4",
+        "symfony/mailer": "^5.4",
         "symfony/monolog-bundle": "^3.6",
         "symfony/process": "^5.4",
-        "symfony/swiftmailer-bundle": "^3.2",
+        "symfony/runtime": "^5.4",
         "symfony/twig-bundle": "^5.4",
         "symfony/validator": "^5.4",
         "symfony/web-link": "^5.4",
@@ -23,9 +24,9 @@
     },
     "require-dev": {
         "deployer/dist": "^6.8",
-        "friendsofphp/php-cs-fixer": "^2.13",
-        "phpstan/phpstan": "^0.12.70",
-        "phpstan/phpstan-symfony": "^0.12.16",
+        "friendsofphp/php-cs-fixer": "^3.0",
+        "phpstan/phpstan": "^1.0",
+        "phpstan/phpstan-symfony": "^1.0",
         "symfony/debug-bundle": "^5.4",
         "symfony/maker-bundle": "^1.0",
         "symfony/stopwatch": "^5.4",
@@ -37,7 +38,8 @@
         },
         "sort-packages": true,
         "allow-plugins": {
-            "symfony/flex": true
+            "symfony/flex": true,
+            "symfony/runtime": true
         },
         "platform": {
             "php": "7.4"
@@ -71,7 +73,10 @@
         ],
         "post-update-cmd": [
             "@auto-scripts"
-        ]
+        ],
+        "cs:diff": "vendor/bin/php-cs-fixer --ansi fix --dry-run --diff -v",
+        "cs:fix": "vendor/bin/php-cs-fixer --ansi fix -v",
+        "phpstan": "vendor/bin/phpstan --ansi analyse"
     },
     "conflict": {
         "symfony/symfony": "*"

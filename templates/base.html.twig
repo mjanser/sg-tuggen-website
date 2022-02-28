@@ -4,8 +4,14 @@
         <meta charset="UTF-8">
         <title>{% block title %}{% endblock %}</title>
         <link rel="shortcut icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
+        {# Run `composer require symfony/webpack-encore-bundle` to start using Symfony UX #}
         {% block stylesheets %}
-        <link rel="stylesheet" type="text/css" href="{{ asset('style.css') }}" />
+            <link rel="stylesheet" type="text/css" href="{{ asset('style.css') }}" />
+            {{ encore_entry_link_tags('app') }}
+        {% endblock %}
+
+        {% block javascripts %}
+            {{ encore_entry_script_tags('app') }}
         {% endblock %}
     </head>
     <body>
@@ -35,6 +41,5 @@
             {% block content %}
             {% endblock %}
         </div>
-        {% block javascripts %}{% endblock %}
     </body>
 </html>
