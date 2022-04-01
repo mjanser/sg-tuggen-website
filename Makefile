@@ -48,7 +48,7 @@ shell:
 
 .PHONY: deploy
 deploy:
-	podman exec -it $(NAME) vendor/bin/dep deploy
+	podman exec -it $(NAME) vendor/bin/deployer.phar deploy
 
 .PHONY: cmd
 cmd:
