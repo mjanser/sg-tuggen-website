@@ -10,7 +10,7 @@
         "symfony/console": "^6.0",
         "symfony/dotenv": "^6.0",
         "symfony/expression-language": "^6.0",
-        "symfony/flex": "^1.1",
+        "symfony/flex": "^2.1",
         "symfony/form": "^6.0",
         "symfony/framework-bundle": "^6.0",
         "symfony/mailer": "^6.0",
@@ -23,7 +23,7 @@
         "symfony/yaml": "^6.0"
     },
     "require-dev": {
-        "deployer/dist": "^7.0@beta",
+        "deployer/deployer": "^7.0@beta",
         "friendsofphp/php-cs-fixer": "^3.0",
         "phpstan/phpstan": "^1.0",
         "phpstan/phpstan-symfony": "^1.0",
