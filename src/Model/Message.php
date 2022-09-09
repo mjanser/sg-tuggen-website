@@ -8,12 +8,14 @@ final class Message
 {
     /**
      * @var string|null
+     *
      * @Assert\NotBlank()
      */
     private $name;
 
     /**
      * @var string|null
+     *
      * @Assert\NotBlank()
      * @Assert\Email()
      */
@@ -21,12 +23,14 @@ final class Message
 
     /**
      * @var string|null
+     *
      * @Assert\NotBlank()
      */
     private $subject;
 
     /**
      * @var string|null
+     *
      * @Assert\NotBlank()
      */
     private $body;
