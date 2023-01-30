@@ -13,5 +13,4 @@ return (new PhpCsFixer\Config())
         'native_function_invocation' => true,
     ])
     ->setFinder($finder)
-    ->setCacheFile('.php-cs-fixer.cache') // forward compatibility with 3.x line
 ;
