@@ -17,6 +17,7 @@ final class Message
      * @var string|null
      *
      * @Assert\NotBlank()
+     *
      * @Assert\Email()
      */
     private $email;

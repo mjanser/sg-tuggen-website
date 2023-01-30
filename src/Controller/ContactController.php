@@ -13,9 +13,7 @@ use Symfony\Component\Routing\Annotation\Route;
 
 final class ContactController extends AbstractController
 {
-    /**
-     * @Route("/kontakt", name="contact")
-     */
+    #[Route('/kontakt', name: 'contact')]
     public function contact(Request $request, MailerInterface $mailer): Response
     {
         $form = $this->createForm(ContactType::class);
@@ -49,9 +47,7 @@ final class ContactController extends AbstractController
         ]);
     }
 
-    /**
-     * @Route("/kontakt-gesendet", name="contact_success")
-     */
+    #[Route('/kontakt-gesendet', name: 'contact_success')]
     public function success(): Response
     {
         return $this->render('contact.success.html.twig', [
