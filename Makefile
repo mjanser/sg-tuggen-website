@@ -1,6 +1,7 @@
 COMPOSER_CACHE_DIR ?= $(HOME)/.cache/composer
+COMPOSER_CONFIG_DIR ?= $(HOME)/.config/composer
 NAME := $(notdir $(realpath .))
-VOLUMES := -v $(PWD):/srv/app:z -v $(COMPOSER_CACHE_DIR):/root/.composer/cache:z -w /srv/app
+VOLUMES := -v $(PWD):/srv/app:z -v $(COMPOSER_CACHE_DIR):/root/.composer/cache:z -v $(COMPOSER_CONFIG_DIR):/root/.composer/config:z -w /srv/app
 
 CONTAINER_IMAGE := localhost/php-$(NAME)
 
