@@ -22,7 +22,7 @@ RUN set -eux; \
         libzip-dev \
         zlib-dev \
     ; \
-    wget https://github.com/symfony-cli/symfony-cli/releases/download/v5.7.3/symfony-cli_5.7.3_x86_64.apk && \
+    wget https://github.com/symfony-cli/symfony-cli/releases/download/v5.8.4/symfony-cli_5.8.4_x86_64.apk && \
         apk add --no-cache --allow-untrusted symfony-cli*.apk && rm symfony-cli*.apk \
     ; \
     \
