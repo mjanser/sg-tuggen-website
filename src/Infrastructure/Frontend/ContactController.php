@@ -1,8 +1,10 @@
 <?php
 
-namespace App\Controller;
+declare(strict_types=1);
 
-use App\Form\ContactType;
+namespace Infrastructure\Frontend;
+
+use Infrastructure\Symfony\ContactType;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
@@ -19,12 +21,10 @@ final class ContactController extends AbstractController
         $form = $this->createForm(ContactType::class);
 
         $form->handleRequest($request);
-        if ($form->isSubmitted() && $form->isValid()) {
-            $message = $form->getData();
-
+        if ($form->isSubmitted() && $form->isValid() && null !== ($message = $form->getData())) {
             $message = (new Email())
-                ->subject($message->getSubject())
-                ->from(new Address($message->getEmail(), $message->getName()))
+                ->subject($message->getSubject() ?? '')
+                ->from(new Address($message->getEmail() ?? '', $message->getName() ?? ''))
                 ->to(new Address('praesi-sgtuggen@bluewin.ch', 'Präsident SG Tuggen'))
                 ->addTo(new Address('martin@duss-janser.ch', 'Martin Janser'))
                 ->text(

@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Deployer;
 
 require 'recipe/symfony.php';
@@ -27,11 +29,12 @@ add('writable_dirs', ['var']);
 host('gogan.ch')
     ->set('http_user', 'goganch')
     ->setRemoteUser('goganch')
-    ->setDeployPath('~/www/sgtuggen.gogan.ch');
+    ->setDeployPath('~/www/sgtuggen.gogan.ch')
+;
 
 // Tasks
 
-task('build', function () {
+task('build', static function (): void {
     run('cd {{release_path}} && build');
 });
 

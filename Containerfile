@@ -1,68 +1,103 @@
-FROM php:8.2-cli-alpine
+# Base PHP image
+FROM php:8.3-cli-alpine AS base
+
+ARG UID
+ARG GID
+
+ENV UID=${UID}
+ENV GID=${GID}
+
+WORKDIR /usr/src/app
 
 RUN apk add --no-cache \
-        acl \
-        fcgi \
-        file \
-        gettext \
-        git \
-        gnu-libiconv \
-        openssh-client \
-    ;
+	acl \
+	bash \
+	bash-completion \
+	file \
+	gettext \
+	git \
+	openssh-client \
+	;
 
-# install gnu-libiconv and set LD_PRELOAD env to make iconv work fully on Alpine image.
-# see https://github.com/docker-library/php/issues/240#issuecomment-763112749
-ENV LD_PRELOAD /usr/lib/preloadable_libiconv.so
+RUN curl -1sLf 'https://dl.cloudsmith.io/public/symfony/stable/setup.alpine.sh' | bash; \
+	apk add --no-cache \
+	symfony-cli \
+	;
 
-ARG APCU_VERSION=5.1.23
+# php extensions installer: https://github.com/mlocati/docker-php-extension-installer
+COPY --from=ghcr.io/mlocati/php-extension-installer /usr/bin/install-php-extensions /usr/local/bin/
+
 RUN set -eux; \
-    apk add --no-cache --virtual .build-deps \
-        $PHPIZE_DEPS \
-        icu-dev \
-        libzip-dev \
-        zlib-dev \
-    ; \
-    wget https://github.com/symfony-cli/symfony-cli/releases/download/v5.8.4/symfony-cli_5.8.4_x86_64.apk && \
-        apk add --no-cache --allow-untrusted symfony-cli*.apk && rm symfony-cli*.apk \
-    ; \
-    \
-    docker-php-ext-configure zip; \
-    docker-php-ext-install -j$(nproc) \
-        intl \
-        zip \
-    ; \
-    pecl install \
-        apcu-${APCU_VERSION} \
-    ; \
-    pecl clear-cache; \
-    docker-php-ext-enable \
-        apcu \
-        opcache \
-    ; \
-    \
-    runDeps="$( \
-        scanelf --needed --nobanner --format '%n#p' --recursive /usr/local/lib/php/extensions \
-            | tr ',' '\n' \
-            | sort -u \
-            | awk 'system("[ -e /usr/local/lib/" $1 " ]") == 0 { next } { print "so:" $1 }' \
-    )"; \
-    apk add --no-cache --virtual .phpexts-rundeps $runDeps; \
-    \
-    apk del .build-deps
+	install-php-extensions \
+	@composer \
+	apcu \
+	intl \
+	opcache \
+	pcntl \
+	zip \
+	;
 
-RUN ln -s $PHP_INI_DIR/php.ini-development $PHP_INI_DIR/php.ini
+ENV PHP_INI_SCAN_DIR=":$PHP_INI_DIR/app.conf.d"
 
-COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
+COPY config/php/conf.d/10-app.ini $PHP_INI_DIR/app.conf.d/
 
-# https://getcomposer.org/doc/03-cli.md#composer-allow-superuser
-ENV COMPOSER_ALLOW_SUPERUSER=1
+RUN addgroup -g ${GID} --system php && adduser -G php --system -D -u ${UID} php && chown -R php:php /usr/src/app
+USER php
 
-ENV HOME=/root
-
-WORKDIR /srv/app
+RUN echo 'eval "$(/srv/app/bin/console completion bash)"' >> ~/.bashrc
 
 ###> recipes ###
 ###< recipes ###
 
+# Dev PHP image
+FROM base AS php_dev
+
+ENV APP_ENV=dev XDEBUG_MODE=off
+USER root
+
+RUN mv "$PHP_INI_DIR/php.ini-development" "$PHP_INI_DIR/php.ini"
+
+RUN set -eux; \
+	install-php-extensions \
+	xdebug \
+	;
+
+COPY config/php/conf.d/20-app.dev.ini $PHP_INI_DIR/app.conf.d/
+
+USER php
+
 EXPOSE 8000
-CMD ["symfony", "server:start", "--no-tls"]
+CMD ["symfony", "server:start", "--no-tls", "--allow-all-ip"]
+
+# Prod PHP image
+FROM base AS php_prod
+
+ENV APP_ENV=prod
+USER root
+
+RUN mv "$PHP_INI_DIR/php.ini-production" "$PHP_INI_DIR/php.ini"
+
+COPY config/php/conf.d/20-app.prod.ini $PHP_INI_DIR/app.conf.d/
+
+VOLUME /usr/src/app/var/
+
+USER php
+
+# prevent the reinstallation of vendors at every changes in the source code
+COPY composer.* symfony.* ./
+RUN set -eux; \
+	composer install --no-cache --prefer-dist --no-dev --no-autoloader --no-scripts --no-progress
+
+# copy sources
+USER root
+COPY . ./
+RUN rm -Rf config/php
+
+RUN set -eux; \
+	mkdir -p var/cache var/log; \
+	composer dump-autoload --classmap-authoritative --no-dev; \
+	composer dump-env prod; \
+	composer run-script --no-dev post-install-cmd; \
+	chmod +x bin/console; sync;
+
+USER php

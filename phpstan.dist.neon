@@ -1,0 +1,10 @@
+parameters:
+    level: 10
+    paths:
+        - bin/
+        - config/
+        - src/
+        #- tests/
+    tmpDir: var/cache/ci/phpstan
+    symfony:
+        containerXmlPath: var/cache/test/Infrastructure_Symfony_KernelTestDebugContainer.xml

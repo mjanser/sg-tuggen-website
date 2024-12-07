@@ -1,40 +1,25 @@
 <?php
 
-namespace App\Model;
+declare(strict_types=1);
+
+namespace Infrastructure\Symfony;
 
 use Symfony\Component\Validator\Constraints as Assert;
 
 final class Message
 {
-    /**
-     * @var string|null
-     *
-     * @Assert\NotBlank()
-     */
-    private $name;
+    #[Assert\NotBlank]
+    private ?string $name = null;
 
-    /**
-     * @var string|null
-     *
-     * @Assert\NotBlank()
-     *
-     * @Assert\Email()
-     */
-    private $email;
+    #[Assert\NotBlank]
+    #[Assert\Email]
+    private ?string $email = null;
 
-    /**
-     * @var string|null
-     *
-     * @Assert\NotBlank()
-     */
-    private $subject;
+    #[Assert\NotBlank]
+    private ?string $subject = null;
 
-    /**
-     * @var string|null
-     *
-     * @Assert\NotBlank()
-     */
-    private $body;
+    #[Assert\NotBlank]
+    private ?string $body = null;
 
     public function setName(string $name): void
     {
