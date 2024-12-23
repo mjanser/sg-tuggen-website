@@ -24,7 +24,8 @@ final class ContactController extends AbstractController
         if ($form->isSubmitted() && $form->isValid() && null !== ($message = $form->getData())) {
             $message = (new Email())
                 ->subject($message->getSubject() ?? '')
-                ->from(new Address($message->getEmail() ?? '', $message->getName() ?? ''))
+                ->from(new Address('devnull@gogan.ch', 'SG Tuggen'))
+                ->replyTo(new Address($message->getEmail() ?? '', $message->getName() ?? ''))
                 ->to(new Address('praesi-sgtuggen@bluewin.ch', 'Präsident SG Tuggen'))
                 ->addTo(new Address('martin@duss-janser.ch', 'Martin Janser'))
                 ->text(
