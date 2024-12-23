@@ -22,8 +22,8 @@
         "symfony/web-link": "~7.2.0",
         "symfony/yaml": "~7.2.0",
         "twbs/bootstrap": "^5.3",
-        "twig/extra-bundle": "^2.12|^3.0",
-        "twig/twig": "^2.12|^3.0"
+        "twig/extra-bundle": "^2.12 || ^3.0",
+        "twig/twig": "^2.12 || ^3.0"
     },
     "require-dev": {
         "deployer/deployer": "^7.3.3",
