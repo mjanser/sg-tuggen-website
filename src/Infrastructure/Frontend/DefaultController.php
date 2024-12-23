@@ -23,6 +23,48 @@ final class DefaultController extends AbstractController
     {
         return $this->render('vorstand.html.twig', [
             'controller_name' => 'DefaultController',
+            'persons' => [
+                [
+                    'name' => 'Hermann Pfister',
+                    'image' => 'hermann.pfister.png',
+                    'role' => 'Präsident',
+                ],
+                [
+                    'name' => 'Rolad Müller',
+                    'image' => 'roland.mueller.png',
+                    'role' => 'Vize-Präsident und Kassier',
+                ],
+                [
+                    'name' => 'Dominic Périsset',
+                    'image' => 'dominic.perisset.png',
+                    'role' => 'Aktuar',
+                ],
+                [
+                    'name' => 'Remo Mächler',
+                    'image' => 'remo.maechler.png',
+                    'role' => 'Schiess-Sekretär',
+                ],
+                [
+                    'name' => 'Andreas Bamert',
+                    'image' => 'andreas.bamert.png',
+                    'role' => 'Munitionsverwalter',
+                ],
+                [
+                    'name' => 'Roger Käser',
+                    'image' => 'roger.kaeser.png',
+                    'role' => 'Hauptschützenmeister',
+                ],
+                [
+                    'name' => 'Erhard Ziltener',
+                    'image' => 'erhard.ziltener.png',
+                    'role' => 'Schützenmeister',
+                ],
+                [
+                    'name' => 'Beat Gräzer',
+                    'image' => 'beat.graezer.png',
+                    'role' => 'Jungschützenleiter',
+                ],
+            ],
         ]);
     }
 
@@ -30,6 +72,14 @@ final class DefaultController extends AbstractController
     public function schiessplan(): Response
     {
         return $this->render('schiessplan.html.twig', [
+            'controller_name' => 'DefaultController',
+        ]);
+    }
+
+    #[Route('/op', name: 'op')]
+    public function schiessenOp(): Response
+    {
+        return $this->render('op.html.twig', [
             'controller_name' => 'DefaultController',
         ]);
     }

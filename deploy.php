@@ -31,6 +31,11 @@ host('gogan.ch')
     ->setRemoteUser('goganch')
     ->setDeployPath('~/www/sgtuggen.gogan.ch')
 ;
+host('demo.gogan.ch')
+    ->set('http_user', 'goganch')
+    ->setRemoteUser('goganch')
+    ->setDeployPath('~/www/demo-sgtuggen.gogan.ch')
+;
 
 // Tasks
 

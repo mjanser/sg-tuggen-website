@@ -6,6 +6,7 @@
         "ext-ctype": "*",
         "ext-iconv": "*",
         "symfony/asset": "~7.2.0",
+        "symfony/asset-mapper": "~7.2.0",
         "symfony/console": "~7.2.0",
         "symfony/dotenv": "~7.2.0",
         "symfony/expression-language": "~7.2.0",
@@ -19,7 +20,10 @@
         "symfony/twig-bundle": "~7.2.0",
         "symfony/validator": "~7.2.0",
         "symfony/web-link": "~7.2.0",
-        "symfony/yaml": "~7.2.0"
+        "symfony/yaml": "~7.2.0",
+        "twbs/bootstrap": "^5.3",
+        "twig/extra-bundle": "^2.12|^3.0",
+        "twig/twig": "^2.12|^3.0"
     },
     "require-dev": {
         "deployer/deployer": "^7.3.3",
@@ -85,7 +89,8 @@
         ],
         "auto-scripts": {
             "cache:clear": "symfony-cmd",
-            "assets:install %PUBLIC_DIR%": "symfony-cmd"
+            "assets:install %PUBLIC_DIR%": "symfony-cmd",
+            "importmap:install": "symfony-cmd"
         },
         "cs:check": "vendor/bin/php-cs-fixer fix --dry-run --diff",
         "cs:fix": "vendor/bin/php-cs-fixer fix --verbose",

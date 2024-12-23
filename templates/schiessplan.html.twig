@@ -4,46 +4,9 @@
 
 {% block content %}
 <h1>Schiessplan 2024</h1>
-<div id="obli">
-    <h2>Obligatorische Übungen</h2>
-    <div class="description">Standblattausgabe bis 30 Minuten vor Schiessende.<br />
-    Dienst- und Schiessbüchlein oder Leistungsausweis mitbringen.</div>
-    <table id="t_obli" summary="Obligatorische Übungen">
-    <tr class="datetime">
-        <td class="date">Ostermontag, 1. April 2024</td>
-        <td class="time">09:30 Uhr bis 11:30 Uhr</td>
-    </tr>
-    <tr class="datetime">
-        <td class="date">Freitag, 28. Juni 2024</td>
-        <td class="time">18:00 Uhr bis 19:30 Uhr</td>
-    </tr>
-    <tr class="datetime">
-        <td class="date">Freitag, 16. August 2024</td>
-        <td class="time">18:00 Uhr bis 19:30 Uhr</td>
-    </tr>
-    </table>
-</div>
-<div id="feld">
-    <h2>Feldschiessen</h2>
-    <div class="description">Auf dem Schiessplatz Tuggen mit Plauschgruppenwettkampf!<br /></div>
-    <table id="t_feld" summary="Feldschiessen">
-    <tr class="datetime">
-        <td class="date">Freitag, 24. Mai 2024</td>
-        <td class="time-big">17:30 Uhr bis 20:00 Uhr</td>
-    </tr>
-    <tr class="datetime">
-        <td class="date">Samstag, 25. Mai 2024</td>
-        <td class="time-big">14:30 Uhr bis 17:00 Uhr</td>
-    </tr>
-    <tr class="datetime">
-        <td class="date">Sonntag, 26. Mai 2024</td>
-        <td class="time-big">09:00 Uhr bis 11:30 Uhr</td>
-    </tr>
-    </table>
-</div>
 <div id="ueb">
     <h2>Trainingsschiessen</h2>
-    <table id="t_ueb" summary="Übungsschiessen">
+    <table id="t_ueb" class="table" summary="Übungsschiessen">
     <tr class="datetime">
         <td class="date">Samstag, 9. März 2024</td>
         <td class="time">13:30 Uhr bis 15:30 Uhr</td>
@@ -89,7 +52,7 @@
 </div>
 <div id="meist">
     <h2>Vereinsmeisterschaft</h2>
-    <table id="t_meist" summary="Vereinsmeisterschaft">
+    <table id="t_meist" class="table" summary="Vereinsmeisterschaft">
     <tr class="datetime">
         <!--<td class="cup"></td>-->
         <td class="location">Tuggen</td>
@@ -160,12 +123,97 @@
 </div>
 <div id="endschiessen">
     <h2>Endschiessen</h2>
-    <table id="t_endschiessen" summary="Endschiessen">
+    <table id="t_endschiessen" class="table" summary="Endschiessen">
     <tr class="datetime">
         <td class="shooting">Absenden</td>
         <td class="location">Tuggen</td>
         <td class="date">9. November 2024</td>
     </tr>
+    </table>
+</div>
+<div>
+    <h2>Fakultative Schiessen</h2>
+    <table class="table" summary="Fakultative Schiessen">
+        <tr class="datetime">
+            <td class="shooting">Feldstich</td>
+            <td class="date">Vor dem Feldschiessen 2024</td>
+        </tr>
+        <tr class="datetime">
+            <td class="shooting">Mannschaftsmeisterschaft Tuggen (4 Runden)</td>
+            <td class="date">16. März bis 2. Mai und 8. Mai bis 30. Mai 2024, usw.</td>
+        </tr>
+        <tr class="datetime">
+            <td class="shooting">Hanslin-Gedenk-Schiessen Rapperswil</td>
+            <td class="date">15./16./17./23. März 2024</td>
+        </tr>
+        <tr class="datetime">
+            <td class="shooting">Einzelwettschiessen Kat. A Pfäffikon</td>
+            <td class="date">26./27. April 2024</td>
+        </tr>
+        <tr class="datetime">
+            <td class="shooting">Einzelwettschiessen Kat. D Pfäffikon</td>
+            <td class="date">26./27. April 2024</td>
+        </tr>
+        <tr class="datetime">
+            <td class="shooting">Einzelwettschiessen Kat. E Pfäffikon</td>
+            <td class="date">26./27. April 2024</td>
+        </tr>
+        <tr class="datetime">
+            <td class="shooting">Panterschiessen Ricken</td>
+            <td class="date">27. April und 3./4. Mai 2024</td>
+        </tr>
+        <tr class="datetime">
+            <td class="shooting">Historisches Gedenkschiessen Rothenthurm</td>
+            <td class="date">27./28. April 2024</td>
+        </tr>
+        <tr class="datetime">
+            <td class="shooting">Jubiläumsschiessen 200 Jahre SSV Tuggen</td>
+            <td class="date">Bis 9. Mai 2024</td>
+        </tr>
+        <tr class="datetime">
+            <td class="shooting">Feldschiessen 2024 Tuggen</td>
+            <td class="date">24./25./26. Mai 2024</td>
+        </tr>
+        <tr class="datetime">
+            <td class="shooting">Bündner Kantonal 2024 (Sektion)</td>
+            <td class="date">14./15. Juni 2024</td>
+        </tr>
+        <tr class="datetime">
+            <td class="shooting">Bündner Kantonal 2024 (Gruppe A)</td>
+            <td class="date">14./15. Juni 2024</td>
+        </tr>
+        <tr class="datetime">
+            <td class="shooting">Bündner Kantonal 2024 (Gruppe E)</td>
+            <td class="date">14./15. Juni 2024</td>
+        </tr>
+        <tr class="datetime">
+            <td class="shooting">Jura Kantonal 2024</td>
+            <td class="date">21./22. Juni 2024</td>
+        </tr>
+        <tr class="datetime">
+            <td class="shooting">Veteranenschiessen Reichenburg</td>
+            <td class="date">21. Juni 2024</td>
+        </tr>
+        <tr class="datetime">
+            <td class="shooting">Rossbergschiessen</td>
+            <td class="date">9./10./11. August 2024</td>
+        </tr>
+        <tr class="datetime">
+            <td class="shooting">Stoos Schiessen Gais AR</td>
+            <td class="date">25./26. August 2024</td>
+        </tr>
+        <tr class="datetime">
+            <td class="shooting">Landschiessen Lichtensteig</td>
+            <td class="date">28./30. September und 5./6./7. Oktober 2024</td>
+        </tr>
+        <tr class="datetime">
+            <td class="shooting">Chlausenschiessen Mettmenstetten</td>
+            <td class="date">25./26. November und 02./03. Dezember 2024</td>
+        </tr>
+        <tr class="datetime">
+            <td class="shooting">Obligatorisch</td>
+            <td class="date">1. April und 28. Juni und 16. August 2024</td>
+        </tr>
     </table>
 </div>
 {% endblock %}

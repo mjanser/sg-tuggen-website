@@ -4,44 +4,23 @@
 
 {% block content %}
 <h1>Vorstand</h1>
-<div class="person">
-    <img class="person" src="{{ asset('/images/persons/hermann.pfister.png') }}" alt="" />
-    <span class="name">Pfister Hermann</span>
-    <span class="type">Präsident</span>
-</div>
-<div class="person">
-    <img class="person" src="{{ asset('/images/persons/roland.mueller.png') }}" alt="" />
-    <span class="name">Müller Roland</span>
-    <span class="type">Vize-Präsident und Kassier</span>
-</div>
-<div class="person">
-    <img class="person" src="{{ asset('/images/persons/dominic.perisset.png') }}" alt="" />
-    <span class="name">Périsset Dominic</span>
-    <span class="type">Aktuar</span>
-</div>
-<div class="person">
-    <img class="person" src="{{ asset('/images/persons/remo.maechler.png') }}" alt="" />
-    <span class="name">Mächler Remo</span>
-    <span class="type">Schiess-Sekretär</span>
-</div>
-<div class="person">
-    <img class="person" src="{{ asset('/images/persons/andreas.bamert.png') }}" alt="" />
-    <span class="name">Bamert Andreas</span>
-    <span class="type">Munitionsverwalter</span>
-</div>
-<div class="person">
-    <img class="person" src="{{ asset('/images/persons/roger.kaeser.png') }}" alt="" />
-    <span class="name">Käser Roger</span>
-    <span class="type">Hauptschützenmeister</span>
-</div>
-<div class="person">
-    <img class="person" src="{{ asset('/images/persons/erhard.ziltener.png') }}" alt="" />
-    <span class="name">Ziltener Erhard</span>
-    <span class="type">Schützenmeister</span>
-</div>
-<div class="person">
-    <img class="person" src="{{ asset('/images/persons/beat.graezer.png') }}" alt="" />
-    <span class="name">Gräzer Beat</span>
-    <span class="type">Jungschützenleiter</span>
+<div id="vorstand" class="row row-cols-1 row-cols-md-3 g-4">
+    {% for person in persons %}
+    <div class="col">
+        <div class="card">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img src="{{ asset('/images/persons/' ~ person.image) }}" class="img-fluid rounded-start" alt="Bild von {{ person.name }}">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">{{ person.name }}</h5>
+                        <p class="card-text fs-8">{{ person.role }}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
 </div>
 {% endblock %}

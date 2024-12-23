@@ -49,5 +49,5 @@ composer +options:
 console *command:
     podman exec -ti {{containerName }} bin/console {{ command }}
 
-deploy:
-    podman exec -it {{ containerName }} vendor/bin/dep deploy
+deploy +options:
+    podman exec -it {{ containerName }} vendor/bin/dep deploy {{ options }}

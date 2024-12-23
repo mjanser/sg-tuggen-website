@@ -1,5 +1,30 @@
 twig:
     file_name_pattern: '*.twig'
+    form_themes: ['bootstrap_5_layout.html.twig']
+    globals:
+        nav:
+            - name: Startseite
+              routes:
+                  - home
+            - name: Vorstand
+              routes:
+                  - vorstand
+            - name: Obligatorisches Programm
+              routes:
+                  - op
+            - name: Feldschiessen
+              routes:
+                  - feldschiessen
+            - name: Schiessplan
+              routes:
+                  - schiessplan
+            - name: Jungschützenkurs
+              routes:
+                  - jungschuetzenkurs
+            - name: Kontakt
+              routes:
+                  - contact
+                  - contact_success
 
 when@test:
     twig:
