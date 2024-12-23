@@ -32,16 +32,22 @@ host('gogan.ch')
     ->setDeployPath('~/www/sgtuggen.gogan.ch')
 ;
 host('demo.gogan.ch')
+    ->set('hostname', 'gogan.ch')
     ->set('http_user', 'goganch')
     ->setRemoteUser('goganch')
     ->setDeployPath('~/www/demo-sgtuggen.gogan.ch')
+    ->set('bin/php', '/usr/local/php83/bin/php')
+    ->set('bin/composer', '/usr/local/php83/bin/php /usr/local/bin/composer')
 ;
 
 // Tasks
 
-task('build', static function (): void {
-    run('cd {{release_path}} && build');
+task('deploy:asset-map:compile', function () {
+    run('{{bin/console}} asset-map:compile {{console_options}}');
 });
+
+after('deploy:cache:clear', 'deploy:dump-env');
+after('deploy:cache:clear', 'deploy:asset-map:compile');
 
 // [Optional] if deploy fails automatically unlock.
 after('deploy:failed', 'deploy:unlock');

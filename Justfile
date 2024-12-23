@@ -13,7 +13,7 @@ rebuild: (build "--pull" "--no-cache")
 
 # Starts the container
 up:
-    podman run -it --rm --detach --userns keep-id -v ${PWD}:/srv/app:z -v ${COMPOSER_CACHE_DIR}:/root/.composer/cache:z -v ${COMPOSER_CONFIG_FILE}:/root/.composer/config/config.json:z -v ${COMPOSER_AUTH_FILE}:/root/.composer/config/auth.json:z -w /srv/app --name {{ containerName }} --publish 8000:8000 {{ containerImageName }}
+    podman run -it --rm --detach --userns keep-id -v ${PWD}:/srv/app:z -e SSH_AUTH_SOCK=${SSH_AUTH_SOCK} -v ${SSH_AUTH_SOCK}:${SSH_AUTH_SOCK}:z -v ${COMPOSER_CACHE_DIR}:/root/.composer/cache:z -v ${COMPOSER_CONFIG_FILE}:/root/.composer/config/config.json:z -v ${COMPOSER_AUTH_FILE}:/root/.composer/config/auth.json:z -w /srv/app --name {{ containerName }} --publish 8000:8000 {{ containerImageName }}
 
 # Stops the running container
 down:
